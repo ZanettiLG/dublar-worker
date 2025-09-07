@@ -8,7 +8,9 @@ import signal
 import sys
 import time
 from engines.worker import Worker
-
+import routes
+from errors.badrequest_error import BadRequestError
+from errors.internal_error import InternalError
 
 def signal_handler(signum, frame):
     """Handler para sinais de interrupção (Ctrl+C)"""
@@ -21,7 +23,10 @@ def signal_handler(signum, frame):
 def main():
     """Função principal que executa o worker como serviço"""
     print("🚀 Iniciando Dublar Worker...")
-    
+
+    consumer_topics = ['worker_process']
+    consumer_routes = [route[0] for route in routes.routes]
+        
     # Configura o worker
     worker = Worker(
         bootstrap_servers=['localhost:9092'],
@@ -34,7 +39,7 @@ def main():
     try:
         # Configura o consumidor para os tópicos de interesse
         print("📡 Configurando consumidor Kafka...")
-        worker.setup_consumer(['users', 'orders', 'payments', 'audio_processing'])
+        worker.setup_consumer(consumer_topics)
         
         # Configura o produtor (opcional, para enviar eventos de resposta)
         print("📤 Configurando produtor Kafka...")
@@ -43,75 +48,10 @@ def main():
         # Registra handlers para diferentes tipos de eventos
         print("🔧 Registrando handlers de eventos...")
         
-        @worker.route('user.created')
-        def handle_user_created(event):
-            """Handler para eventos de usuário criado"""
-            print(f"🆕 Usuário criado: {event.payload}")
-            print(f"   Event ID: {event.metadata.event_id}")
-            print(f"   Timestamp: {event.metadata.timestamp}")
-            print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
-            
-            # Simula processamento
-            time.sleep(2)
-            
-            # Simula falha ocasional para testar retry
-            import random
-            if random.random() < 0.3:  # 30% de chance de falha
-                print(f"❌ Simulando falha no processamento do usuário {event.payload.get('user_id', 'unknown')}")
-                raise Exception(f"Simulando falha no processamento do usuário {event.payload.get('user_id', 'unknown')}")
-            
-            print(f"✅ Usuário processado com sucesso: {event.payload.get('user_id', 'unknown')}")
-            return True
-        
-        @worker.route('order.processed')
-        def handle_order_processed(event):
-            """Handler para eventos de pedido processado"""
-            print(f"📦 Pedido processado: {event.payload}")
-            print(f"   Event ID: {event.metadata.event_id}")
-            print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
-            
-            # Simula processamento
-            time.sleep(1)
-            print(f"✅ Pedido processado com sucesso: {event.payload.get('order_id', 'unknown')}")
-            return True
-        
-        @worker.route('payment.received')
-        def handle_payment_received(event):
-            """Handler para eventos de pagamento recebido"""
-            print(f"💰 Pagamento recebido: {event.payload}")
-            print(f"   Event ID: {event.metadata.event_id}")
-            print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
-            
-            # Simula processamento
-            time.sleep(1.5)
-            print(f"✅ Pagamento processado com sucesso: {event.payload.get('payment_id', 'unknown')}")
-            return True
-        
-        @worker.route('audio.uploaded')
-        def handle_audio_uploaded(event):
-            """Handler para eventos de áudio enviado"""
-            print(f"🎵 Áudio enviado: {event.payload}")
-            print(f"   Event ID: {event.metadata.event_id}")
-            print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
-            
-            # Simula processamento de áudio
-            time.sleep(3)
-            print(f"✅ Áudio processado com sucesso: {event.payload.get('audio_id', 'unknown')}")
-            return True
-        
-        @worker.route('user.updated')
-        def handle_user_updated(event):
-            """Handler para eventos de usuário atualizado"""
-            print(f"🔄 Usuário atualizado: {event.payload}")
-            print(f"   Event ID: {event.metadata.event_id}")
-            print(f"   Timestamp: {event.metadata.timestamp}")
-            print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
-            
-            # Simula processamento
-            time.sleep(1)
-            print(f"✅ Usuário atualizado com sucesso: {event.payload.get('user_id', 'unknown')}")
-            return True
-        
+        for route in routes.routes:
+            print(f"🔧 Registrando handler para {route[1]} no tópico {route[0]}")
+            worker.add_route(route[0], route[1])
+
         # Middleware para logging
         @worker.add_middleware
         def logging_middleware(event):
@@ -123,9 +63,10 @@ def main():
         @worker.add_middleware
         def validation_middleware(event):
             """Middleware para validação básica"""
+            if event.event_type not in consumer_routes:
+                raise InternalError(event, "not_found", "event_type", event.event_type, 400, f"❌ Evento {event.event_type} não registrado")
             if not event.payload:
-                print(f"❌ Payload vazio para evento {event.event_type}")
-                return None
+                raise BadRequestError(event, "is_empty", "payload", event.payload, 400, f"❌ Payload vazio para evento {event.event_type}")
             return event
         
         # Middleware para monitoramento de processamento
@@ -144,11 +85,8 @@ def main():
         signal_handler.worker = worker
         
         print("✅ Worker configurado com sucesso!")
-        print("📋 Tópicos configurados: users, orders, payments, audio_processing")
-        print("🔧 Handlers registrados: user.created, order.processed, payment.received, audio.uploaded, user.updated")
-        print("🔒 Modo de execução: SEQUENCIAL (apenas uma task por vez)")
-        print("🔄 Sistema de retry: Ativado (máximo 3 tentativas com backoff exponencial)")
-        print("📤 Sistema de rollback: Ativado (eventos com erro retornam para a fila)")
+        print(f"📋 Tópicos configurados: {consumer_topics}")
+        print(f"🔧 Handlers registrados: {consumer_routes}")
         print("🔄 Iniciando processamento de eventos...")
         print("💡 Pressione Ctrl+C para parar o worker\n")
         

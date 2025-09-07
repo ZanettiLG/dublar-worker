@@ -53,57 +53,18 @@ async def send_test_events_async():
         # Lista de eventos de teste
         test_events = [
             {
-                'topic': 'users',
-                'event_type': 'user.created',
+                'topic': 'worker_process',
+                'event_type': 'audio.separate',
                 'payload': {
                     'user_id': '12345',
-                    'email': 'usuario@exemplo.com',
-                    'name': 'João Silva',
-                    'created_at': '2024-01-15T10:30:00Z'
+                    'url': 'https://www.google.com'
                 }
             },
             {
-                'topic': 'orders',
-                'event_type': 'order.processed',
+                'topic': 'worker_process',
+                'event_type': 'test.event',
                 'payload': {
-                    'order_id': 'ORD-001',
-                    'user_id': '12345',
-                    'total': 99.99,
-                    'items': ['Produto A', 'Produto B'],
-                    'status': 'processed'
-                }
-            },
-            {
-                'topic': 'payments',
-                'event_type': 'payment.received',
-                'payload': {
-                    'payment_id': 'PAY-001',
-                    'order_id': 'ORD-001',
-                    'amount': 99.99,
-                    'method': 'credit_card',
-                    'status': 'completed'
-                }
-            },
-            {
-                'topic': 'audio_processing',
-                'event_type': 'audio.uploaded',
-                'payload': {
-                    'audio_id': 'AUD-001',
-                    'user_id': '12345',
-                    'file_name': 'audio_exemplo.mp3',
-                    'file_size': 1024000,
-                    'duration': 120.5,
-                    'format': 'mp3'
-                }
-            },
-            {
-                'topic': 'users',
-                'event_type': 'user.updated',
-                'payload': {
-                    'user_id': '12345',
-                    'email': 'joao.silva@exemplo.com',
-                    'name': 'João Silva Santos',
-                    'updated_at': '2024-01-15T11:00:00Z'
+                    'message': 'test message'
                 }
             }
         ]
