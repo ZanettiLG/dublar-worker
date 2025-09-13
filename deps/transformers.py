@@ -4,11 +4,12 @@ from typing import Optional, Dict, Any, Callable
 
 class Transformers(DepBase):
 
+    name = 'transformers'
     model = None
     task = None
 
-    def __init__(self, name: str, model: str, task: str):
-        super().__init__(name)
+    def __init__(self, engine: Any, model: str, task: str):
+        super().__init__(engine=engine)
         self.model = model
         self.task = task
 

@@ -1,17 +1,17 @@
 import json
-import logging
-from typing import Dict, Any, List, Tuple, Optional, Union, Callable
-from dataclasses import dataclass, field
-from datetime import datetime
-from errors import BadRequestError, InternalError
-from enum import Enum
-from kafka import KafkaConsumer, KafkaProducer
-from kafka.errors import KafkaError
-import threading
 import time
 import uuid
 import asyncio
+import logging
+import threading
+from enum import Enum
+from datetime import datetime
+from kafka.errors import KafkaError
+from dataclasses import dataclass, field
+from kafka import KafkaConsumer, KafkaProducer
+from errors import BadRequestError, InternalError
 from concurrent.futures import ThreadPoolExecutor
+from typing import Dict, Any, List, Tuple, Optional, Union, Callable
 
 class EventStatus(Enum):
     """Status dos eventos"""
@@ -42,7 +42,7 @@ class WorkerEvent:
     payload: Dict[str, Any]
     metadata: EventMetadata = field(default_factory=EventMetadata)
     status: EventStatus = EventStatus.PENDING
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Converte o evento para dicionário"""
         return {
@@ -59,7 +59,7 @@ class WorkerEvent:
             },
             "status": self.status.value
         }
-    
+
     @classmethod
     def from_dict(cls, data: Dict[str, Any], topic: str) -> 'WorkerEvent':
         """Cria um evento a partir de um dicionário"""
@@ -73,7 +73,7 @@ class WorkerEvent:
             retry_count=metadata_data.get('retry_count', 0),
             max_retries=metadata_data.get('max_retries', 3)
         )
-        
+
         return cls(
             topic=topic,
             event_type=data.get('event_type', 'unknown'),
@@ -85,7 +85,7 @@ class WorkerEvent:
 
 class EventRouter:
     """Roteador inteligente de eventos"""
-    
+
     def __init__(self):
         self.routes = {}
         self.middleware = []
@@ -94,7 +94,7 @@ class EventRouter:
         key = f"{event_type}:{topic}" if topic else event_type
         self.routes[key] = handler
         return handler
-    
+
     def route(self, event_type: str, topic: Optional[str] = None):
         """Decorator para rotear eventos"""
         def decorator(handler):
@@ -102,31 +102,31 @@ class EventRouter:
             self.routes[key] = handler
             return handler
         return decorator
-    
+
     def add_middleware(self, middleware_func):
         """Adiciona middleware para processamento"""
         self.middleware.append(middleware_func)
         return middleware_func
-    
+
     def get_handler(self, event_type: str, topic: str):
         """Obtém o handler apropriado para o evento"""
         # Tenta encontrar handler específico para topic + event_type
         specific_key = f"{event_type}:{topic}"
         if specific_key in self.routes:
             return self.routes[specific_key]
-        
+
         # Fallback para handler genérico do event_type
         if event_type in self.routes:
             return self.routes[event_type]
-        
+
         return None
 
 
 class Worker:
-    def __init__(self, bootstrap_servers: List[str], group_id: str = "dublar-worker-group"):
+    def __init__(self, bootstrap_servers: List[str], deps: Dict[str, Any] = None, group_id: str = "dublar-worker-group"):
         """
         Inicializa o worker Kafka
-        
+
         Args:
             bootstrap_servers: Lista de servidores Kafka (ex: ['localhost:9092'])
             group_id: ID do grupo de consumidores
@@ -143,19 +143,19 @@ class Worker:
             'events_failed': 0,
             'events_retried': 0
         }
-        
+        self.consumer_routes = []
         # Controle de execução sequencial
         self._processing_lock = threading.Lock()
         self._current_event = None
         self._retry_queue = []
         self._max_retries = 3
         self._retry_delay = 5  # segundos
-        
+
     def _setup_logging(self) -> logging.Logger:
         """Configura o sistema de logging"""
         logger = logging.getLogger(__name__)
         logger.setLevel(logging.INFO)
-        
+
         if not logger.handlers:
             handler = logging.StreamHandler()
             formatter = logging.Formatter(
@@ -163,13 +163,13 @@ class Worker:
             )
             handler.setFormatter(formatter)
             logger.addHandler(handler)
-            
+
         return logger
-    
+
     def setup_consumer(self, topics: List[str]):
         """
         Configura o consumidor Kafka
-        
+
         Args:
             topics: Lista de tópicos para consumir
         """
@@ -187,7 +187,7 @@ class Worker:
         except Exception as e:
             self.logger.error(f"Erro ao configurar consumidor: {e}")
             raise
-    
+
     def setup_producer(self):
         """Configura o produtor Kafka"""
         try:
@@ -200,39 +200,40 @@ class Worker:
         except Exception as e:
             self.logger.error(f"Erro ao configurar produtor: {e}")
             raise
-    
+
     def add_route(self, event_type: str, handler: Callable, topic: Optional[str] = None, ):
+        self.consumer_routes.append(event_type)
         return self.event_router.add_route(event_type, handler, topic)
 
     def route(self, event_type: str, topic: Optional[str] = None):
         """Decorator para rotear eventos (alias para event_router.route)"""
         return self.event_router.route(event_type, topic)
-    
+
     def add_middleware(self, middleware_func):
         """Adiciona middleware para processamento"""
         return self.event_router.add_middleware(middleware_func)
-    
+
     def _should_retry(self, event: WorkerEvent) -> bool:
         """Verifica se o evento deve ser reprocessado"""
         return event.metadata.retry_count < event.metadata.max_retries
-    
+
     def _calculate_retry_delay(self, retry_count: int) -> int:
         """Calcula o delay para retry com backoff exponencial"""
         return min(self._retry_delay * (2 ** retry_count), 300)  # máximo 5 minutos
-    
+
     def _add_to_retry_queue(self, event: WorkerEvent):
         """Adiciona evento à fila de retry"""
         if self._should_retry(event):
             event.metadata.retry_count += 1
             delay = self._calculate_retry_delay(event.metadata.retry_count)
             event.status = EventStatus.RETRY
-            
+
             self.logger.warning(
                 f"Evento {event.event_type} (ID: {event.metadata.event_id}) "
                 f"adicionado à fila de retry. Tentativa {event.metadata.retry_count}/{event.metadata.max_retries}. "
                 f"Próximo retry em {delay}s"
             )
-            
+
             # Agenda o retry
             threading.Timer(delay, self._retry_event, args=[event]).start()
             self.stats['events_retried'] += 1
@@ -243,12 +244,12 @@ class Worker:
                 f"Enviando para tópico de erro."
             )
             self._send_to_error_topic(event)
-    
+
     def _retry_event(self, event: WorkerEvent):
         """Reprocessa um evento da fila de retry"""
         self.logger.info(f"Reprocessando evento {event.event_type} (ID: {event.metadata.event_id})")
         self._process_event_safely(event)
-    
+
     def _send_to_error_topic(self, event: WorkerEvent):
         """Envia evento com erro para tópico de erro"""
         try:
@@ -260,14 +261,14 @@ class Worker:
                     'retry_count': event.metadata.retry_count,
                     'max_retries': event.metadata.max_retries
                 }
-                
+
                 future = self.producer.send(error_topic, value=error_event)
                 future.get(timeout=10)
-                
+
                 self.logger.info(f"Evento enviado para tópico de erro: {error_topic}")
         except Exception as e:
             self.logger.error(f"Erro ao enviar evento para tópico de erro: {e}")
-    
+
     def _rollback_to_kafka(self, event: WorkerEvent):
         """Faz rollback do evento para a fila original do Kafka"""
         try:
@@ -276,14 +277,14 @@ class Worker:
                 message_data = event.to_dict()
                 future = self.producer.send(event.topic, value=message_data)
                 future.get(timeout=10)
-                
+
                 self.logger.info(
                     f"Rollback realizado: evento {event.event_type} (ID: {event.metadata.event_id}) "
                     f"reenviado para tópico {event.topic}"
                 )
         except Exception as e:
             self.logger.error(f"Erro ao fazer rollback do evento: {e}")
-    
+
     def _process_event_safely(self, event: WorkerEvent) -> bool:
         """Processa um evento de forma segura com controle de concorrência"""
         with self._processing_lock:
@@ -293,21 +294,21 @@ class Worker:
                     f"aguardando processamento. Evento atual: {self._current_event.event_type}"
                 )
                 return False
-            
+
             self._current_event = event
-            
+
             try:
                 return self.process_event(event)
             finally:
                 self._current_event = None
-    
+
     def process_event(self, event: WorkerEvent) -> bool:
         """
         Processa um evento Kafka com middleware
-        
+
         Args:
             event: Evento Kafka a ser processado
-            
+
         Returns:
             bool: True se processado com sucesso, False caso contrário
         """
@@ -315,20 +316,20 @@ class Worker:
             # Aplica middleware antes do processamento
             for middleware in self.event_router.middleware:
                 event = middleware(event)
-            
+
             # Obtém o handler apropriado
             handler = self.event_router.get_handler(event.event_type, event.topic)
-            
+
             if handler:
                 event.status = EventStatus.PROCESSING
                 self.logger.info(f"Processando evento {event.event_type} do tópico {event.topic} (ID: {event.metadata.event_id})")
-                
+
                 result = handler(self, event)
-                
+
                 event.status = EventStatus.COMPLETED
                 self.stats['events_processed'] += 1
                 self.logger.info(f"Evento {event.event_type} (ID: {event.metadata.event_id}) processado com sucesso")
-                
+
                 return {
                     'data': result,
                     'error': None
@@ -344,7 +345,7 @@ class Worker:
                         'handler': event.event_type,
                     }
                 }
-        
+
         except BadRequestError as e:
             self.logger.error(f"Erro ao processar evento {event.event_type} (ID: {event.metadata.event_id}): {e}")
             return {
@@ -354,18 +355,18 @@ class Worker:
                     'handler': event.event_type,
                 }
             }
-        
+
         except Exception as e:
             event.status = EventStatus.FAILED
             self.stats['events_failed'] += 1
             self.logger.error(f"Erro ao processar evento {event.event_type} (ID: {event.metadata.event_id}): {e}")
-            
+
             # Em caso de exceção, tenta retry ou rollback
             if self._should_retry(event):
                 self._add_to_retry_queue(event)
             else:
                 self._rollback_to_kafka(event)
-            
+
             return {
                 'data': None,
                 'error': {
@@ -373,14 +374,14 @@ class Worker:
                     'handler': event.event_type,
                 }
             }
-    
+
     def parse_kafka_message(self, message) -> Optional[WorkerEvent]:
         """
         Converte uma mensagem Kafka em um objeto WorkerEvent
-        
+
         Args:
             message: Mensagem recebida do Kafka
-            
+
         Returns:
             WorkerEvent ou None se não conseguir fazer o parse
         """
@@ -389,7 +390,7 @@ class Worker:
                 # Formato esperado: {"event_type": "...", "payload": {...}, "metadata": {...}}
                 if isinstance(message.value, dict) and 'event_type' in message.value:
                     return WorkerEvent.from_dict(message.value, message.topic)
-                
+
                 # Fallback para formato legado
                 elif isinstance(message.value, dict) and 'event' in message.value:
                     # Converte formato antigo para novo
@@ -404,7 +405,7 @@ class Worker:
                         }
                     }
                     return WorkerEvent.from_dict(legacy_data, message.topic)
-                
+
                 # Fallback: assume que a mensagem é o payload
                 else:
                     fallback_data = {
@@ -418,55 +419,61 @@ class Worker:
                         }
                     }
                     return WorkerEvent.from_dict(fallback_data, message.topic)
-            
+
             return None
-            
+
         except Exception as e:
             self.logger.error(f"Erro ao fazer parse da mensagem: {e}")
             return None
-    
+
     def run(self):
-        """Executa o worker principal"""
-        if not self.consumer:
-            raise RuntimeError("Consumidor não configurado. Chame setup_consumer() primeiro.")
-        
-        self.running = True
-        self.logger.info("Worker iniciado. Aguardando mensagens...")
-        self.logger.info("🔒 Modo de execução sequencial ativado - apenas uma task por vez")
-        
-        try:
-            for message in self.consumer:
-                if not self.running:
-                    break
-                    
-                self.logger.debug(f"Mensagem recebida do tópico {message.topic}")
-                
-                # Converte a mensagem Kafka em um evento
-                event = self.parse_kafka_message(message)
-                if event:
-                    # Processa o evento de forma segura (sequencial)
-                    result = self._process_event_safely(event)
-                    if result['error']:
-                        self.logger.warning(f"Falha ao processar evento: {event.event_type} - {result['error']['cause']}")
-                    else:
-                        self.send_event("worker_result", f"{event.event_type}", result['data'])
-                        self.logger.debug(f"Evento processado com sucesso: {event.event_type}")
-                else:
-                    self.logger.warning(f"Não foi possível fazer parse da mensagem do tópico {message.topic}")
-                    
-        except KeyboardInterrupt:
-            self.logger.info("Interrupção recebida. Parando worker...")
-        except Exception as e:
-            self.logger.error(f"Erro durante execução do worker: {e}")
-        finally:
-            self.stop()
-    
+      """Executa o worker principal"""
+      if not self.consumer:
+        raise RuntimeError("Consumidor não configurado. Chame setup_consumer() primeiro.")
+
+      self.running = True
+      self.logger.info("Worker iniciado. Aguardando mensagens...")
+      self.logger.info("🔒 Modo de execução sequencial ativado - apenas uma task por vez")
+
+      try:
+        for message in self.consumer:
+          if not self.running:
+            break
+
+          # Converte a mensagem Kafka em um evento
+          event = self.parse_kafka_message(message)
+
+          if event.event_type not in self.consumer_routes:
+            self._rollback_to_kafka(event)
+            continue
+
+          self.logger.debug(f"Mensagem recebida do tópico {message.topic} -> {event.event_type}")
+          if event:
+            # Processa o evento de forma segura (sequencial)
+            result = self._process_event_safely(event)
+            if result['error']:
+              self.logger.warning(f"Falha ao processar evento: {event.event_type} - {result['error']['cause']}")
+              continue
+            elif result['data']:
+              self.send_event(event["response_topic"] or "worker_result", f"{event.event_type}", result['data'])
+            
+            self.logger.debug(f"Evento processado com sucesso: {event.event_type}")
+          else:
+            self.logger.warning(f"Não foi possível fazer parse da mensagem do tópico {message.topic}")
+
+      except KeyboardInterrupt:
+        self.logger.info("Interrupção recebida. Parando worker...")
+      except Exception as e:
+        self.logger.error(f"Erro durante execução do worker: {e}")
+      finally:
+        self.stop()
+
     def run_async(self):
         """Executa o worker em uma thread separada"""
         worker_thread = threading.Thread(target=self.run, daemon=True)
         worker_thread.start()
         return worker_thread
-    
+
     def stop(self):
         """Para o worker"""
         self.running = False
@@ -475,13 +482,13 @@ class Worker:
         if self.producer:
             self.producer.close()
         self.logger.info("Worker parado")
-    
-    def send_event(self, topic: str, event_type: str, payload: Dict[str, Any], 
+
+    def send_event(self, topic: str, event_type: str, payload: Dict[str, Any],
                    key: Optional[str] = None, correlation_id: Optional[str] = None,
                    source: str = "dublar-worker") -> str:
         """
         Envia um evento para um tópico Kafka
-        
+
         Args:
             topic: Tópico de destino
             event_type: Tipo do evento
@@ -489,13 +496,13 @@ class Worker:
             key: Chave da mensagem (opcional)
             correlation_id: ID de correlação (opcional)
             source: Origem do evento
-            
+
         Returns:
             str: ID do evento enviado
         """
         if not self.producer:
             raise RuntimeError("Produtor não configurado. Chame setup_producer() primeiro.")
-        
+
         try:
             # Cria o evento com metadados
             event = WorkerEvent(
@@ -507,28 +514,28 @@ class Worker:
                     source=source
                 )
             )
-            
+
             message_data = event.to_dict()
-            
+
             future = self.producer.send(topic, value=message_data, key=key)
             record_metadata = future.get(timeout=10)
-            
+
             self.logger.info(
                 f"Evento enviado: {event_type} -> {topic} "
                 f"(ID: {event.metadata.event_id}, "
                 f"partition: {record_metadata.partition}, offset: {record_metadata.offset})"
             )
-            
+
             return event.metadata.event_id
-            
+
         except Exception as e:
             self.logger.error(f"Erro ao enviar evento {event_type} para {topic}: {e}")
             raise
-    
+
     def configure_retry(self, max_retries: int = 3, retry_delay: int = 5):
         """
         Configura parâmetros de retry
-        
+
         Args:
             max_retries: Número máximo de tentativas
             retry_delay: Delay inicial entre tentativas (em segundos)
@@ -536,15 +543,15 @@ class Worker:
         self._max_retries = max_retries
         self._retry_delay = retry_delay
         self.logger.info(f"Configuração de retry atualizada: max_retries={max_retries}, retry_delay={retry_delay}s")
-    
+
     def get_current_event(self) -> Optional[WorkerEvent]:
         """Retorna o evento atualmente sendo processado"""
         return self._current_event
-    
+
     def is_processing(self) -> bool:
         """Verifica se há um evento sendo processado no momento"""
         return self._current_event is not None
-    
+
     def get_stats(self) -> Dict[str, Any]:
         """Retorna estatísticas do worker"""
         return {

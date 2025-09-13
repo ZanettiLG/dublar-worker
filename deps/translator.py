@@ -6,16 +6,16 @@ device = infer_device()
 
 class Translator(Transformers):
 
-    static models = {
-        'm2m100-1.2b': 'facebook/m2m100-1.2b',
+    models = {
         'm2m100-1.2b': 'facebook/m2m100-1.2b',
     }
 
+    name = 'translator'
     model = None
     task = None
 
-    def __init__(self, name: str, model: str):
-        super().__init__(name)
+    def __init__(self, engine: Any, model: str):
+        super().__init__(engine=engine)
         self.model = model
         self.task = 'automatic-speech-recognition'
 

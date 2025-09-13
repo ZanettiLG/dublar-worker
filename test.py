@@ -55,18 +55,13 @@ async def send_test_events_async():
             {
                 'topic': 'worker_process',
                 'event_type': 'audio.separate',
+                'response_topic': 'worker_result',
                 'payload': {
-                    'user_id': '12345',
-                    'url': 'https://www.google.com'
+                    'process_id': '12345',
+                    'process_type': 'separate',
+                    'audio_url': './assets/gto_ep1.mp4',
                 }
             },
-            {
-                'topic': 'worker_process',
-                'event_type': 'test.event',
-                'payload': {
-                    'message': 'test message'
-                }
-            }
         ]
         
         print(f"🚀 Enviando {len(test_events)} eventos de teste de forma assíncrona...\n")

@@ -11,6 +11,8 @@ from engines.worker import Worker
 import routes
 from errors.badrequest_error import BadRequestError
 from errors.internal_error import InternalError
+from deps.media import Media
+from deps.spleeter import Spleeter
 
 def signal_handler(signum, frame):
     """Handler para sinais de interrupção (Ctrl+C)"""
@@ -26,12 +28,17 @@ def main():
 
     consumer_topics = ['worker_process']
     consumer_routes = [route[0] for route in routes.routes]
-        
+
     # Configura o worker
     worker = Worker(
         bootstrap_servers=['localhost:9092'],
         group_id='dublar-worker-prod'
     )
+
+    worker.deps = {
+        'media': Media(worker),
+        'spleeter': Spleeter(worker),
+    }
     
     # Configura parâmetros de retry
     worker.configure_retry(max_retries=3, retry_delay=5)
@@ -63,8 +70,6 @@ def main():
         @worker.add_middleware
         def validation_middleware(event):
             """Middleware para validação básica"""
-            if event.event_type not in consumer_routes:
-                raise InternalError(event, "not_found", "event_type", event.event_type, 400, f"❌ Evento {event.event_type} não registrado")
             if not event.payload:
                 raise BadRequestError(event, "is_empty", "payload", event.payload, 400, f"❌ Payload vazio para evento {event.event_type}")
             return event

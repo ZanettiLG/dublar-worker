@@ -1,12 +1,11 @@
-from dep_base import DepBase
+from .dep_base import DepBase
 from httpx import AsyncClient
 from typing import Optional, Dict, Any, Callable
 from pathlib import Path
 import asyncio
 
-class Http(DepBase):
-    def __init__(self, name: str):
-        super().__init__(name)
+class Media(DepBase):
+    name = 'media'
 
     def load(self):
         self.client = AsyncClient()

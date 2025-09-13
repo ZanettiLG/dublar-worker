@@ -6,19 +6,19 @@ device = infer_device()
 
 class Transcriber(Transformers):
 
-    static models = {
+    models = {
         'whisper-turbo': 'openai/whisper-large-v3-turbo',
         'whisper-large': 'openai/whisper-large-v3',
         'whisper-medium': 'openai/whisper-medium',
         'whisper-small': 'openai/whisper-small',
         'whisper-tiny': 'openai/whisper-tiny',
     }
-
+    name = 'transcriber'
     model = None
     task = None
 
-    def __init__(self, name: str, model: str):
-        super().__init__(name)
+    def __init__(self, engine: Any, model: str):
+        super().__init__(engine=engine)
         self.model = model
         self.task = 'automatic-speech-recognition'
 
