@@ -86,7 +86,7 @@ from test_producer import send_single_event
 # Envia um evento específico
 send_single_event(
     topic='users',
-    event_type='user.created',
+    event='user.created',
     payload={'user_id': '999', 'name': 'Test User'}
 )
 ```

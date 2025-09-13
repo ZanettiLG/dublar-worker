@@ -1,9 +1,11 @@
+from errors.badrequest_error import BadRequestError
+
 def handle_audio_separation(worker, event):
   """Handler para eventos de usuário criado"""
   print(f"   Payload: {event.payload}")
-  print(f"   Event ID: {event.metadata.event_id}")
+  print(f"   Event ID: {event.id}")
   print(f"   Timestamp: {event.metadata.timestamp}")
-  print(f"   Tentativa: {event.metadata.retry_count + 1}/{event.metadata.max_retries}")
+  print(f"   Tentativa: {event.retry.current + 1}/{event.retry.max}")
 
   audio_path = event.payload.get('audio_url', None);
 

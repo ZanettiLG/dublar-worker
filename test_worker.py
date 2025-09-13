@@ -31,7 +31,7 @@ def test_event_creation():
         # Cria um evento
         event = KafkaEvent(
             topic='test-topic',
-            event_type='test.event',
+            event='test.event',
             payload={'test': 'data'},
             metadata=EventMetadata(
                 correlation_id='test-123',
@@ -39,8 +39,8 @@ def test_event_creation():
             )
         )
         
-        print(f"✅ Evento criado: {event.event_type}")
-        print(f"   ID: {event.metadata.event_id}")
+        print(f"✅ Evento criado: {event.event}")
+        print(f"   ID: {event.id}")
         print(f"   Timestamp: {event.metadata.timestamp}")
         print(f"   Status: {event.status}")
         
@@ -61,7 +61,7 @@ def test_event_parsing():
     try:
         # Dados de teste
         test_data = {
-            'event_type': 'user.created',
+            'event': 'user.created',
             'payload': {
                 'user_id': '12345',
                 'name': 'João Silva'
@@ -77,7 +77,7 @@ def test_event_parsing():
         # Cria evento a partir do dict
         event = KafkaEvent.from_dict(test_data, 'users')
         
-        print(f"✅ Evento parseado: {event.event_type}")
+        print(f"✅ Evento parseado: {event.event}")
         print(f"   Tópico: {event.topic}")
         print(f"   Payload: {event.payload}")
         
@@ -113,7 +113,7 @@ def test_legacy_format():
         event = worker.parse_kafka_message(mock_msg)
         
         if event:
-            print(f"✅ Formato legado convertido: {event.event_type}")
+            print(f"✅ Formato legado convertido: {event.event}")
             print(f"   Tópico: {event.topic}")
             print(f"   Payload: {event.payload}")
         else:

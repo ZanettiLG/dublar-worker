@@ -153,7 +153,7 @@ Eventos que excedem o número máximo de tentativas são enviados para:
 Cada evento de erro contém:
 ```json
 {
-  "event_type": "user.created",
+  "event": "user.created",
   "payload": {...},
   "metadata": {...},
   "error_info": {

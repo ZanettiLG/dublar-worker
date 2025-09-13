@@ -58,7 +58,7 @@ def handle_user_updated_specific(event):
 # Middleware para logging
 @worker.add_middleware
 def logging_middleware(event):
-    print(f"Processando: {event.event_type}")
+    print(f"Processando: {event.event}")
     return event
 
 # Middleware para validação
@@ -85,7 +85,7 @@ worker.run()
 
 ```json
 {
-  "event_type": "user.created",
+  "event": "user.created",
   "payload": {
     "user_id": "12345",
     "email": "user@example.com",
@@ -122,14 +122,14 @@ worker.run()
 # Envio básico
 event_id = worker.send_event(
     topic='users',
-    event_type='user.created',
+    event='user.created',
     payload={'user_id': '12345'}
 )
 
 # Envio com metadados avançados
 event_id = worker.send_event(
     topic='users',
-    event_type='user.updated',
+    event='user.updated',
     payload={'user_id': '12345', 'name': 'João'},
     correlation_id='session-456',
     source='user-service'

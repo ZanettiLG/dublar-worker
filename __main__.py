@@ -4,15 +4,14 @@ Dublar Worker - Serviço principal
 Executa o worker Kafka e fica aguardando mensagens continuamente
 """
 
-import signal
 import sys
 import time
-from engines.worker import Worker
+import signal
 import routes
+from deps import Media, Spleeter
+from engines.worker import Worker
 from errors.badrequest_error import BadRequestError
 from errors.internal_error import InternalError
-from deps.media import Media
-from deps.spleeter import Spleeter
 
 def signal_handler(signum, frame):
     """Handler para sinais de interrupção (Ctrl+C)"""
@@ -63,7 +62,7 @@ def main():
         @worker.add_middleware
         def logging_middleware(event):
             """Middleware para logging de eventos"""
-            print(f"🔍 Processando evento {event.event_type} (ID: {event.metadata.event_id})")
+            print(f"🔍 Processando evento {event.event} (ID: {event.id})")
             return event
         
         # Middleware para validação
@@ -71,7 +70,7 @@ def main():
         def validation_middleware(event):
             """Middleware para validação básica"""
             if not event.payload:
-                raise BadRequestError(event, "is_empty", "payload", event.payload, 400, f"❌ Payload vazio para evento {event.event_type}")
+                raise BadRequestError(event, "is_empty", "payload", event.payload, 400, f"❌ Payload vazio para evento {event.event}")
             return event
         
         # Middleware para monitoramento de processamento
@@ -81,7 +80,7 @@ def main():
             if worker.is_processing():
                 current = worker.get_current_event()
                 if current:
-                    print(f"⚠️  Aguardando conclusão do evento atual: {current.event_type} (ID: {current.metadata.event_id})")
+                    print(f"⚠️  Aguardando conclusão do evento atual: {current.event} (ID: {current.id})")
             return event
         
         # Configura handler de sinais para parada graciosa

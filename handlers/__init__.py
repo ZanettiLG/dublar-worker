@@ -1,1 +1,2 @@
 from .separate_audio import handle_audio_separation
+from .transcribe_audio import handle_audio_transcribe
