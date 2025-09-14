@@ -1,6 +1,4 @@
-from unittest import result
 from errors.badrequest_error import BadRequestError
-import asyncio
 
 async def handle_audio_transcribe(worker, event):
   """Handler para eventos de usuário criado"""
