@@ -16,7 +16,7 @@ async def send_single_event_async(producer, event_data):
         # Envia o evento
         event_id = producer.send_event(
             topic=event_data['topic'],
-            event_type=event_data['event'],
+            event=event_data['event'],
             payload=event_data['payload'],
             correlation_id=f'test-session-{int(time.time())}',
             source='test-producer'
@@ -98,7 +98,7 @@ async def transcribe_audio(worker, audio_url):
 async def run_process(worker):
     audio_url = './assets/gto_ep1.mp4'
     separated_audio = await separate_audio(worker, audio_url)
-    #vocals_url = 'output/spleeter/gto_ep1/vocals.wav'
+    #vocals_url = 'output/demucs/gto_ep1_vocals.wav'
     #await transcribe_audio(worker, vocals_url)
 
 

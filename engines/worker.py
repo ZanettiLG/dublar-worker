@@ -196,6 +196,7 @@ class Worker:
             bootstrap_servers: Lista de servidores Kafka (ex: ['localhost:9092'])
             group_id: ID do grupo de consumidores
         """
+        self.id = str(uuid.uuid4())
         self.bootstrap_servers = bootstrap_servers
         self.group_id = group_id
         self.consumer = None
@@ -310,10 +311,10 @@ class Worker:
             )
             self._send_to_error_topic(event)
 
-    def _retry_event(self, event: WorkerEvent):
+    async def _retry_event(self, event: WorkerEvent):
         """Reprocessa um evento da fila de retry"""
         self.logger.info(f"Reprocessando evento {event.event} (ID: {event.id})")
-        self._process_event_safely(event)
+        await self._process_event_safely(event)
 
     def _send_to_error_topic(self, event: WorkerEvent):
         """Envia evento com erro para tópico de erro"""
@@ -350,7 +351,7 @@ class Worker:
         except Exception as e:
             self.logger.error(f"Erro ao fazer rollback do evento: {e}")
 
-    def _process_event_safely(self, event: WorkerEvent) -> dict:
+    async def _process_event_safely(self, event: WorkerEvent) -> dict:
         """Processa um evento de forma segura com controle de concorrência"""
         with self._processing_lock:
             if self._current_event is not None:
@@ -369,11 +370,11 @@ class Worker:
             self._current_event = event
 
             try:
-                return self.process_event(event)
+                return await self.process_event(event)
             finally:
                 self._current_event = None
 
-    def process_event(self, event: WorkerEvent):
+    async def process_event(self, event: WorkerEvent):
         """
         Processa um evento Kafka com middleware
 
@@ -395,7 +396,11 @@ class Worker:
                 event.status = EventStatus.PROCESSING
                 self.logger.info(f"Processando evento {event.event} do tópico {event.topic} (ID: {event.id})")
 
-                result = handler(self, event)
+                # Verifica se o handler é assíncrono
+                if asyncio.iscoroutinefunction(handler):
+                    result = await handler(self, event)
+                else:
+                    result = handler(self, event)
 
                 event.status = EventStatus.COMPLETED
                 self.stats['events_processed'] += 1
@@ -497,7 +502,7 @@ class Worker:
             self.logger.error(f"Erro ao fazer parse da mensagem: {e}")
             return None
 
-    def run(self):
+    async def run(self):
       """Executa o worker principal"""
       if not self.consumer:
         raise RuntimeError("Consumidor não configurado. Chame setup_consumer() primeiro.")
@@ -525,7 +530,7 @@ class Worker:
 
           self.logger.debug(f"Mensagem recebida do tópico {message.topic} -> {event.event}")
           # Processa o evento de forma segura (sequencial)
-          result = self._process_event_safely(event)
+          result = await self._process_event_safely(event)
           if result['error']:
             self.logger.warning(f"Falha ao processar evento: {event.event} - {result['error']['cause']}")
             continue

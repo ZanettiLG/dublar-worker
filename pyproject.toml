@@ -5,11 +5,24 @@ description = "Worker para processamento de áudio com dublagem"
 requires-python = ">=3.9"
 dependencies = [
     "kafka-python==2.2.15",
-    "tensorflow-cpu==2.15.0",
     "requests==2.32.4",
     "ffmpeg-python==0.2.0",
     "typer==0.3.2",
-    "spleeter==2.3.2",
+    "demucs",
+    "spleeter",
+    "torch>=2.1.0,<2.5.0",
+    "torchaudio>=2.1.0,<2.5.0",
+    "httpx",
+    "transformers>=4.35.0,<4.50.0",
+    "pytest>=7.0.0",
+    "pytest-mock>=3.10.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.optional-dependencies]
+test = [
+    # Dependências de teste já incluídas nas dependências principais
 ]
 
 [build-system]
@@ -18,3 +31,23 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["deps", "engines", "handlers", "clients", "errors", "routes"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+    "--disable-warnings",
+    "--cov=deps",
+    "--cov-report=term-missing",
+    "--cov-report=html:htmlcov",
+]
+markers = [
+    "unit: Testes unitários",
+    "integration: Testes de integração",
+    "slow: Testes que demoram para executar",
+]

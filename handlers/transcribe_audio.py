@@ -1,7 +1,8 @@
 from unittest import result
 from errors.badrequest_error import BadRequestError
+import asyncio
 
-def handle_audio_transcribe(worker, event):
+async def handle_audio_transcribe(worker, event):
   """Handler para eventos de usuário criado"""
   print(f"   Payload: {event.payload}")
   print(f"   Event ID: {event.id}")
@@ -15,7 +16,8 @@ def handle_audio_transcribe(worker, event):
   
   #audio_path = worker.deps.["media"].download_media(audio_path)
   print(f"✅ Audio path: {audio_path}")
-  result = worker.deps["transcriber"].execute(audio_path)
+  result = await worker.deps["transcriber"].execute(audio_path, "")
 
   print(f"✅ Audio transcrito com sucesso: {result}")
   return result
+  

@@ -7,8 +7,9 @@ Executa o worker Kafka e fica aguardando mensagens continuamente
 import sys
 import time
 import signal
+import asyncio
 import routes
-from deps import Media, Spleeter
+from deps import Media, Demucs, Spleeter, Transcriber
 from engines.worker import Worker
 from errors.badrequest_error import BadRequestError
 from errors.internal_error import InternalError
@@ -36,8 +37,13 @@ def main():
 
     worker.deps = {
         'media': Media(worker),
+        'demucs': Demucs(worker),
         'spleeter': Spleeter(worker),
+        'transcriber': Transcriber(worker),
     }
+
+    for dep in worker.deps:
+        worker.deps[dep].load()
     
     # Configura parâmetros de retry
     worker.configure_retry(max_retries=3, retry_delay=5)
@@ -95,7 +101,7 @@ def main():
         print("💡 Pressione Ctrl+C para parar o worker\n")
         
         # Executa o worker (fica aguardando mensagens continuamente)
-        worker.run()
+        asyncio.run(worker.run())
         
     except KeyboardInterrupt:
         print("\n🛑 Interrupção recebida. Parando worker...")
