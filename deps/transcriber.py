@@ -26,7 +26,6 @@ class Transcriber(Transformers):
         full_model_name = WhisperModels[model].value
         logger.info(f"Transcriber: modelo '{model}' convertido para '{full_model_name}'")
         super().__init__(engine=engine, task='automatic-speech-recognition', model=full_model_name)
-        self.task = 'automatic-speech-recognition'
 
     def load(self):
         """Carrega o Transcriber"""

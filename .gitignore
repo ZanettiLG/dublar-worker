@@ -209,3 +209,7 @@ __marimo__/
 assets/
 pretrained_models/
 output/
+
+**/*.mp3
+**/*.wav
+**/*.mp4

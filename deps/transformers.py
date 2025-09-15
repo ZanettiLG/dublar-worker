@@ -19,16 +19,17 @@ class Transformers(DepBase):
     def load(self):
         try:
             from transformers import pipeline
-            # Usar device padrão se infer_device não estiver disponível
-            try:
-                from transformers import infer_device
-                device = infer_device()
-            except ImportError:
-                device = "cpu"
+            import torch
+            
+            # Usar device baseado na disponibilidade de CUDA
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+            logger.info(f"Carregando pipeline {self.task} com modelo {self.model} no device {device}")
+            
             self.client = pipeline(self.task, model=self.model, device=device)
+            logger.info("Pipeline carregado com sucesso!")
+            
         except ImportError as e:
             logger.error(f"Transformers não disponível: {e}")
-            # Mock client para testes
             self.client = None
         except Exception as e:
             logger.error(f"Erro ao carregar pipeline: {e}")
