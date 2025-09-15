@@ -2,4 +2,4 @@ from .separate_audio import handle_audio_separation
 from .translate_text import handle_audio_translation
 from .transcribe_audio import handle_audio_transcribe
 from .synthesize_speech import handle_synthesize_dialog
-from .recognize_speecher import handle_speaker_recognition
+from .diarizate_speaker import handle_speaker_diarization

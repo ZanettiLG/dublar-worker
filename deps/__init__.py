@@ -1,3 +1,4 @@
+from .coqui import Coqui
 from .media import Media
 from .demucs import Demucs
 from .diarizer import Diarizer

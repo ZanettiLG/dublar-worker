@@ -134,6 +134,15 @@ async def main():
         # Teste principal
         result = await test.test_transcriber_execution()
 
+        # Salva o resultado como json
+        import json
+
+        output_json_path = "test/jsons/gto_ep1_transcription.json"
+        with open(output_json_path, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"✅ Resultado salvo em {output_json_path}")
+
+
         print("\n" + "=" * 60)
         print("🎉 TESTE CONCLUÍDO COM SUCESSO!")
         print("=" * 60)

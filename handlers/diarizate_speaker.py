@@ -1,6 +1,6 @@
 from errors.badrequest_error import BadRequestError
 
-def handle_speaker_recognition(worker, event):
+def handle_speaker_diarization(worker, event):
   """Handler para eventos de usuário criado"""
   print(f"   Payload: {event.payload}")
   print(f"   Event ID: {event.id}")

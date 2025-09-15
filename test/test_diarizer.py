@@ -244,15 +244,15 @@ async def main():
         # Teste principal
         result = await test.test_diarizer_execution()
         
-        # # Salva o resultado do diarizer em um arquivo JSON para análise posterior
-        # diarizer_result_path = os.path.join(
-        #     os.path.dirname(__file__),
-        #     "jsons",
-        #     "diarizer_result.json"
-        # )
-        # with open(diarizer_result_path, "w", encoding="utf-8") as f:
-        #     json.dump(result, f, ensure_ascii=False, indent=2)
-        # print(f"💾 Resultado salvo em {diarizer_result_path}")
+        # Salva o resultado do diarizer em um arquivo JSON para análise posterior
+        diarizer_result_path = os.path.join(
+            os.path.dirname(__file__),
+            "jsons",
+            "diarizer_result.json"
+        )
+        with open(diarizer_result_path, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"💾 Resultado salvo em {diarizer_result_path}")
 
         print("\n" + "=" * 60)
         print("🎉 TESTE CONCLUÍDO COM SUCESSO!")

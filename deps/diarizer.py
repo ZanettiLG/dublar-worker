@@ -13,6 +13,7 @@ class DiarizerModels(Enum):
     """Modelos para diarização"""
     MULTILINGUAL_MINI = 'paraphrase-multilingual-MiniLM-L12-v2'
     MULTILINGUAL_BASE = 'paraphrase-multilingual-mpnet-base-v2'
+    VOXCELEB = 'speechbrain/spkrec-ecapa-voxceleb'
     ALL_MINI = 'all-MiniLM-L6-v2'
 
 class Diarizer(Transformers):
@@ -23,7 +24,7 @@ class Diarizer(Transformers):
     embedder = None
     clusterer = None
 
-    def __init__(self, engine: Any, model: str = DiarizerModels.MULTILINGUAL_MINI.name):
+    def __init__(self, engine: Any, model: str = DiarizerModels.VOXCELEB.name):
         """Inicializa o Diarizer"""
         # Converte o nome do modelo para o nome completo
         full_model_name = DiarizerModels[model].value
@@ -52,8 +53,12 @@ class Diarizer(Transformers):
             # Fallback para modelo menor em caso de erro
             try:
                 logger.info("Tentando fallback para modelo multilingual mini...")
-                self.embedder = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-                self.clusterer = hdbscan.HDBSCAN(min_cluster_size=2, metric="euclidean")
+                self.embedder = SentenceTransformer(DiarizerModels.MULTILINGUAL_MINI.value)
+                self.clusterer = hdbscan.HDBSCAN(
+                    min_cluster_size=1,
+                    metric="euclidean",
+                    cluster_selection_epsilon=0.1
+                )
                 logger.info("Fallback carregado com sucesso!")
             except Exception as fallback_error:
                 logger.error(f"Erro no fallback: {fallback_error}")
@@ -80,9 +85,6 @@ class Diarizer(Transformers):
             if self.embedder is None or self.clusterer is None:
                 logger.error("Modelos do diarizer não foram carregados. Tentando recarregar...")
                 self.load()
-                if self.embedder is None:
-                    logger.error("Falha ao carregar modelos do diarizer após tentativa de recarregamento")
-                    return {"speakers": [], "segments": []}
 
             # 1. Geração de embeddings dos textos dos speeches
             logger.info("Gerando embeddings dos speeches...")

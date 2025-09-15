@@ -46,16 +46,8 @@ class Transcriber(Transformers):
     ) -> Dict[str, Any]:
         """Executa a transcrição"""
         try:
-            # Verifica se o client foi carregado corretamente
-            if self.client is None:
-                logger.error("Client do transcriber não foi carregado. Tentando recarregar...")
-                self.load()
-                if self.client is None:
-                    logger.error("Falha ao carregar client do transcriber após tentativa de recarregamento")
-                    return {"text": "", "chunks": []}
-            
             result = self.client(audio_path, return_timestamps=True)
-            return result['chunks']
+            return [chunk for chunk in result['chunks'] if chunk.get('text', '').strip() != '']
         except Exception as e:
             logger.error(f"Erro durante transcrição: {e}")
             return {"text": "", "chunks": []}
