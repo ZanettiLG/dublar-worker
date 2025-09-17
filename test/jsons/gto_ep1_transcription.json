@@ -1,1087 +1,7802 @@
 [
   {
+    "text": "My mom said I could get two.",
     "timestamp": [
       0.0,
-      2.0
-    ],
-    "text": " My mom said I could get two."
-  },
-  {
-    "timestamp": [
-      2.0,
-      3.0
-    ],
-    "text": " I got a few, she wants two."
-  },
-  {
-    "timestamp": [
-      3.0,
-      4.0
-    ],
-    "text": " Oh no!"
-  },
-  {
-    "timestamp": [
-      4.0,
-      5.0
-    ],
-    "text": " It's totally on sale."
-  },
-  {
-    "timestamp": [
-      5.0,
-      6.0
-    ],
-    "text": " That is so cute!"
-  },
-  {
-    "timestamp": [
-      6.0,
-      7.0
-    ],
-    "text": " I didn't see you."
-  },
-  {
-    "timestamp": [
-      7.0,
-      8.0
-    ],
-    "text": " Why, guys?"
-  },
-  {
-    "timestamp": [
-      8.0,
-      9.0
-    ],
-    "text": " It's so cute."
-  },
-  {
-    "timestamp": [
-      9.0,
-      10.0
-    ],
-    "text": " It's okay."
-  },
-  {
-    "timestamp": [
-      10.0,
-      11.0
-    ],
-    "text": " It's okay."
-  },
-  {
-    "timestamp": [
-      11.0,
-      14.0
-    ],
-    "text": " What are you doing, Onizuka?"
-  },
-  {
-    "timestamp": [
-      14.0,
-      17.0
-    ],
-    "text": " Getting too old for this stuff."
-  },
-  {
-    "timestamp": [
-      17.0,
-      20.0
-    ],
-    "text": " Yo, my man!"
-  },
-  {
-    "timestamp": [
-      20.0,
-      23.0
-    ],
-    "text": " Hey, man, you hear me?"
-  },
-  {
-    "timestamp": [
-      23.0,
-      25.0
-    ],
-    "text": " What's up, pretty boy?"
-  },
-  {
-    "timestamp": [
-      25.0,
-      29.0
-    ],
-    "text": " You were looking up at that high school girl's panties, weren't ya?"
-  },
-  {
-    "timestamp": [
-      3.6,
-      7.68
-    ],
-    "text": " Hey, do you hear me dude? Cause I'm talking to you man!"
-  },
-  {
-    "timestamp": [
-      10.56,
-      10.96
-    ],
-    "text": " Hey, what do you say we teach this loser a lesson?"
-  },
-  {
-    "timestamp": [
-      13.76,
-      14.08
-    ],
-    "text": " Oh he can give us his wallet and we'll forget the whole thing."
-  },
-  {
-    "timestamp": [
-      17.2,
-      17.68
-    ],
-    "text": " Otherwise we'll hand you over to the police right after we kick your butt!"
-  },
-  {
-    "timestamp": [
-      18.48,
-      21.28
-    ],
-    "text": " SHUT UP!"
-  },
-  {
-    "timestamp": [
-      25.04,
-      25.52
-    ],
-    "text": " Now, here's the question. Who's gonna get his butt kicked?"
-  },
-  {
-    "timestamp": [
-      0.0,
-      4.0
-    ],
-    "text": " Me, a loser with a second degree black belt,"
-  },
-  {
-    "timestamp": [
-      4.0,
-      9.0
-    ],
-    "text": " or the pathetic pair who are unfortunately trying to swindle money out of me."
-  },
-  {
-    "timestamp": [
-      11.0,
-      14.0
-    ],
-    "text": " How about it, care to take a guess?"
-  },
-  {
-    "timestamp": [
-      16.0,
-      19.0
-    ],
-    "text": " Hey, Keechy, where are you?"
-  },
-  {
-    "timestamp": [
-      20.0,
-      23.0
-    ],
-    "text": " Oh, Ryuji, thanks for picking me up!"
-  },
-  {
-    "timestamp": [
-      23.0,
-      26.0
-    ],
-    "text": " Shoot, I didn't realize I was running so late. Sorry, guys."
-  },
-  {
-    "timestamp": [
-      26.0,
-      28.0
-    ],
-    "text": " Thanks for the spending money, chumps."
-  },
-  {
-    "timestamp": [
-      3.0,
-      5.0
-    ],
-    "text": " Next time be more careful who you mess with."
-  },
-  {
-    "timestamp": [
-      6.0,
-      12.0
-    ],
-    "text": " Hey! It wouldn't be a good example to show up late on the first day, so I'm gonna floor it. Better hang on, buddy!"
-  },
-  {
-    "timestamp": [
-      19.0,
-      23.0
-    ],
-    "text": " Geez, bald face! Why do I need to give you a ride anyway?"
-  },
-  {
-    "timestamp": [
-      23.0,
-      26.0
-    ],
-    "text": " Come on, what are best friends for?"
-  },
-  {
-    "timestamp": [
-      6.68,
-      9.52
-    ],
-    "text": " Hey, it's been six years since we came out to Tokyo. Now you're the big boss manager of your own bike shop."
-  },
-  {
-    "timestamp": [
-      9.52,
-      11.24
-    ],
-    "text": " Who'd have thunk it?"
-  },
-  {
-    "timestamp": [
-      11.24,
-      12.84
-    ],
-    "text": " Well, you're one to talk."
-  },
-  {
-    "timestamp": [
-      12.84,
-      14.96
-    ],
-    "text": " I can't believe what's going on with you."
-  },
-  {
-    "timestamp": [
-      14.96,
-      16.84
-    ],
-    "text": " What are you talking about?"
-  },
-  {
-    "timestamp": [
-      16.84,
-      17.84
-    ],
-    "text": " Stupid!"
-  },
-  {
-    "timestamp": [
-      17.84,
-      18.84
-    ],
-    "text": " Student teaching!"
-  },
-  {
-    "timestamp": [
-      18.84,
-      20.24
-    ],
-    "text": " What else could it be?"
-  },
-  {
-    "timestamp": [
-      20.24,
-      25.76
-    ],
-    "text": " Of all people, I can't believe you're trying to be a teacher."
-  },
-  {
-    "timestamp": [
-      25.76,
-      27.0
-    ],
-    "text": " The girls, man."
-  },
-  {
-    "timestamp": [
-      27.0,
-      28.0
-    ],
-    "text": " The girls!"
-  },
-  {
-    "timestamp": [
-      5.72,
-      6.84
-    ],
-    "text": " Oh god, I can't wait. All those new-file young minds just waiting to be molded, baby."
-  },
-  {
-    "timestamp": [
-      8.6,
-      9.32
-    ],
-    "text": " Teacher, please explain."
-  },
-  {
-    "timestamp": [
-      10.52,
-      10.92
-    ],
-    "text": " Where is it?"
-  },
-  {
-    "timestamp": [
-      11.92,
-      12.48
-    ],
-    "text": " Right here."
-  },
-  {
-    "timestamp": [
-      13.96,
-      15.24
-    ],
-    "text": " What? Where?"
-  },
-  {
-    "timestamp": [
-      17.84,
-      18.28
-    ],
-    "text": " Right here. Here."
-  },
-  {
-    "timestamp": [
-      21.32,
-      25.24
-    ],
-    "text": " Oh yeah, the possibilities are endless! Hahahahaha! Hold on, girls, I'm coming!"
-  },
-  {
-    "timestamp": [
-      27.8,
-      29.84
-    ],
-    "text": " Uh-huh. Right, pal, I see."
-  },
-  {
-    "timestamp": [
-      0.0,
-      2.0
-    ],
-    "text": " Wow, amazing story."
-  },
-  {
-    "timestamp": [
-      2.0,
-      4.0
-    ],
-    "text": " Yeah, yeah, it is amazing."
-  },
-  {
-    "timestamp": [
-      4.0,
-      7.0
-    ],
-    "text": " So what do you say you cut me some slack, huh?"
-  },
-  {
-    "timestamp": [
-      7.0,
-      9.0
-    ],
-    "text": " I'll put in a good word with my people."
-  },
-  {
-    "timestamp": [
-      9.0,
-      12.0
-    ],
-    "text": " We'll forget this whole thing ever happened, okay?"
-  },
-  {
-    "timestamp": [
-      12.0,
-      15.0
-    ],
-    "text": " Oh yeah, sure. Sign here."
-  },
-  {
-    "timestamp": [
-      15.0,
-      17.0
-    ],
-    "text": " You're not buying any of this, are you?"
-  },
-  {
-    "timestamp": [
-      17.0,
-      19.0
-    ],
-    "text": " Ha ha ha."
-  },
-  {
-    "timestamp": [
-      0.0,
-      2.0
-    ],
-    "text": " I'm sorry."
-  },
-  {
-    "timestamp": [
-      0.0,
-      5.0
-    ],
-    "text": " I am a half of my day"
-  },
-  {
-    "timestamp": [
-      5.0,
-      7.0
-    ],
-    "text": " Break the fast fast"
-  },
-  {
-    "timestamp": [
-      7.0,
-      10.0
-    ],
-    "text": " I'm gonna be a half of my day"
-  },
-  {
-    "timestamp": [
-      10.0,
-      12.0
-    ],
-    "text": " To the horizon"
-  },
-  {
-    "timestamp": [
-      12.0,
-      15.0
-    ],
-    "text": " To the horizon"
-  },
-  {
-    "timestamp": [
-      15.0,
-      20.0
-    ],
-    "text": " Please come to the limit"
-  },
-  {
-    "timestamp": [
-      2.56,
-      5.36
-    ],
-    "text": " Wow, how good of a crash Into the falling falling glass"
-  },
-  {
-    "timestamp": [
-      5.36,
-      8.32
-    ],
-    "text": " I'm in the newest time of art"
-  },
-  {
-    "timestamp": [
-      9.04,
-      13.44
-    ],
-    "text": " Psycho Penelope, yeah"
-  },
-  {
-    "timestamp": [
-      0.0,
-      7.0
-    ],
-    "text": " Hey, see you around."
-  },
-  {
-    "timestamp": [
-      7.0,
-      10.0
-    ],
-    "text": " Alright."
-  },
-  {
-    "timestamp": [
-      10.0,
-      17.0
-    ],
-    "text": " Wow, they're everywhere."
-  },
-  {
-    "timestamp": [
-      13.68,
-      22.68
-    ],
-    "text": " Wow, they're everywhere. Oh my god, young girls, short skirts, endless possibility."
-  },
-  {
-    "timestamp": [
-      1.12,
+      2.14
+    ],
+    "start_time": 0.0,
+    "end_time": 2.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "My",
+        "start": 0.0,
+        "end": 1.4
+      },
+      {
+        "word": "mom",
+        "start": 1.4,
+        "end": 1.62
+      },
+      {
+        "word": "said",
+        "start": 1.62,
+        "end": 1.84
+      },
+      {
+        "word": "I",
+        "start": 1.84,
+        "end": 1.94
+      },
+      {
+        "word": "could",
+        "start": 1.94,
+        "end": 2.0
+      },
+      {
+        "word": "get",
+        "start": 2.0,
+        "end": 2.12
+      },
+      {
+        "word": "two.",
+        "start": 2.12,
+        "end": 2.14
+      }
+    ]
+  },
+  {
+    "text": "I got a few,",
+    "timestamp": [
+      2.14,
+      2.78
+    ],
+    "start_time": 2.14,
+    "end_time": 2.78,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 2.14,
+        "end": 2.2
+      },
+      {
+        "word": "got",
+        "start": 2.2,
+        "end": 2.32
+      },
+      {
+        "word": "a",
+        "start": 2.32,
+        "end": 2.5
+      },
+      {
+        "word": "few,",
+        "start": 2.5,
+        "end": 2.78
+      }
+    ]
+  },
+  {
+    "text": "she wants two.",
+    "timestamp": [
+      2.78,
       3.12
     ],
-    "text": " Teacher! Calm down, calm down."
+    "start_time": 2.78,
+    "end_time": 3.12,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "she",
+        "start": 2.78,
+        "end": 2.78
+      },
+      {
+        "word": "wants",
+        "start": 2.78,
+        "end": 3.0
+      },
+      {
+        "word": "two.",
+        "start": 3.0,
+        "end": 3.12
+      }
+    ]
   },
   {
+    "text": "Oh no!",
     "timestamp": [
-      6.96,
-      8.96
+      3.12,
+      3.44
     ],
-    "text": " Just act normal."
+    "start_time": 3.12,
+    "end_time": 3.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 3.12,
+        "end": 3.3
+      },
+      {
+        "word": "no!",
+        "start": 3.3,
+        "end": 3.44
+      }
+    ]
   },
   {
+    "text": "It's totally on sale.",
     "timestamp": [
-      8.96,
-      9.46
+      3.44,
+      4.78
     ],
-    "text": " Hey."
+    "start_time": 3.44,
+    "end_time": 4.78,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It's",
+        "start": 3.44,
+        "end": 4.16
+      },
+      {
+        "word": "totally",
+        "start": 4.16,
+        "end": 4.52
+      },
+      {
+        "word": "on",
+        "start": 4.52,
+        "end": 4.74
+      },
+      {
+        "word": "sale.",
+        "start": 4.74,
+        "end": 4.78
+      }
+    ]
   },
   {
+    "text": "That is so cute!",
     "timestamp": [
-      9.46,
-      9.96
+      4.8,
+      6.24
     ],
-    "text": " Hmm?"
+    "start_time": 4.8,
+    "end_time": 6.24,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "That",
+        "start": 4.8,
+        "end": 4.92
+      },
+      {
+        "word": "is",
+        "start": 4.92,
+        "end": 5.12
+      },
+      {
+        "word": "so",
+        "start": 5.12,
+        "end": 5.36
+      },
+      {
+        "word": "cute!",
+        "start": 5.36,
+        "end": 6.24
+      }
+    ]
   },
   {
+    "text": "I didn't see you.",
     "timestamp": [
-      9.96,
-      11.96
+      6.42,
+      6.58
     ],
-    "text": " Ha ha ha!"
+    "start_time": 6.42,
+    "end_time": 6.58,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 6.42,
+        "end": 6.48
+      },
+      {
+        "word": "didn't",
+        "start": 6.48,
+        "end": 6.58
+      },
+      {
+        "word": "see",
+        "start": 6.58,
+        "end": 6.58
+      },
+      {
+        "word": "you.",
+        "start": 6.58,
+        "end": 6.58
+      }
+    ]
   },
   {
-    "timestamp": [
-      11.96,
-      13.96
-    ],
-    "text": " Hello?"
-  },
-  {
-    "timestamp": [
-      14.96,
-      16.96
-    ],
-    "text": " You are a teacher, aren't ya?"
-  },
-  {
-    "timestamp": [
-      16.96,
-      18.96
-    ],
-    "text": " Uhhhh..."
-  },
-  {
-    "timestamp": [
-      19.96,
-      20.96
-    ],
-    "text": " Ha ha ha!"
-  },
-  {
-    "timestamp": [
-      20.96,
-      21.96
-    ],
-    "text": " Yeah, teacher!"
-  },
-  {
-    "timestamp": [
-      21.96,
-      23.96
-    ],
-    "text": " Ha ha ha ha!"
-  },
-  {
-    "timestamp": [
-      23.96,
-      25.96
-    ],
-    "text": " Right, I am a teacher!"
-  },
-  {
-    "timestamp": [
-      25.96,
-      27.96
-    ],
-    "text": " Ha ha ha ha!"
-  },
-  {
-    "timestamp": [
-      3.0,
-      6.0
-    ],
-    "text": " Well now, what kind of help do you need from the teacher? Could you give me the ball at your feet?"
-  },
-  {
-    "timestamp": [
-      6.0,
-      7.0
-    ],
-    "text": " Huh?"
-  },
-  {
-    "timestamp": [
-      7.0,
-      11.0
-    ],
-    "text": " Oh, I didn't notice, silly me, silly teacher."
-  },
-  {
-    "timestamp": [
-      11.0,
-      13.0
-    ],
-    "text": " Here you go."
-  },
-  {
-    "timestamp": [
-      14.0,
-      15.0
-    ],
-    "text": " Alright."
-  },
-  {
-    "timestamp": [
-      15.0,
-      17.0
-    ],
-    "text": " Thank you very much, teacher."
-  },
-  {
-    "timestamp": [
-      20.0,
-      24.0
-    ],
-    "text": " Like a sweet beautiful fantasy."
-  },
-  {
-    "timestamp": [
-      25.0,
-      28.0
-    ],
-    "text": " Well, you don't waste much time."
-  },
-  {
-    "timestamp": [
-      28.0,
-      29.0
-    ],
-    "text": " Who are you?"
-  },
-  {
-    "timestamp": [
-      0.0,
-      1.76
-    ],
-    "text": " Take it easy pretty boy."
-  },
-  {
-    "timestamp": [
-      3.5,
-      5.26
-    ],
-    "text": " My name's Hidero Osawa."
-  },
-  {
-    "timestamp": [
-      5.26,
-      7.26
-    ],
-    "text": " I'm a student teacher just like you."
-  },
-  {
-    "timestamp": [
-      7.26,
-      8.46
-    ],
-    "text": " So how's it going?"
-  },
-  {
-    "timestamp": [
-      9.8,
-      10.64
-    ],
-    "text": " Yeah."
-  },
-  {
-    "timestamp": [
-      10.64,
-      12.14
-    ],
-    "text": " Not bad so far."
-  },
-  {
-    "timestamp": [
-      13.6,
-      15.44
-    ],
-    "text": " So it's the third time, huh?"
-  },
-  {
-    "timestamp": [
-      15.44,
-      18.0
-    ],
-    "text": " Why are you repeating student teaching so many times?"
-  },
-  {
-    "timestamp": [
-      18.0,
-      20.7
-    ],
-    "text": " Well, there are various reasons."
-  },
-  {
-    "timestamp": [
-      20.7,
-      21.84
-    ],
-    "text": " Various?"
-  },
-  {
-    "timestamp": [
-      21.84,
-      23.64
-    ],
-    "text": " Girls, girls."
-  },
-  {
-    "timestamp": [
-      23.64,
-      26.84
-    ],
-    "text": " I had 13 girls the year before last."
-  },
-  {
-    "timestamp": [
-      26.84,
-      28.2
-    ],
-    "text": " 20 last year."
-  },
-  {
-    "timestamp": [
-      28.2,
-      29.28
-    ],
-    "text": " You had?"
-  },
-  {
-    "timestamp": [
-      2.4,
-      6.6
-    ],
-    "text": " As in biblically you have them? Well, it was really more like the heavy petting definition."
-  },
-  {
+    "text": "Why, guys?",
     "timestamp": [
       6.6,
-      10.2
+      7.92
     ],
-    "text": " Teach me! You gotta show me how you do it!"
+    "start_time": 6.6,
+    "end_time": 7.92,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Why,",
+        "start": 6.6,
+        "end": 7.26
+      },
+      {
+        "word": "guys?",
+        "start": 7.26,
+        "end": 7.92
+      }
+    ]
   },
   {
+    "text": "It's so cute.",
     "timestamp": [
-      10.2,
-      13.0
+      7.92,
+      9.76
     ],
-    "text": " Well, they're all kinds of..."
+    "start_time": 7.92,
+    "end_time": 9.76,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It's",
+        "start": 7.92,
+        "end": 8.74
+      },
+      {
+        "word": "so",
+        "start": 8.74,
+        "end": 8.92
+      },
+      {
+        "word": "cute.",
+        "start": 8.92,
+        "end": 9.76
+      }
+    ]
   },
   {
+    "text": "It's okay.",
     "timestamp": [
-      13.0,
-      15.8
+      9.76,
+      9.76
     ],
-    "text": " Oops, we're gonna be late."
+    "start_time": 9.76,
+    "end_time": 9.76,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It's",
+        "start": 9.76,
+        "end": 9.76
+      },
+      {
+        "word": "okay.",
+        "start": 9.76,
+        "end": 9.76
+      }
+    ]
   },
   {
+    "text": "It's okay.",
     "timestamp": [
-      15.8,
-      18.4
+      9.94,
+      11.14
     ],
-    "text": " Well, let's get a move on."
+    "start_time": 9.94,
+    "end_time": 11.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It's",
+        "start": 9.94,
+        "end": 10.14
+      },
+      {
+        "word": "okay.",
+        "start": 10.14,
+        "end": 11.14
+      }
+    ]
   },
   {
+    "text": "What are you doing, Onizuka?",
     "timestamp": [
-      18.4,
-      22.3
+      11.48,
+      14.08
     ],
-    "text": " Yeah, in a career like this,"
+    "start_time": 11.48,
+    "end_time": 14.08,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What",
+        "start": 11.48,
+        "end": 11.96
+      },
+      {
+        "word": "are",
+        "start": 11.96,
+        "end": 12.3
+      },
+      {
+        "word": "you",
+        "start": 12.3,
+        "end": 12.38
+      },
+      {
+        "word": "doing,",
+        "start": 12.38,
+        "end": 12.76
+      },
+      {
+        "word": "Onizuka?",
+        "start": 12.76,
+        "end": 14.08
+      }
+    ]
   },
   {
+    "text": "Getting too old for this stuff.",
     "timestamp": [
-      22.3,
-      26.4
+      14.18,
+      16.76
     ],
-    "text": " it's possible to be hooking up with 16 year old girls when you're in your 40s."
+    "start_time": 14.18,
+    "end_time": 16.76,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Getting",
+        "start": 14.18,
+        "end": 14.54
+      },
+      {
+        "word": "too",
+        "start": 14.54,
+        "end": 14.78
+      },
+      {
+        "word": "old",
+        "start": 14.78,
+        "end": 15.1
+      },
+      {
+        "word": "for",
+        "start": 15.1,
+        "end": 15.3
+      },
+      {
+        "word": "this",
+        "start": 15.3,
+        "end": 15.46
+      },
+      {
+        "word": "stuff.",
+        "start": 15.46,
+        "end": 16.76
+      }
+    ]
   },
   {
+    "text": "Yo, my man!",
     "timestamp": [
-      4.2,
-      9.2
+      17.2,
+      19.56
     ],
-    "text": " I never even in my wildest dreams know. Don't worry, I'll teach you the finer techniques later."
+    "start_time": 17.2,
+    "end_time": 19.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yo,",
+        "start": 17.2,
+        "end": 17.82
+      },
+      {
+        "word": "my",
+        "start": 17.82,
+        "end": 17.94
+      },
+      {
+        "word": "man!",
+        "start": 17.94,
+        "end": 19.56
+      }
+    ]
   },
   {
+    "text": "Hey, man,",
     "timestamp": [
-      9.2,
-      11.2
+      20.06,
+      21.2
     ],
-    "text": " Yes, master."
+    "start_time": 20.06,
+    "end_time": 21.2,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 20.06,
+        "end": 20.94
+      },
+      {
+        "word": "man,",
+        "start": 20.94,
+        "end": 21.2
+      }
+    ]
   },
   {
+    "text": "you hear me?",
     "timestamp": [
-      16.2,
-      19.7
+      21.2,
+      22.7
     ],
-    "text": " As you know, student teaching is part of the college curriculum."
+    "start_time": 21.2,
+    "end_time": 22.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "you",
+        "start": 21.2,
+        "end": 21.42
+      },
+      {
+        "word": "hear",
+        "start": 21.42,
+        "end": 21.68
+      },
+      {
+        "word": "me?",
+        "start": 21.68,
+        "end": 22.7
+      }
+    ]
   },
   {
+    "text": "What's up, pretty boy?",
     "timestamp": [
-      19.7,
-      25.0
+      22.86,
+      24.98
     ],
-    "text": " However, our students here would not view it that way, so please be extra cautious."
+    "start_time": 22.86,
+    "end_time": 24.98,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What's",
+        "start": 22.86,
+        "end": 23.32
+      },
+      {
+        "word": "up,",
+        "start": 23.32,
+        "end": 23.6
+      },
+      {
+        "word": "pretty",
+        "start": 23.6,
+        "end": 23.76
+      },
+      {
+        "word": "boy?",
+        "start": 23.76,
+        "end": 24.98
+      }
+    ]
   },
   {
-    "timestamp": [
-      25.0,
-      29.0
-    ],
-    "text": " If you have any questions about details, please address them to your homeroom teacher."
-  },
-  {
-    "timestamp": [
-      4.48,
-      5.04
-    ],
-    "text": " And please, make a point of not causing any trouble during the two weeks you're here."
-  },
-  {
-    "timestamp": [
-      8.72,
-      12.88
-    ],
-    "text": " Though I do feel somewhat responsible as a homeroom teacher, this classy is, um, quite a piece of work."
-  },
-  {
-    "timestamp": [
-      12.88,
-      18.8
-    ],
-    "text": " I'm in my forties and she's just sixteen, I'm in my forties."
-  },
-  {
-    "timestamp": [
-      18.8,
-      24.16
-    ],
-    "text": " Welcome home, dear sweet sensei. Would you like a bath or some dinner?"
-  },
-  {
-    "timestamp": [
-      26.64,
-      28.16
-    ],
-    "text": " Oh, Eureka."
-  },
-  {
-    "timestamp": [
-      3.0,
-      6.0
-    ],
-    "text": " Oh no, Dersuit said sing, not here, not..."
-  },
-  {
-    "timestamp": [
-      14.0,
-      15.0
-    ],
-    "text": " I can't believe it! I'm surrounded by beautiful high school girls, all hanging on my every word as I usher them into womenhood! Here we are."
-  },
-  {
-    "timestamp": [
-      17.0,
-      19.0
-    ],
-    "text": " Well, good morning everyone."
-  },
-  {
-    "timestamp": [
-      20.0,
-      21.0
-    ],
-    "text": " Huh?"
-  },
-  {
-    "timestamp": [
-      23.0,
-      25.0
-    ],
-    "text": " Do all this stuff be through in short..."
-  },
-  {
-    "timestamp": [
-      26.0,
-      28.0
-    ],
-    "text": " What?! What a bunch of..."
-  },
-  {
-    "timestamp": [
-      2.0,
-      2.28
-    ],
-    "text": " Where am I?"
-  },
-  {
-    "timestamp": [
-      4.48,
-      6.78
-    ],
-    "text": " Those are the sexy high school girls"
-  },
-  {
-    "timestamp": [
-      9.96,
-      11.6
-    ],
-    "text": " Couldn't there at least be one girl with a micro mini skirt"
-  },
-  {
-    "timestamp": [
-      15.24,
-      19.68
-    ],
-    "text": " Okay, mr. Onizuka, they're all yours. Goodbye. What?"
-  },
-  {
-    "timestamp": [
-      23.98,
-      26.76
-    ],
-    "text": " Hello, I am mr. Onizuka. I would like to welcome you to my class"
-  },
-  {
-    "timestamp": [
-      28.76,
-      0.0
-    ],
-    "text": " Hello anyone"
-  },
-  {
-    "timestamp": [
-      1.8,
-      6.1
-    ],
-    "text": " I'm grateful little jerks. I've got half a mind to pull out a whole six pack of WHOOP-ATS right now!"
-  },
-  {
-    "timestamp": [
-      7.8,
-      15.0
-    ],
-    "text": " You realize that I could kill all of you if I didn't have a moral obligation to someone striving to be a teacher ever immediately?!"
-  },
-  {
-    "timestamp": [
-      18.7,
-      20.3
-    ],
-    "text": " Yes, can I help you?"
-  },
-  {
-    "timestamp": [
-      20.3,
-      22.3
-    ],
-    "text": " Do you need to go to the bathroom or something?"
-  },
-  {
-    "timestamp": [
-      24.0,
-      26.1
-    ],
-    "text": " Oh, well, it's very nice of you."
-  },
-  {
-    "timestamp": [
-      26.1,
-      29.3
-    ],
-    "text": " My name is Onizuka, and what might be your name?"
-  },
-  {
-    "timestamp": [
-      3.0,
-      5.0
-    ],
-    "text": " Oh wait, don't tell me, I bet it's... You only got three guesses, Juan!"
-  },
-  {
-    "timestamp": [
-      5.0,
-      7.0
-    ],
-    "text": " That's a great one!"
-  },
-  {
-    "timestamp": [
-      7.0,
-      10.0
-    ],
-    "text": " It's kind of silly to watch this, thanks for playing!"
-  },
-  {
-    "timestamp": [
-      10.0,
-      11.0
-    ],
-    "text": " What is it, teach?"
-  },
-  {
-    "timestamp": [
-      11.0,
-      14.0
-    ],
-    "text": " You want him to come back and finish you off or what?"
-  },
-  {
-    "timestamp": [
-      14.0,
-      16.0
-    ],
-    "text": " You gonna punch somebody?"
-  },
-  {
-    "timestamp": [
-      18.0,
-      20.0
-    ],
-    "text": " Look, come on, you know you want to!"
-  },
-  {
-    "timestamp": [
-      20.0,
-      23.0
-    ],
-    "text": " Make it a good one, right here in the face, nice and hard!"
-  },
-  {
-    "timestamp": [
-      23.0,
-      25.0
-    ],
-    "text": " Come on, you pussy!"
-  },
-  {
+    "text": "You were looking up at that high school girl's panties, weren't ya?",
     "timestamp": [
       25.0,
-      26.0
+      28.7
     ],
-    "text": " Come on, do it!"
+    "start_time": 25.0,
+    "end_time": 28.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 25.0,
+        "end": 25.38
+      },
+      {
+        "word": "were",
+        "start": 25.38,
+        "end": 25.58
+      },
+      {
+        "word": "looking",
+        "start": 25.58,
+        "end": 25.86
+      },
+      {
+        "word": "up",
+        "start": 25.86,
+        "end": 26.14
+      },
+      {
+        "word": "at",
+        "start": 26.14,
+        "end": 26.28
+      },
+      {
+        "word": "that",
+        "start": 26.28,
+        "end": 26.44
+      },
+      {
+        "word": "high",
+        "start": 26.44,
+        "end": 26.76
+      },
+      {
+        "word": "school",
+        "start": 26.76,
+        "end": 27.04
+      },
+      {
+        "word": "girl's",
+        "start": 27.04,
+        "end": 27.58
+      },
+      {
+        "word": "panties,",
+        "start": 27.58,
+        "end": 28.02
+      },
+      {
+        "word": "weren't",
+        "start": 28.02,
+        "end": 28.26
+      },
+      {
+        "word": "ya?",
+        "start": 28.26,
+        "end": 28.7
+      }
+    ]
+  },
+  {
+    "text": "Hey, do you hear me dude?",
+    "timestamp": [
+      29.0,
+      30.7
+    ],
+    "start_time": 29.0,
+    "end_time": 30.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 29.0,
+        "end": 29.46
+      },
+      {
+        "word": "do",
+        "start": 29.46,
+        "end": 29.64
+      },
+      {
+        "word": "you",
+        "start": 29.64,
+        "end": 29.84
+      },
+      {
+        "word": "hear",
+        "start": 29.84,
+        "end": 30.1
+      },
+      {
+        "word": "me",
+        "start": 30.1,
+        "end": 30.26
+      },
+      {
+        "word": "dude?",
+        "start": 30.26,
+        "end": 30.7
+      }
+    ]
+  },
+  {
+    "text": "Cause I'm talking to you man!",
+    "timestamp": [
+      30.7,
+      32.94
+    ],
+    "start_time": 30.7,
+    "end_time": 32.94,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Cause",
+        "start": 30.7,
+        "end": 30.84
+      },
+      {
+        "word": "I'm",
+        "start": 30.84,
+        "end": 31.14
+      },
+      {
+        "word": "talking",
+        "start": 31.14,
+        "end": 31.6
+      },
+      {
+        "word": "to",
+        "start": 31.6,
+        "end": 31.82
+      },
+      {
+        "word": "you",
+        "start": 31.82,
+        "end": 31.9
+      },
+      {
+        "word": "man!",
+        "start": 31.9,
+        "end": 32.94
+      }
+    ]
+  },
+  {
+    "text": "Hey, what do you say we teach this loser a lesson?",
+    "timestamp": [
+      35.74,
+      39.86
+    ],
+    "start_time": 35.74,
+    "end_time": 39.86,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 35.74,
+        "end": 37.28
+      },
+      {
+        "word": "what",
+        "start": 37.28,
+        "end": 37.46
+      },
+      {
+        "word": "do",
+        "start": 37.46,
+        "end": 37.54
+      },
+      {
+        "word": "you",
+        "start": 37.54,
+        "end": 37.64
+      },
+      {
+        "word": "say",
+        "start": 37.64,
+        "end": 37.92
+      },
+      {
+        "word": "we",
+        "start": 37.92,
+        "end": 38.12
+      },
+      {
+        "word": "teach",
+        "start": 38.12,
+        "end": 38.32
+      },
+      {
+        "word": "this",
+        "start": 38.32,
+        "end": 38.58
+      },
+      {
+        "word": "loser",
+        "start": 38.58,
+        "end": 38.84
+      },
+      {
+        "word": "a",
+        "start": 38.84,
+        "end": 39.08
+      },
+      {
+        "word": "lesson?",
+        "start": 39.08,
+        "end": 39.86
+      }
+    ]
+  },
+  {
+    "text": "Oh he can give us his wallet and we'll forget the whole thing.",
+    "timestamp": [
+      39.88,
+      43.0
+    ],
+    "start_time": 39.88,
+    "end_time": 43.0,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 39.88,
+        "end": 40.14
+      },
+      {
+        "word": "he",
+        "start": 40.14,
+        "end": 40.32
+      },
+      {
+        "word": "can",
+        "start": 40.32,
+        "end": 40.48
+      },
+      {
+        "word": "give",
+        "start": 40.48,
+        "end": 40.66
+      },
+      {
+        "word": "us",
+        "start": 40.66,
+        "end": 40.8
+      },
+      {
+        "word": "his",
+        "start": 40.8,
+        "end": 40.96
+      },
+      {
+        "word": "wallet",
+        "start": 40.96,
+        "end": 41.3
+      },
+      {
+        "word": "and",
+        "start": 41.3,
+        "end": 41.5
+      },
+      {
+        "word": "we'll",
+        "start": 41.5,
+        "end": 41.62
+      },
+      {
+        "word": "forget",
+        "start": 41.62,
+        "end": 41.86
+      },
+      {
+        "word": "the",
+        "start": 41.86,
+        "end": 42.06
+      },
+      {
+        "word": "whole",
+        "start": 42.06,
+        "end": 42.24
+      },
+      {
+        "word": "thing.",
+        "start": 42.24,
+        "end": 43.0
+      }
+    ]
+  },
+  {
+    "text": "Otherwise we'll hand you over to the police right after we kick your butt!",
+    "timestamp": [
+      43.0,
+      46.4
+    ],
+    "start_time": 43.0,
+    "end_time": 46.4,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Otherwise",
+        "start": 43.0,
+        "end": 43.3
+      },
+      {
+        "word": "we'll",
+        "start": 43.3,
+        "end": 43.66
+      },
+      {
+        "word": "hand",
+        "start": 43.66,
+        "end": 43.84
+      },
+      {
+        "word": "you",
+        "start": 43.84,
+        "end": 43.98
+      },
+      {
+        "word": "over",
+        "start": 43.98,
+        "end": 44.1
+      },
+      {
+        "word": "to",
+        "start": 44.1,
+        "end": 44.2
+      },
+      {
+        "word": "the",
+        "start": 44.2,
+        "end": 44.32
+      },
+      {
+        "word": "police",
+        "start": 44.32,
+        "end": 44.66
+      },
+      {
+        "word": "right",
+        "start": 44.66,
+        "end": 44.9
+      },
+      {
+        "word": "after",
+        "start": 44.9,
+        "end": 45.14
+      },
+      {
+        "word": "we",
+        "start": 45.14,
+        "end": 45.28
+      },
+      {
+        "word": "kick",
+        "start": 45.28,
+        "end": 45.46
+      },
+      {
+        "word": "your",
+        "start": 45.46,
+        "end": 45.66
+      },
+      {
+        "word": "butt!",
+        "start": 45.66,
+        "end": 46.4
+      }
+    ]
+  },
+  {
+    "text": "SHUT UP!",
+    "timestamp": [
+      46.54,
+      48.68
+    ],
+    "start_time": 46.54,
+    "end_time": 48.68,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "SHUT",
+        "start": 46.54,
+        "end": 47.14
+      },
+      {
+        "word": "UP!",
+        "start": 47.14,
+        "end": 48.68
+      }
+    ]
+  },
+  {
+    "text": "Now, here's the question.",
+    "timestamp": [
+      49.32,
+      52.52
+    ],
+    "start_time": 49.32,
+    "end_time": 52.52,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Now,",
+        "start": 49.32,
+        "end": 50.82
+      },
+      {
+        "word": "here's",
+        "start": 50.82,
+        "end": 51.36
+      },
+      {
+        "word": "the",
+        "start": 51.36,
+        "end": 51.48
+      },
+      {
+        "word": "question.",
+        "start": 51.48,
+        "end": 52.52
+      }
+    ]
+  },
+  {
+    "text": "Who's gonna get his butt kicked?",
+    "timestamp": [
+      52.52,
+      54.32
+    ],
+    "start_time": 52.52,
+    "end_time": 54.32,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Who's",
+        "start": 52.52,
+        "end": 52.78
+      },
+      {
+        "word": "gonna",
+        "start": 52.78,
+        "end": 52.9
+      },
+      {
+        "word": "get",
+        "start": 52.9,
+        "end": 53.08
+      },
+      {
+        "word": "his",
+        "start": 53.08,
+        "end": 53.2
+      },
+      {
+        "word": "butt",
+        "start": 53.2,
+        "end": 53.46
+      },
+      {
+        "word": "kicked?",
+        "start": 53.46,
+        "end": 54.32
+      }
+    ]
+  },
+  {
+    "text": "Me, a loser with a second degree black belt, or the pathetic pair who are unfortunately trying to swindle money out of me.",
+    "timestamp": [
+      54.04,
+      62.8
+    ],
+    "start_time": 54.04,
+    "end_time": 62.8,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Me,",
+        "start": 54.04,
+        "end": 55.3
+      },
+      {
+        "word": "a",
+        "start": 55.3,
+        "end": 55.46
+      },
+      {
+        "word": "loser",
+        "start": 55.46,
+        "end": 55.88
+      },
+      {
+        "word": "with",
+        "start": 55.88,
+        "end": 56.24
+      },
+      {
+        "word": "a",
+        "start": 56.24,
+        "end": 56.38
+      },
+      {
+        "word": "second",
+        "start": 56.38,
+        "end": 56.62
+      },
+      {
+        "word": "degree",
+        "start": 56.62,
+        "end": 57.0
+      },
+      {
+        "word": "black",
+        "start": 57.0,
+        "end": 57.38
+      },
+      {
+        "word": "belt,",
+        "start": 57.38,
+        "end": 58.08
+      },
+      {
+        "word": "or",
+        "start": 58.18,
+        "end": 58.32
+      },
+      {
+        "word": "the",
+        "start": 58.32,
+        "end": 58.42
+      },
+      {
+        "word": "pathetic",
+        "start": 58.42,
+        "end": 58.84
+      },
+      {
+        "word": "pair",
+        "start": 58.84,
+        "end": 59.26
+      },
+      {
+        "word": "who",
+        "start": 59.26,
+        "end": 59.6
+      },
+      {
+        "word": "are",
+        "start": 59.6,
+        "end": 59.76
+      },
+      {
+        "word": "unfortunately",
+        "start": 59.76,
+        "end": 60.46
+      },
+      {
+        "word": "trying",
+        "start": 60.46,
+        "end": 60.92
+      },
+      {
+        "word": "to",
+        "start": 60.92,
+        "end": 61.08
+      },
+      {
+        "word": "swindle",
+        "start": 61.08,
+        "end": 61.44
+      },
+      {
+        "word": "money",
+        "start": 61.44,
+        "end": 61.74
+      },
+      {
+        "word": "out",
+        "start": 61.74,
+        "end": 62.02
+      },
+      {
+        "word": "of",
+        "start": 62.02,
+        "end": 62.14
+      },
+      {
+        "word": "me.",
+        "start": 62.14,
+        "end": 62.8
+      }
+    ]
+  },
+  {
+    "text": "How about it, care to take a guess?",
+    "timestamp": [
+      64.42,
+      68.44
+    ],
+    "start_time": 64.42,
+    "end_time": 68.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "How",
+        "start": 64.42,
+        "end": 65.78
+      },
+      {
+        "word": "about",
+        "start": 65.78,
+        "end": 66.32
+      },
+      {
+        "word": "it,",
+        "start": 66.32,
+        "end": 66.54
+      },
+      {
+        "word": "care",
+        "start": 66.54,
+        "end": 66.7
+      },
+      {
+        "word": "to",
+        "start": 66.7,
+        "end": 66.82
+      },
+      {
+        "word": "take",
+        "start": 66.82,
+        "end": 67.02
+      },
+      {
+        "word": "a",
+        "start": 67.02,
+        "end": 67.18
+      },
+      {
+        "word": "guess?",
+        "start": 67.18,
+        "end": 68.44
+      }
+    ]
+  },
+  {
+    "text": "Hey, Keechy, where are you?",
+    "timestamp": [
+      70.22,
+      73.56
+    ],
+    "start_time": 70.22,
+    "end_time": 73.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 70.22,
+        "end": 70.94
+      },
+      {
+        "word": "Keechy,",
+        "start": 70.94,
+        "end": 71.52
+      },
+      {
+        "word": "where",
+        "start": 71.52,
+        "end": 71.68
+      },
+      {
+        "word": "are",
+        "start": 71.68,
+        "end": 72.0
+      },
+      {
+        "word": "you?",
+        "start": 72.0,
+        "end": 73.56
+      }
+    ]
+  },
+  {
+    "text": "Oh, Ryuji, thanks for picking me up!",
+    "timestamp": [
+      73.9,
+      76.84
+    ],
+    "start_time": 73.9,
+    "end_time": 76.84,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh,",
+        "start": 73.9,
+        "end": 74.32
+      },
+      {
+        "word": "Ryuji,",
+        "start": 74.32,
+        "end": 75.14
+      },
+      {
+        "word": "thanks",
+        "start": 75.14,
+        "end": 75.36
+      },
+      {
+        "word": "for",
+        "start": 75.36,
+        "end": 75.52
+      },
+      {
+        "word": "picking",
+        "start": 75.52,
+        "end": 75.74
+      },
+      {
+        "word": "me",
+        "start": 75.74,
+        "end": 75.94
+      },
+      {
+        "word": "up!",
+        "start": 75.94,
+        "end": 76.84
+      }
+    ]
+  },
+  {
+    "text": "Shoot,",
+    "timestamp": [
+      77.02,
+      77.44
+    ],
+    "start_time": 77.02,
+    "end_time": 77.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Shoot,",
+        "start": 77.02,
+        "end": 77.44
+      }
+    ]
+  },
+  {
+    "text": "I didn't realize I was running so late.",
+    "timestamp": [
+      77.44,
+      79.28
+    ],
+    "start_time": 77.44,
+    "end_time": 79.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 77.44,
+        "end": 77.58
+      },
+      {
+        "word": "didn't",
+        "start": 77.58,
+        "end": 77.74
+      },
+      {
+        "word": "realize",
+        "start": 77.74,
+        "end": 78.04
+      },
+      {
+        "word": "I",
+        "start": 78.04,
+        "end": 78.22
+      },
+      {
+        "word": "was",
+        "start": 78.22,
+        "end": 78.32
+      },
+      {
+        "word": "running",
+        "start": 78.32,
+        "end": 78.48
+      },
+      {
+        "word": "so",
+        "start": 78.48,
+        "end": 78.76
+      },
+      {
+        "word": "late.",
+        "start": 78.76,
+        "end": 79.28
+      }
+    ]
+  },
+  {
+    "text": "Sorry, guys.",
+    "timestamp": [
+      79.28,
+      80.26
+    ],
+    "start_time": 79.28,
+    "end_time": 80.26,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Sorry,",
+        "start": 79.28,
+        "end": 79.64
+      },
+      {
+        "word": "guys.",
+        "start": 79.64,
+        "end": 80.26
+      }
+    ]
+  },
+  {
+    "text": "Thanks for the spending money, chumps.",
+    "timestamp": [
+      80.26,
+      81.96
+    ],
+    "start_time": 80.26,
+    "end_time": 81.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Thanks",
+        "start": 80.26,
+        "end": 80.42
+      },
+      {
+        "word": "for",
+        "start": 80.42,
+        "end": 80.56
+      },
+      {
+        "word": "the",
+        "start": 80.56,
+        "end": 80.68
+      },
+      {
+        "word": "spending",
+        "start": 80.68,
+        "end": 80.92
+      },
+      {
+        "word": "money,",
+        "start": 80.92,
+        "end": 81.4
+      },
+      {
+        "word": "chumps.",
+        "start": 81.4,
+        "end": 81.96
+      }
+    ]
+  },
+  {
+    "text": "Next time be more careful who you mess with.",
+    "timestamp": [
+      82.04,
+      87.12
+    ],
+    "start_time": 82.04,
+    "end_time": 87.12,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Next",
+        "start": 82.04,
+        "end": 83.4
+      },
+      {
+        "word": "time",
+        "start": 83.4,
+        "end": 83.64
+      },
+      {
+        "word": "be",
+        "start": 83.64,
+        "end": 83.76
+      },
+      {
+        "word": "more",
+        "start": 83.76,
+        "end": 83.92
+      },
+      {
+        "word": "careful",
+        "start": 83.92,
+        "end": 84.2
+      },
+      {
+        "word": "who",
+        "start": 84.2,
+        "end": 84.42
+      },
+      {
+        "word": "you",
+        "start": 84.42,
+        "end": 84.54
+      },
+      {
+        "word": "mess",
+        "start": 84.54,
+        "end": 84.74
+      },
+      {
+        "word": "with.",
+        "start": 84.74,
+        "end": 87.12
+      }
+    ]
+  },
+  {
+    "text": "Hey!",
+    "timestamp": [
+      87.12,
+      88.42
+    ],
+    "start_time": 87.12,
+    "end_time": 88.42,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey!",
+        "start": 87.12,
+        "end": 88.42
+      }
+    ]
+  },
+  {
+    "text": "It wouldn't be a good example to show up late on the first day, so I'm gonna floor it.",
+    "timestamp": [
+      89.34,
+      92.7
+    ],
+    "start_time": 89.34,
+    "end_time": 92.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It",
+        "start": 89.34,
+        "end": 89.5
+      },
+      {
+        "word": "wouldn't",
+        "start": 89.5,
+        "end": 89.7
+      },
+      {
+        "word": "be",
+        "start": 89.7,
+        "end": 89.86
+      },
+      {
+        "word": "a",
+        "start": 89.86,
+        "end": 89.94
+      },
+      {
+        "word": "good",
+        "start": 89.94,
+        "end": 90.08
+      },
+      {
+        "word": "example",
+        "start": 90.08,
+        "end": 90.46
+      },
+      {
+        "word": "to",
+        "start": 90.46,
+        "end": 90.64
+      },
+      {
+        "word": "show",
+        "start": 90.64,
+        "end": 90.78
+      },
+      {
+        "word": "up",
+        "start": 90.78,
+        "end": 90.92
+      },
+      {
+        "word": "late",
+        "start": 90.92,
+        "end": 91.1
+      },
+      {
+        "word": "on",
+        "start": 91.1,
+        "end": 91.22
+      },
+      {
+        "word": "the",
+        "start": 91.22,
+        "end": 91.3
+      },
+      {
+        "word": "first",
+        "start": 91.3,
+        "end": 91.5
+      },
+      {
+        "word": "day,",
+        "start": 91.5,
+        "end": 91.82
+      },
+      {
+        "word": "so",
+        "start": 91.82,
+        "end": 91.92
+      },
+      {
+        "word": "I'm",
+        "start": 91.92,
+        "end": 92.06
+      },
+      {
+        "word": "gonna",
+        "start": 92.06,
+        "end": 92.16
+      },
+      {
+        "word": "floor",
+        "start": 92.16,
+        "end": 92.46
+      },
+      {
+        "word": "it.",
+        "start": 92.46,
+        "end": 92.7
+      }
+    ]
+  },
+  {
+    "text": "Better hang on, buddy!",
+    "timestamp": [
+      92.7,
+      94.76
+    ],
+    "start_time": 92.7,
+    "end_time": 94.76,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Better",
+        "start": 92.7,
+        "end": 92.86
+      },
+      {
+        "word": "hang",
+        "start": 92.86,
+        "end": 93.18
+      },
+      {
+        "word": "on,",
+        "start": 93.18,
+        "end": 93.52
+      },
+      {
+        "word": "buddy!",
+        "start": 93.52,
+        "end": 94.76
+      }
+    ]
+  },
+  {
+    "text": "Geez, bald face!",
+    "timestamp": [
+      100.3,
+      103.3
+    ],
+    "start_time": 100.3,
+    "end_time": 103.3,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Geez,",
+        "start": 100.3,
+        "end": 101.84
+      },
+      {
+        "word": "bald",
+        "start": 101.84,
+        "end": 102.06
+      },
+      {
+        "word": "face!",
+        "start": 102.06,
+        "end": 103.3
+      }
+    ]
+  },
+  {
+    "text": "Why do I need to give you a ride anyway?",
+    "timestamp": [
+      103.3,
+      105.96
+    ],
+    "start_time": 103.3,
+    "end_time": 105.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Why",
+        "start": 103.3,
+        "end": 103.88
+      },
+      {
+        "word": "do",
+        "start": 103.88,
+        "end": 104.0
+      },
+      {
+        "word": "I",
+        "start": 104.0,
+        "end": 104.12
+      },
+      {
+        "word": "need",
+        "start": 104.12,
+        "end": 104.28
+      },
+      {
+        "word": "to",
+        "start": 104.28,
+        "end": 104.42
+      },
+      {
+        "word": "give",
+        "start": 104.42,
+        "end": 104.58
+      },
+      {
+        "word": "you",
+        "start": 104.58,
+        "end": 104.76
+      },
+      {
+        "word": "a",
+        "start": 104.76,
+        "end": 104.92
+      },
+      {
+        "word": "ride",
+        "start": 104.92,
+        "end": 105.1
+      },
+      {
+        "word": "anyway?",
+        "start": 105.1,
+        "end": 105.96
+      }
+    ]
+  },
+  {
+    "text": "Come on, what are best friends for?",
+    "timestamp": [
+      106.04,
+      108.5
+    ],
+    "start_time": 106.04,
+    "end_time": 108.5,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Come",
+        "start": 106.04,
+        "end": 106.28
+      },
+      {
+        "word": "on,",
+        "start": 106.28,
+        "end": 106.88
+      },
+      {
+        "word": "what",
+        "start": 106.88,
+        "end": 107.12
+      },
+      {
+        "word": "are",
+        "start": 107.12,
+        "end": 107.22
+      },
+      {
+        "word": "best",
+        "start": 107.22,
+        "end": 107.46
+      },
+      {
+        "word": "friends",
+        "start": 107.46,
+        "end": 107.72
+      },
+      {
+        "word": "for?",
+        "start": 107.72,
+        "end": 108.5
+      }
+    ]
+  },
+  {
+    "text": "Hey, it's been six years since we came out to Tokyo.",
+    "timestamp": [
+      108.04,
+      114.5
+    ],
+    "start_time": 108.04,
+    "end_time": 114.5,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 108.04,
+        "end": 110.92
+      },
+      {
+        "word": "it's",
+        "start": 110.92,
+        "end": 111.06
+      },
+      {
+        "word": "been",
+        "start": 111.06,
+        "end": 111.22
+      },
+      {
+        "word": "six",
+        "start": 111.22,
+        "end": 111.5
+      },
+      {
+        "word": "years",
+        "start": 111.5,
+        "end": 111.96
+      },
+      {
+        "word": "since",
+        "start": 111.96,
+        "end": 112.24
+      },
+      {
+        "word": "we",
+        "start": 112.24,
+        "end": 112.42
+      },
+      {
+        "word": "came",
+        "start": 112.42,
+        "end": 112.66
+      },
+      {
+        "word": "out",
+        "start": 112.66,
+        "end": 112.86
+      },
+      {
+        "word": "to",
+        "start": 112.86,
+        "end": 113.04
+      },
+      {
+        "word": "Tokyo.",
+        "start": 113.04,
+        "end": 114.5
+      }
+    ]
+  },
+  {
+    "text": "Now you're the big boss manager of your own bike shop.",
+    "timestamp": [
+      114.58,
+      118.08
+    ],
+    "start_time": 114.58,
+    "end_time": 118.08,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Now",
+        "start": 114.58,
+        "end": 114.82
+      },
+      {
+        "word": "you're",
+        "start": 114.82,
+        "end": 115.04
+      },
+      {
+        "word": "the",
+        "start": 115.04,
+        "end": 115.08
+      },
+      {
+        "word": "big",
+        "start": 115.08,
+        "end": 115.34
+      },
+      {
+        "word": "boss",
+        "start": 115.34,
+        "end": 115.62
+      },
+      {
+        "word": "manager",
+        "start": 115.62,
+        "end": 116.14
+      },
+      {
+        "word": "of",
+        "start": 116.14,
+        "end": 116.3
+      },
+      {
+        "word": "your",
+        "start": 116.3,
+        "end": 116.42
+      },
+      {
+        "word": "own",
+        "start": 116.42,
+        "end": 116.58
+      },
+      {
+        "word": "bike",
+        "start": 116.58,
+        "end": 116.84
+      },
+      {
+        "word": "shop.",
+        "start": 116.84,
+        "end": 118.08
+      }
+    ]
+  },
+  {
+    "text": "Who'd have thunk it?",
+    "timestamp": [
+      118.16,
+      119.66
+    ],
+    "start_time": 118.16,
+    "end_time": 119.66,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Who'd",
+        "start": 118.16,
+        "end": 118.54
+      },
+      {
+        "word": "have",
+        "start": 118.54,
+        "end": 118.66
+      },
+      {
+        "word": "thunk",
+        "start": 118.66,
+        "end": 118.88
+      },
+      {
+        "word": "it?",
+        "start": 118.88,
+        "end": 119.66
+      }
+    ]
+  },
+  {
+    "text": "Well, you're one to talk.",
+    "timestamp": [
+      119.66,
+      120.86
+    ],
+    "start_time": 119.66,
+    "end_time": 120.86,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 119.66,
+        "end": 119.94
+      },
+      {
+        "word": "you're",
+        "start": 119.94,
+        "end": 120.14
+      },
+      {
+        "word": "one",
+        "start": 120.14,
+        "end": 120.3
+      },
+      {
+        "word": "to",
+        "start": 120.3,
+        "end": 120.46
+      },
+      {
+        "word": "talk.",
+        "start": 120.46,
+        "end": 120.86
+      }
+    ]
+  },
+  {
+    "text": "I can't believe what's going on with you.",
+    "timestamp": [
+      120.86,
+      123.38
+    ],
+    "start_time": 120.86,
+    "end_time": 123.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 120.86,
+        "end": 120.98
+      },
+      {
+        "word": "can't",
+        "start": 120.98,
+        "end": 121.18
+      },
+      {
+        "word": "believe",
+        "start": 121.18,
+        "end": 121.4
+      },
+      {
+        "word": "what's",
+        "start": 121.4,
+        "end": 121.72
+      },
+      {
+        "word": "going",
+        "start": 121.72,
+        "end": 121.92
+      },
+      {
+        "word": "on",
+        "start": 121.92,
+        "end": 122.16
+      },
+      {
+        "word": "with",
+        "start": 122.16,
+        "end": 122.36
+      },
+      {
+        "word": "you.",
+        "start": 122.36,
+        "end": 123.38
+      }
+    ]
+  },
+  {
+    "text": "What are you talking about?",
+    "timestamp": [
+      123.38,
+      124.7
+    ],
+    "start_time": 123.38,
+    "end_time": 124.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What",
+        "start": 123.38,
+        "end": 123.6
+      },
+      {
+        "word": "are",
+        "start": 123.6,
+        "end": 123.64
+      },
+      {
+        "word": "you",
+        "start": 123.64,
+        "end": 123.7
+      },
+      {
+        "word": "talking",
+        "start": 123.7,
+        "end": 124.04
+      },
+      {
+        "word": "about?",
+        "start": 124.04,
+        "end": 124.7
+      }
+    ]
+  },
+  {
+    "text": "Stupid!",
+    "timestamp": [
+      124.72,
+      125.66
+    ],
+    "start_time": 124.72,
+    "end_time": 125.66,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Stupid!",
+        "start": 124.72,
+        "end": 125.66
+      }
+    ]
+  },
+  {
+    "text": "Student teaching!",
+    "timestamp": [
+      125.68,
+      127.04
+    ],
+    "start_time": 125.68,
+    "end_time": 127.04,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Student",
+        "start": 125.68,
+        "end": 126.14
+      },
+      {
+        "word": "teaching!",
+        "start": 126.14,
+        "end": 127.04
+      }
+    ]
+  },
+  {
+    "text": "What else could it be?",
+    "timestamp": [
+      127.04,
+      128.62
+    ],
+    "start_time": 127.04,
+    "end_time": 128.62,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What",
+        "start": 127.04,
+        "end": 127.24
+      },
+      {
+        "word": "else",
+        "start": 127.24,
+        "end": 127.42
+      },
+      {
+        "word": "could",
+        "start": 127.42,
+        "end": 127.64
+      },
+      {
+        "word": "it",
+        "start": 127.64,
+        "end": 127.76
+      },
+      {
+        "word": "be?",
+        "start": 127.76,
+        "end": 128.62
+      }
+    ]
+  },
+  {
+    "text": "Of all people,",
+    "timestamp": [
+      128.62,
+      129.54
+    ],
+    "start_time": 128.62,
+    "end_time": 129.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Of",
+        "start": 128.62,
+        "end": 128.84
+      },
+      {
+        "word": "all",
+        "start": 128.84,
+        "end": 129.02
+      },
+      {
+        "word": "people,",
+        "start": 129.02,
+        "end": 129.54
+      }
+    ]
+  },
+  {
+    "text": "I can't believe you're trying to be a teacher.",
+    "timestamp": [
+      129.54,
+      133.44
+    ],
+    "start_time": 129.54,
+    "end_time": 133.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 129.54,
+        "end": 129.68
+      },
+      {
+        "word": "can't",
+        "start": 129.68,
+        "end": 129.94
+      },
+      {
+        "word": "believe",
+        "start": 129.94,
+        "end": 130.16
+      },
+      {
+        "word": "you're",
+        "start": 130.16,
+        "end": 130.52
+      },
+      {
+        "word": "trying",
+        "start": 130.52,
+        "end": 130.8
+      },
+      {
+        "word": "to",
+        "start": 130.8,
+        "end": 130.92
+      },
+      {
+        "word": "be",
+        "start": 130.92,
+        "end": 131.06
+      },
+      {
+        "word": "a",
+        "start": 131.06,
+        "end": 131.22
+      },
+      {
+        "word": "teacher.",
+        "start": 131.22,
+        "end": 133.44
+      }
+    ]
+  },
+  {
+    "text": "The girls, man.",
+    "timestamp": [
+      133.54,
+      134.98
+    ],
+    "start_time": 133.54,
+    "end_time": 134.98,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "The",
+        "start": 133.54,
+        "end": 133.86
+      },
+      {
+        "word": "girls,",
+        "start": 133.86,
+        "end": 134.36
+      },
+      {
+        "word": "man.",
+        "start": 134.36,
+        "end": 134.98
+      }
+    ]
+  },
+  {
+    "text": "The girls!",
+    "timestamp": [
+      134.98,
+      136.24
+    ],
+    "start_time": 134.98,
+    "end_time": 136.24,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "The",
+        "start": 134.98,
+        "end": 135.08
+      },
+      {
+        "word": "girls!",
+        "start": 135.08,
+        "end": 136.24
+      }
+    ]
+  },
+  {
+    "text": "Oh god,",
+    "timestamp": [
+      136.04,
+      137.0
+    ],
+    "start_time": 136.04,
+    "end_time": 137.0,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 136.04,
+        "end": 136.56
+      },
+      {
+        "word": "god,",
+        "start": 136.56,
+        "end": 137.0
+      }
+    ]
+  },
+  {
+    "text": "I can't wait.",
+    "timestamp": [
+      137.0,
+      138.12
+    ],
+    "start_time": 137.0,
+    "end_time": 138.12,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 137.0,
+        "end": 137.08
+      },
+      {
+        "word": "can't",
+        "start": 137.08,
+        "end": 137.38
+      },
+      {
+        "word": "wait.",
+        "start": 137.38,
+        "end": 138.12
+      }
+    ]
+  },
+  {
+    "text": "All those new -file young minds just waiting to be molded, baby.",
+    "timestamp": [
+      138.12,
+      142.4
+    ],
+    "start_time": 138.12,
+    "end_time": 142.4,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "All",
+        "start": 138.12,
+        "end": 138.48
+      },
+      {
+        "word": "those",
+        "start": 138.48,
+        "end": 138.74
+      },
+      {
+        "word": "new",
+        "start": 138.74,
+        "end": 138.98
+      },
+      {
+        "word": "-file",
+        "start": 138.98,
+        "end": 139.26
+      },
+      {
+        "word": "young",
+        "start": 139.26,
+        "end": 139.54
+      },
+      {
+        "word": "minds",
+        "start": 139.54,
+        "end": 139.88
+      },
+      {
+        "word": "just",
+        "start": 139.88,
+        "end": 140.18
+      },
+      {
+        "word": "waiting",
+        "start": 140.18,
+        "end": 140.44
+      },
+      {
+        "word": "to",
+        "start": 140.44,
+        "end": 140.58
+      },
+      {
+        "word": "be",
+        "start": 140.58,
+        "end": 140.68
+      },
+      {
+        "word": "molded,",
+        "start": 140.68,
+        "end": 141.1
+      },
+      {
+        "word": "baby.",
+        "start": 141.1,
+        "end": 142.4
+      }
+    ]
+  },
+  {
+    "text": "Teacher, please explain.",
+    "timestamp": [
+      142.66,
+      144.58
+    ],
+    "start_time": 142.66,
+    "end_time": 144.58,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Teacher,",
+        "start": 142.66,
+        "end": 143.46
+      },
+      {
+        "word": "please",
+        "start": 143.46,
+        "end": 143.56
+      },
+      {
+        "word": "explain.",
+        "start": 143.56,
+        "end": 144.58
+      }
+    ]
+  },
+  {
+    "text": "Where is it?",
+    "timestamp": [
+      145.28,
+      146.7
+    ],
+    "start_time": 145.28,
+    "end_time": 146.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Where",
+        "start": 145.28,
+        "end": 145.76
+      },
+      {
+        "word": "is",
+        "start": 145.76,
+        "end": 146.0
+      },
+      {
+        "word": "it?",
+        "start": 146.0,
+        "end": 146.7
+      }
+    ]
+  },
+  {
+    "text": "Right here.",
+    "timestamp": [
+      147.06,
+      148.54
+    ],
+    "start_time": 147.06,
+    "end_time": 148.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Right",
+        "start": 147.06,
+        "end": 147.28
+      },
+      {
+        "word": "here.",
+        "start": 147.28,
+        "end": 148.54
+      }
+    ]
+  },
+  {
+    "text": "What?",
+    "timestamp": [
+      148.54,
+      149.2
+    ],
+    "start_time": 148.54,
+    "end_time": 149.2,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What?",
+        "start": 148.54,
+        "end": 149.2
+      }
+    ]
+  },
+  {
+    "text": "Where?",
+    "timestamp": [
+      149.2,
+      150.02
+    ],
+    "start_time": 149.2,
+    "end_time": 150.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Where?",
+        "start": 149.2,
+        "end": 150.02
+      }
+    ]
+  },
+  {
+    "text": "Right here.",
+    "timestamp": [
+      150.92,
+      152.96
+    ],
+    "start_time": 150.92,
+    "end_time": 152.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Right",
+        "start": 150.92,
+        "end": 151.76
+      },
+      {
+        "word": "here.",
+        "start": 151.76,
+        "end": 152.96
+      }
+    ]
+  },
+  {
+    "text": "Here.",
+    "timestamp": [
+      152.96,
+      154.04
+    ],
+    "start_time": 152.96,
+    "end_time": 154.04,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Here.",
+        "start": 152.96,
+        "end": 154.04
+      }
+    ]
+  },
+  {
+    "text": "Oh yeah, the possibilities are endless!",
+    "timestamp": [
+      154.4,
+      157.48
+    ],
+    "start_time": 154.4,
+    "end_time": 157.48,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 154.4,
+        "end": 154.84
+      },
+      {
+        "word": "yeah,",
+        "start": 154.84,
+        "end": 155.24
+      },
+      {
+        "word": "the",
+        "start": 155.24,
+        "end": 155.38
+      },
+      {
+        "word": "possibilities",
+        "start": 155.38,
+        "end": 155.96
+      },
+      {
+        "word": "are",
+        "start": 155.96,
+        "end": 156.46
+      },
+      {
+        "word": "endless!",
+        "start": 156.46,
+        "end": 157.48
+      }
+    ]
+  },
+  {
+    "text": "Hahahahaha!",
+    "timestamp": [
+      157.48,
+      159.28
+    ],
+    "start_time": 157.48,
+    "end_time": 159.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hahahahaha!",
+        "start": 157.48,
+        "end": 159.28
+      }
+    ]
+  },
+  {
+    "text": "Hold on, girls, I'm coming!",
+    "timestamp": [
+      159.28,
+      162.36
+    ],
+    "start_time": 159.28,
+    "end_time": 162.36,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hold",
+        "start": 159.28,
+        "end": 159.6
+      },
+      {
+        "word": "on,",
+        "start": 159.6,
+        "end": 159.9
+      },
+      {
+        "word": "girls,",
+        "start": 159.9,
+        "end": 160.28
+      },
+      {
+        "word": "I'm",
+        "start": 160.28,
+        "end": 160.4
+      },
+      {
+        "word": "coming!",
+        "start": 160.4,
+        "end": 162.36
+      }
+    ]
+  },
+  {
+    "text": "Uh -huh.",
+    "timestamp": [
+      163.42,
+      164.56
+    ],
+    "start_time": 163.42,
+    "end_time": 164.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Uh",
+        "start": 163.42,
+        "end": 164.28
+      },
+      {
+        "word": "-huh.",
+        "start": 164.28,
+        "end": 164.56
+      }
+    ]
+  },
+  {
+    "text": "Right, pal,",
+    "timestamp": [
+      164.56,
+      165.28
+    ],
+    "start_time": 164.56,
+    "end_time": 165.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Right,",
+        "start": 164.56,
+        "end": 164.94
+      },
+      {
+        "word": "pal,",
+        "start": 164.94,
+        "end": 165.28
+      }
+    ]
+  },
+  {
+    "text": "I see.",
+    "timestamp": [
+      165.28,
+      166.02
+    ],
+    "start_time": 165.28,
+    "end_time": 166.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 165.28,
+        "end": 165.4
+      },
+      {
+        "word": "see.",
+        "start": 165.4,
+        "end": 166.02
+      }
+    ]
+  },
+  {
+    "text": "Wow, amazing story.",
+    "timestamp": [
+      166.04,
+      168.68
+    ],
+    "start_time": 166.04,
+    "end_time": 168.68,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Wow,",
+        "start": 166.04,
+        "end": 167.56
+      },
+      {
+        "word": "amazing",
+        "start": 167.56,
+        "end": 167.56
+      },
+      {
+        "word": "story.",
+        "start": 167.56,
+        "end": 168.68
+      }
+    ]
+  },
+  {
+    "text": "Yeah, yeah,",
+    "timestamp": [
+      168.74,
+      169.68
+    ],
+    "start_time": 168.74,
+    "end_time": 169.68,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yeah,",
+        "start": 168.74,
+        "end": 169.32
+      },
+      {
+        "word": "yeah,",
+        "start": 169.32,
+        "end": 169.68
+      }
+    ]
+  },
+  {
+    "text": "it is amazing.",
+    "timestamp": [
+      169.68,
+      170.7
+    ],
+    "start_time": 169.68,
+    "end_time": 170.7,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "it",
+        "start": 169.68,
+        "end": 169.84
+      },
+      {
+        "word": "is",
+        "start": 169.84,
+        "end": 170.02
+      },
+      {
+        "word": "amazing.",
+        "start": 170.02,
+        "end": 170.7
+      }
+    ]
+  },
+  {
+    "text": "So what do you say you cut me some slack, huh?",
+    "timestamp": [
+      170.7,
+      173.52
+    ],
+    "start_time": 170.7,
+    "end_time": 173.52,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "So",
+        "start": 170.7,
+        "end": 170.9
+      },
+      {
+        "word": "what",
+        "start": 170.9,
+        "end": 171.26
+      },
+      {
+        "word": "do",
+        "start": 171.26,
+        "end": 171.34
+      },
+      {
+        "word": "you",
+        "start": 171.34,
+        "end": 171.42
+      },
+      {
+        "word": "say",
+        "start": 171.42,
+        "end": 171.62
+      },
+      {
+        "word": "you",
+        "start": 171.62,
+        "end": 171.78
+      },
+      {
+        "word": "cut",
+        "start": 171.78,
+        "end": 171.98
+      },
+      {
+        "word": "me",
+        "start": 171.98,
+        "end": 172.1
+      },
+      {
+        "word": "some",
+        "start": 172.1,
+        "end": 172.3
+      },
+      {
+        "word": "slack,",
+        "start": 172.3,
+        "end": 172.84
+      },
+      {
+        "word": "huh?",
+        "start": 172.84,
+        "end": 173.52
+      }
+    ]
+  },
+  {
+    "text": "I'll put in a good word with my people.",
+    "timestamp": [
+      173.58,
+      175.6
+    ],
+    "start_time": 173.58,
+    "end_time": 175.6,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'll",
+        "start": 173.58,
+        "end": 173.74
+      },
+      {
+        "word": "put",
+        "start": 173.74,
+        "end": 173.88
+      },
+      {
+        "word": "in",
+        "start": 173.88,
+        "end": 173.98
+      },
+      {
+        "word": "a",
+        "start": 173.98,
+        "end": 174.1
+      },
+      {
+        "word": "good",
+        "start": 174.1,
+        "end": 174.26
+      },
+      {
+        "word": "word",
+        "start": 174.26,
+        "end": 174.48
+      },
+      {
+        "word": "with",
+        "start": 174.48,
+        "end": 174.66
+      },
+      {
+        "word": "my",
+        "start": 174.66,
+        "end": 174.8
+      },
+      {
+        "word": "people.",
+        "start": 174.8,
+        "end": 175.6
+      }
+    ]
+  },
+  {
+    "text": "We'll forget this whole thing ever happened, okay?",
+    "timestamp": [
+      175.74,
+      178.32
+    ],
+    "start_time": 175.74,
+    "end_time": 178.32,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "We'll",
+        "start": 175.74,
+        "end": 176.02
+      },
+      {
+        "word": "forget",
+        "start": 176.02,
+        "end": 176.32
+      },
+      {
+        "word": "this",
+        "start": 176.32,
+        "end": 176.52
+      },
+      {
+        "word": "whole",
+        "start": 176.52,
+        "end": 176.68
+      },
+      {
+        "word": "thing",
+        "start": 176.68,
+        "end": 176.88
+      },
+      {
+        "word": "ever",
+        "start": 176.88,
+        "end": 177.08
+      },
+      {
+        "word": "happened,",
+        "start": 177.08,
+        "end": 177.62
+      },
+      {
+        "word": "okay?",
+        "start": 177.62,
+        "end": 178.32
+      }
+    ]
+  },
+  {
+    "text": "Oh yeah, sure.",
+    "timestamp": [
+      178.84,
+      180.46
+    ],
+    "start_time": 178.84,
+    "end_time": 180.46,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 178.84,
+        "end": 179.62
+      },
+      {
+        "word": "yeah,",
+        "start": 179.62,
+        "end": 179.86
+      },
+      {
+        "word": "sure.",
+        "start": 179.86,
+        "end": 180.46
+      }
+    ]
+  },
+  {
+    "text": "Sign here.",
+    "timestamp": [
+      180.46,
+      181.28
+    ],
+    "start_time": 180.46,
+    "end_time": 181.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Sign",
+        "start": 180.46,
+        "end": 180.62
+      },
+      {
+        "word": "here.",
+        "start": 180.62,
+        "end": 181.28
+      }
+    ]
+  },
+  {
+    "text": "You're not buying any of this, are you?",
+    "timestamp": [
+      181.4,
+      183.36
+    ],
+    "start_time": 181.4,
+    "end_time": 183.36,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You're",
+        "start": 181.4,
+        "end": 181.76
+      },
+      {
+        "word": "not",
+        "start": 181.76,
+        "end": 181.96
+      },
+      {
+        "word": "buying",
+        "start": 181.96,
+        "end": 182.32
+      },
+      {
+        "word": "any",
+        "start": 182.32,
+        "end": 182.56
+      },
+      {
+        "word": "of",
+        "start": 182.56,
+        "end": 182.66
+      },
+      {
+        "word": "this,",
+        "start": 182.66,
+        "end": 182.82
+      },
+      {
+        "word": "are",
+        "start": 182.82,
+        "end": 182.98
+      },
+      {
+        "word": "you?",
+        "start": 182.98,
+        "end": 183.36
+      }
+    ]
+  },
+  {
+    "text": "Ha ha ha.",
+    "timestamp": [
+      183.64,
+      184.8
+    ],
+    "start_time": 183.64,
+    "end_time": 184.8,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Ha",
+        "start": 183.64,
+        "end": 183.88
+      },
+      {
+        "word": "ha",
+        "start": 183.88,
+        "end": 184.02
+      },
+      {
+        "word": "ha.",
+        "start": 184.02,
+        "end": 184.8
+      }
+    ]
+  },
+  {
+    "text": "I'm sorry.",
+    "timestamp": [
+      196.04,
+      225.98
+    ],
+    "start_time": 196.04,
+    "end_time": 225.98,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 196.04,
+        "end": 203.46
+      },
+      {
+        "word": "sorry.",
+        "start": 203.46,
+        "end": 225.98
+      }
+    ]
+  },
+  {
+    "text": "I am a half of my day",
+    "timestamp": [
+      226.04,
+      230.2
+    ],
+    "start_time": 226.04,
+    "end_time": 230.2,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 226.04,
+        "end": 228.34
+      },
+      {
+        "word": "am",
+        "start": 228.34,
+        "end": 228.72
+      },
+      {
+        "word": "a",
+        "start": 228.72,
+        "end": 228.94
+      },
+      {
+        "word": "half",
+        "start": 228.94,
+        "end": 229.24
+      },
+      {
+        "word": "of",
+        "start": 229.24,
+        "end": 229.52
+      },
+      {
+        "word": "my",
+        "start": 229.52,
+        "end": 229.94
+      },
+      {
+        "word": "day",
+        "start": 229.94,
+        "end": 230.2
+      }
+    ]
+  },
+  {
+    "text": "Break the fast fast",
+    "timestamp": [
+      230.92,
+      232.24
+    ],
+    "start_time": 230.92,
+    "end_time": 232.24,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Break",
+        "start": 230.92,
+        "end": 231.3
+      },
+      {
+        "word": "the",
+        "start": 231.3,
+        "end": 231.54
+      },
+      {
+        "word": "fast",
+        "start": 231.54,
+        "end": 231.84
+      },
+      {
+        "word": "fast",
+        "start": 231.84,
+        "end": 232.24
+      }
+    ]
+  },
+  {
+    "text": "I'm gonna be a half of my day",
+    "timestamp": [
+      232.66,
+      235.64
+    ],
+    "start_time": 232.66,
+    "end_time": 235.64,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 232.66,
+        "end": 232.72
+      },
+      {
+        "word": "gonna",
+        "start": 232.72,
+        "end": 232.88
+      },
+      {
+        "word": "be",
+        "start": 232.88,
+        "end": 232.88
+      },
+      {
+        "word": "a",
+        "start": 232.88,
+        "end": 233.62
+      },
+      {
+        "word": "half",
+        "start": 233.62,
+        "end": 233.9
+      },
+      {
+        "word": "of",
+        "start": 233.9,
+        "end": 234.28
+      },
+      {
+        "word": "my",
+        "start": 234.28,
+        "end": 234.78
+      },
+      {
+        "word": "day",
+        "start": 234.78,
+        "end": 235.64
+      }
+    ]
+  },
+  {
+    "text": "To the horizon",
+    "timestamp": [
+      236.12,
+      237.38
+    ],
+    "start_time": 236.12,
+    "end_time": 237.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "To",
+        "start": 236.12,
+        "end": 236.62
+      },
+      {
+        "word": "the",
+        "start": 236.62,
+        "end": 236.82
+      },
+      {
+        "word": "horizon",
+        "start": 236.82,
+        "end": 237.38
+      }
+    ]
+  },
+  {
+    "text": "To the horizon",
+    "timestamp": [
+      238.3,
+      239.16
+    ],
+    "start_time": 238.3,
+    "end_time": 239.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "To",
+        "start": 238.3,
+        "end": 238.54
+      },
+      {
+        "word": "the",
+        "start": 238.54,
+        "end": 238.9
+      },
+      {
+        "word": "horizon",
+        "start": 238.9,
+        "end": 239.16
+      }
+    ]
+  },
+  {
+    "text": "Please come to the limit",
+    "timestamp": [
+      241.22,
+      245.46
+    ],
+    "start_time": 241.22,
+    "end_time": 245.46,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Please",
+        "start": 241.22,
+        "end": 243.8
+      },
+      {
+        "word": "come",
+        "start": 243.8,
+        "end": 244.02
+      },
+      {
+        "word": "to",
+        "start": 244.02,
+        "end": 245.46
+      },
+      {
+        "word": "the",
+        "start": 245.46,
+        "end": 245.46
+      },
+      {
+        "word": "limit",
+        "start": 245.46,
+        "end": 245.46
+      }
+    ]
+  },
+  {
+    "text": "Wow, how good of a crash Into the falling falling glass",
+    "timestamp": [
+      246.04,
+      251.12
+    ],
+    "start_time": 246.04,
+    "end_time": 251.12,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Wow,",
+        "start": 246.04,
+        "end": 246.92
+      },
+      {
+        "word": "how",
+        "start": 246.92,
+        "end": 247.08
+      },
+      {
+        "word": "good",
+        "start": 247.08,
+        "end": 247.32
+      },
+      {
+        "word": "of",
+        "start": 247.32,
+        "end": 247.66
+      },
+      {
+        "word": "a",
+        "start": 247.66,
+        "end": 248.48
+      },
+      {
+        "word": "crash",
+        "start": 248.48,
+        "end": 248.48
+      },
+      {
+        "word": "Into",
+        "start": 248.78,
+        "end": 249.02
+      },
+      {
+        "word": "the",
+        "start": 249.02,
+        "end": 249.28
+      },
+      {
+        "word": "falling",
+        "start": 249.28,
+        "end": 249.78
+      },
+      {
+        "word": "falling",
+        "start": 249.78,
+        "end": 250.44
+      },
+      {
+        "word": "glass",
+        "start": 250.44,
+        "end": 251.12
+      }
+    ]
+  },
+  {
+    "text": "I'm in the newest time of art",
+    "timestamp": [
+      251.58,
+      253.98
+    ],
+    "start_time": 251.58,
+    "end_time": 253.98,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 251.58,
+        "end": 251.84
+      },
+      {
+        "word": "in",
+        "start": 251.84,
+        "end": 251.92
+      },
+      {
+        "word": "the",
+        "start": 251.92,
+        "end": 252.02
+      },
+      {
+        "word": "newest",
+        "start": 252.02,
+        "end": 252.52
+      },
+      {
+        "word": "time",
+        "start": 252.52,
+        "end": 253.12
+      },
+      {
+        "word": "of",
+        "start": 253.12,
+        "end": 253.46
+      },
+      {
+        "word": "art",
+        "start": 253.46,
+        "end": 253.98
+      }
+    ]
+  },
+  {
+    "text": "Psycho Penelope, yeah",
+    "timestamp": [
+      255.12,
+      259.1
+    ],
+    "start_time": 255.12,
+    "end_time": 259.1,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Psycho",
+        "start": 255.12,
+        "end": 256.06
+      },
+      {
+        "word": "Penelope,",
+        "start": 256.06,
+        "end": 258.74
+      },
+      {
+        "word": "yeah",
+        "start": 258.74,
+        "end": 259.1
+      }
+    ]
+  },
+  {
+    "text": "Hey, see you around.",
+    "timestamp": [
+      276.04,
+      291.12
+    ],
+    "start_time": 276.04,
+    "end_time": 291.12,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey,",
+        "start": 276.04,
+        "end": 290.02
+      },
+      {
+        "word": "see",
+        "start": 290.02,
+        "end": 290.14
+      },
+      {
+        "word": "you",
+        "start": 290.14,
+        "end": 290.26
+      },
+      {
+        "word": "around.",
+        "start": 290.26,
+        "end": 291.12
+      }
+    ]
+  },
+  {
+    "text": "Alright.",
+    "timestamp": [
+      291.12,
+      295.62
+    ],
+    "start_time": 291.12,
+    "end_time": 295.62,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Alright.",
+        "start": 291.12,
+        "end": 295.62
+      }
+    ]
+  },
+  {
+    "text": "Wow, they're everywhere.",
+    "timestamp": [
+      296.08,
+      306.02
+    ],
+    "start_time": 296.08,
+    "end_time": 306.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Wow,",
+        "start": 296.08,
+        "end": 304.74
+      },
+      {
+        "word": "they're",
+        "start": 304.74,
+        "end": 305.02
+      },
+      {
+        "word": "everywhere.",
+        "start": 305.02,
+        "end": 306.02
+      }
+    ]
+  },
+  {
+    "text": "Wow, they're everywhere.",
+    "timestamp": [
+      293.04,
+      306.72
+    ],
+    "start_time": 293.04,
+    "end_time": 306.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Wow,",
+        "start": 293.04,
+        "end": 304.74
+      },
+      {
+        "word": "they're",
+        "start": 304.74,
+        "end": 305.06
+      },
+      {
+        "word": "everywhere.",
+        "start": 305.06,
+        "end": 306.72
+      }
+    ]
+  },
+  {
+    "text": "Oh my god, young girls, short skirts, endless possibility.",
+    "timestamp": [
+      307.3,
+      315.28
+    ],
+    "start_time": 307.3,
+    "end_time": 315.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 307.3,
+        "end": 309.36
+      },
+      {
+        "word": "my",
+        "start": 309.36,
+        "end": 309.66
+      },
+      {
+        "word": "god,",
+        "start": 309.66,
+        "end": 310.5
+      },
+      {
+        "word": "young",
+        "start": 310.5,
+        "end": 310.8
+      },
+      {
+        "word": "girls,",
+        "start": 310.8,
+        "end": 311.6
+      },
+      {
+        "word": "short",
+        "start": 311.6,
+        "end": 312.1
+      },
+      {
+        "word": "skirts,",
+        "start": 312.1,
+        "end": 312.88
+      },
+      {
+        "word": "endless",
+        "start": 312.88,
+        "end": 313.16
+      },
+      {
+        "word": "possibility.",
+        "start": 313.16,
+        "end": 315.28
+      }
+    ]
+  },
+  {
+    "text": "Teacher!",
+    "timestamp": [
+      315.72,
+      316.88
+    ],
+    "start_time": 315.72,
+    "end_time": 316.88,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Teacher!",
+        "start": 315.72,
+        "end": 316.88
+      }
+    ]
+  },
+  {
+    "text": "Calm down, calm down.",
+    "timestamp": [
+      316.88,
+      318.94
+    ],
+    "start_time": 316.88,
+    "end_time": 318.94,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Calm",
+        "start": 316.88,
+        "end": 317.3
+      },
+      {
+        "word": "down,",
+        "start": 317.3,
+        "end": 317.74
+      },
+      {
+        "word": "calm",
+        "start": 317.74,
+        "end": 317.96
+      },
+      {
+        "word": "down.",
+        "start": 317.96,
+        "end": 318.94
+      }
+    ]
+  },
+  {
+    "text": "Just act normal.",
+    "timestamp": [
+      321.64,
+      324.38
+    ],
+    "start_time": 321.64,
+    "end_time": 324.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Just",
+        "start": 321.64,
+        "end": 323.12
+      },
+      {
+        "word": "act",
+        "start": 323.12,
+        "end": 323.46
+      },
+      {
+        "word": "normal.",
+        "start": 323.46,
+        "end": 324.38
+      }
+    ]
+  },
+  {
+    "text": "Hey.",
+    "timestamp": [
+      324.48,
+      325.08
+    ],
+    "start_time": 324.48,
+    "end_time": 325.08,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hey.",
+        "start": 324.48,
+        "end": 325.08
+      }
+    ]
+  },
+  {
+    "text": "Hmm?",
+    "timestamp": [
+      325.12,
+      325.8
+    ],
+    "start_time": 325.12,
+    "end_time": 325.8,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hmm?",
+        "start": 325.12,
+        "end": 325.8
+      }
+    ]
+  },
+  {
+    "text": "Ha ha ha!",
+    "timestamp": [
+      325.94,
+      326.9
+    ],
+    "start_time": 325.94,
+    "end_time": 326.9,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Ha",
+        "start": 325.94,
+        "end": 326.24
+      },
+      {
+        "word": "ha",
+        "start": 326.24,
+        "end": 326.42
+      },
+      {
+        "word": "ha!",
+        "start": 326.42,
+        "end": 326.9
+      }
+    ]
+  },
+  {
+    "text": "Hello?",
+    "timestamp": [
+      327.86,
+      329.16
+    ],
+    "start_time": 327.86,
+    "end_time": 329.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hello?",
+        "start": 327.86,
+        "end": 329.16
+      }
+    ]
+  },
+  {
+    "text": "You are a teacher, aren't ya?",
+    "timestamp": [
+      330.76,
+      333.08
+    ],
+    "start_time": 330.76,
+    "end_time": 333.08,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 330.76,
+        "end": 331.28
+      },
+      {
+        "word": "are",
+        "start": 331.28,
+        "end": 331.46
+      },
+      {
+        "word": "a",
+        "start": 331.46,
+        "end": 331.62
+      },
+      {
+        "word": "teacher,",
+        "start": 331.62,
+        "end": 332.28
+      },
+      {
+        "word": "aren't",
+        "start": 332.28,
+        "end": 332.56
+      },
+      {
+        "word": "ya?",
+        "start": 332.56,
+        "end": 333.08
+      }
+    ]
+  },
+  {
+    "text": "Uhhhh...",
+    "timestamp": [
+      333.22,
+      334.56
+    ],
+    "start_time": 333.22,
+    "end_time": 334.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Uhhhh...",
+        "start": 333.22,
+        "end": 334.56
+      }
+    ]
+  },
+  {
+    "text": "Ha ha ha!",
+    "timestamp": [
+      335.62,
+      336.72
+    ],
+    "start_time": 335.62,
+    "end_time": 336.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Ha",
+        "start": 335.62,
+        "end": 336.12
+      },
+      {
+        "word": "ha",
+        "start": 336.12,
+        "end": 336.26
+      },
+      {
+        "word": "ha!",
+        "start": 336.26,
+        "end": 336.72
+      }
+    ]
+  },
+  {
+    "text": "Yeah, teacher!",
+    "timestamp": [
+      336.72,
+      337.82
+    ],
+    "start_time": 336.72,
+    "end_time": 337.82,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yeah,",
+        "start": 336.72,
+        "end": 337.08
+      },
+      {
+        "word": "teacher!",
+        "start": 337.08,
+        "end": 337.82
+      }
+    ]
+  },
+  {
+    "text": "Ha ha ha ha!",
+    "timestamp": [
+      338.0,
+      339.34
+    ],
+    "start_time": 338.0,
+    "end_time": 339.34,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Ha",
+        "start": 338.0,
+        "end": 338.16
+      },
+      {
+        "word": "ha",
+        "start": 338.16,
+        "end": 338.44
+      },
+      {
+        "word": "ha",
+        "start": 338.44,
+        "end": 338.62
+      },
+      {
+        "word": "ha!",
+        "start": 338.62,
+        "end": 339.34
+      }
+    ]
+  },
+  {
+    "text": "Right,",
+    "timestamp": [
+      339.48,
+      339.88
+    ],
+    "start_time": 339.48,
+    "end_time": 339.88,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Right,",
+        "start": 339.48,
+        "end": 339.88
+      }
+    ]
+  },
+  {
+    "text": "I am a teacher!",
+    "timestamp": [
+      339.88,
+      341.02
+    ],
+    "start_time": 339.88,
+    "end_time": 341.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 339.88,
+        "end": 340.0
+      },
+      {
+        "word": "am",
+        "start": 340.0,
+        "end": 340.2
+      },
+      {
+        "word": "a",
+        "start": 340.2,
+        "end": 340.36
+      },
+      {
+        "word": "teacher!",
+        "start": 340.36,
+        "end": 341.02
+      }
+    ]
+  },
+  {
+    "text": "Ha ha ha ha!",
+    "timestamp": [
+      341.1,
+      342.46
+    ],
+    "start_time": 341.1,
+    "end_time": 342.46,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Ha",
+        "start": 341.1,
+        "end": 341.1
+      },
+      {
+        "word": "ha",
+        "start": 341.1,
+        "end": 341.72
+      },
+      {
+        "word": "ha",
+        "start": 341.72,
+        "end": 341.74
+      },
+      {
+        "word": "ha!",
+        "start": 341.74,
+        "end": 342.46
+      }
+    ]
+  },
+  {
+    "text": "Well now, what kind of help do you need from the teacher?",
+    "timestamp": [
+      343.68,
+      346.84
+    ],
+    "start_time": 343.68,
+    "end_time": 346.84,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well",
+        "start": 343.68,
+        "end": 343.8
+      },
+      {
+        "word": "now,",
+        "start": 343.8,
+        "end": 344.3
+      },
+      {
+        "word": "what",
+        "start": 344.3,
+        "end": 344.46
+      },
+      {
+        "word": "kind",
+        "start": 344.46,
+        "end": 344.68
+      },
+      {
+        "word": "of",
+        "start": 344.68,
+        "end": 344.76
+      },
+      {
+        "word": "help",
+        "start": 344.76,
+        "end": 344.96
+      },
+      {
+        "word": "do",
+        "start": 344.96,
+        "end": 345.16
+      },
+      {
+        "word": "you",
+        "start": 345.16,
+        "end": 345.38
+      },
+      {
+        "word": "need",
+        "start": 345.38,
+        "end": 345.6
+      },
+      {
+        "word": "from",
+        "start": 345.6,
+        "end": 345.78
+      },
+      {
+        "word": "the",
+        "start": 345.78,
+        "end": 345.9
+      },
+      {
+        "word": "teacher?",
+        "start": 345.9,
+        "end": 346.84
+      }
+    ]
+  },
+  {
+    "text": "Could you give me the ball at your feet?",
+    "timestamp": [
+      346.84,
+      349.76
+    ],
+    "start_time": 346.84,
+    "end_time": 349.76,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Could",
+        "start": 346.84,
+        "end": 347.12
+      },
+      {
+        "word": "you",
+        "start": 347.12,
+        "end": 347.26
+      },
+      {
+        "word": "give",
+        "start": 347.26,
+        "end": 347.44
+      },
+      {
+        "word": "me",
+        "start": 347.44,
+        "end": 347.56
+      },
+      {
+        "word": "the",
+        "start": 347.56,
+        "end": 347.7
+      },
+      {
+        "word": "ball",
+        "start": 347.7,
+        "end": 348.04
+      },
+      {
+        "word": "at",
+        "start": 348.04,
+        "end": 348.8
+      },
+      {
+        "word": "your",
+        "start": 348.8,
+        "end": 348.94
+      },
+      {
+        "word": "feet?",
+        "start": 348.94,
+        "end": 349.76
+      }
+    ]
+  },
+  {
+    "text": "Huh?",
+    "timestamp": [
+      349.96,
+      350.92
+    ],
+    "start_time": 349.96,
+    "end_time": 350.92,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Huh?",
+        "start": 349.96,
+        "end": 350.92
+      }
+    ]
+  },
+  {
+    "text": "Oh,",
+    "timestamp": [
+      351.14,
+      351.54
+    ],
+    "start_time": 351.14,
+    "end_time": 351.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh,",
+        "start": 351.14,
+        "end": 351.54
+      }
+    ]
+  },
+  {
+    "text": "I didn't notice, silly me, silly teacher.",
+    "timestamp": [
+      351.54,
+      354.9
+    ],
+    "start_time": 351.54,
+    "end_time": 354.9,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 351.54,
+        "end": 351.72
+      },
+      {
+        "word": "didn't",
+        "start": 351.72,
+        "end": 351.94
+      },
+      {
+        "word": "notice,",
+        "start": 351.94,
+        "end": 352.5
+      },
+      {
+        "word": "silly",
+        "start": 352.5,
+        "end": 352.78
+      },
+      {
+        "word": "me,",
+        "start": 352.78,
+        "end": 353.26
+      },
+      {
+        "word": "silly",
+        "start": 353.26,
+        "end": 353.52
+      },
+      {
+        "word": "teacher.",
+        "start": 353.52,
+        "end": 354.9
+      }
+    ]
+  },
+  {
+    "text": "Here you go.",
+    "timestamp": [
+      355.64,
+      356.96
+    ],
+    "start_time": 355.64,
+    "end_time": 356.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Here",
+        "start": 355.64,
+        "end": 355.64
+      },
+      {
+        "word": "you",
+        "start": 355.64,
+        "end": 355.78
+      },
+      {
+        "word": "go.",
+        "start": 355.78,
+        "end": 356.96
+      }
+    ]
+  },
+  {
+    "text": "Alright.",
+    "timestamp": [
+      357.52,
+      358.66
+    ],
+    "start_time": 357.52,
+    "end_time": 358.66,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Alright.",
+        "start": 357.52,
+        "end": 358.66
+      }
+    ]
+  },
+  {
+    "text": "Thank you very much, teacher.",
+    "timestamp": [
+      358.9,
+      362.84
+    ],
+    "start_time": 358.9,
+    "end_time": 362.84,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Thank",
+        "start": 358.9,
+        "end": 359.2
+      },
+      {
+        "word": "you",
+        "start": 359.2,
+        "end": 359.28
+      },
+      {
+        "word": "very",
+        "start": 359.28,
+        "end": 359.44
+      },
+      {
+        "word": "much,",
+        "start": 359.44,
+        "end": 359.9
+      },
+      {
+        "word": "teacher.",
+        "start": 359.9,
+        "end": 362.84
+      }
+    ]
+  },
+  {
+    "text": "Like a sweet beautiful fantasy.",
+    "timestamp": [
+      363.62,
+      367.8
+    ],
+    "start_time": 363.62,
+    "end_time": 367.8,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Like",
+        "start": 363.62,
+        "end": 364.86
+      },
+      {
+        "word": "a",
+        "start": 364.86,
+        "end": 365.92
+      },
+      {
+        "word": "sweet",
+        "start": 365.92,
+        "end": 366.1
+      },
+      {
+        "word": "beautiful",
+        "start": 366.1,
+        "end": 366.52
+      },
+      {
+        "word": "fantasy.",
+        "start": 366.52,
+        "end": 367.8
+      }
+    ]
+  },
+  {
+    "text": "Well,",
+    "timestamp": [
+      368.54,
+      369.42
+    ],
+    "start_time": 368.54,
+    "end_time": 369.42,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 368.54,
+        "end": 369.42
+      }
+    ]
+  },
+  {
+    "text": "you don't waste much time.",
+    "timestamp": [
+      369.42,
+      371.28
+    ],
+    "start_time": 369.42,
+    "end_time": 371.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "you",
+        "start": 369.42,
+        "end": 369.58
+      },
+      {
+        "word": "don't",
+        "start": 369.58,
+        "end": 369.76
+      },
+      {
+        "word": "waste",
+        "start": 369.76,
+        "end": 370.02
+      },
+      {
+        "word": "much",
+        "start": 370.02,
+        "end": 370.32
+      },
+      {
+        "word": "time.",
+        "start": 370.32,
+        "end": 371.28
+      }
+    ]
+  },
+  {
+    "text": "Who are you?",
+    "timestamp": [
+      371.36,
+      373.46
+    ],
+    "start_time": 371.36,
+    "end_time": 373.46,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Who",
+        "start": 371.36,
+        "end": 372.14
+      },
+      {
+        "word": "are",
+        "start": 372.14,
+        "end": 372.28
+      },
+      {
+        "word": "you?",
+        "start": 372.28,
+        "end": 373.46
+      }
+    ]
+  },
+  {
+    "text": "Take it easy pretty boy.",
+    "timestamp": [
+      373.68,
+      376.62
+    ],
+    "start_time": 373.68,
+    "end_time": 376.62,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Take",
+        "start": 373.68,
+        "end": 373.98
+      },
+      {
+        "word": "it",
+        "start": 373.98,
+        "end": 374.18
+      },
+      {
+        "word": "easy",
+        "start": 374.18,
+        "end": 374.42
+      },
+      {
+        "word": "pretty",
+        "start": 374.42,
+        "end": 374.72
+      },
+      {
+        "word": "boy.",
+        "start": 374.72,
+        "end": 376.62
+      }
+    ]
+  },
+  {
+    "text": "My name's Hidero Osawa.",
+    "timestamp": [
+      376.86,
+      378.96
+    ],
+    "start_time": 376.86,
+    "end_time": 378.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "My",
+        "start": 376.86,
+        "end": 377.38
+      },
+      {
+        "word": "name's",
+        "start": 377.38,
+        "end": 377.8
+      },
+      {
+        "word": "Hidero",
+        "start": 377.8,
+        "end": 378.24
+      },
+      {
+        "word": "Osawa.",
+        "start": 378.24,
+        "end": 378.96
+      }
+    ]
+  },
+  {
+    "text": "I'm a student teacher just like you.",
+    "timestamp": [
+      378.96,
+      381.0
+    ],
+    "start_time": 378.96,
+    "end_time": 381.0,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 378.96,
+        "end": 379.08
+      },
+      {
+        "word": "a",
+        "start": 379.08,
+        "end": 379.18
+      },
+      {
+        "word": "student",
+        "start": 379.18,
+        "end": 379.38
+      },
+      {
+        "word": "teacher",
+        "start": 379.38,
+        "end": 379.88
+      },
+      {
+        "word": "just",
+        "start": 379.88,
+        "end": 380.12
+      },
+      {
+        "word": "like",
+        "start": 380.12,
+        "end": 380.4
+      },
+      {
+        "word": "you.",
+        "start": 380.4,
+        "end": 381.0
+      }
+    ]
+  },
+  {
+    "text": "So how's it going?",
+    "timestamp": [
+      381.0,
+      383.26
+    ],
+    "start_time": 381.0,
+    "end_time": 383.26,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "So",
+        "start": 381.0,
+        "end": 381.12
+      },
+      {
+        "word": "how's",
+        "start": 381.12,
+        "end": 381.38
+      },
+      {
+        "word": "it",
+        "start": 381.38,
+        "end": 381.48
+      },
+      {
+        "word": "going?",
+        "start": 381.48,
+        "end": 383.26
+      }
+    ]
+  },
+  {
+    "text": "Yeah.",
+    "timestamp": [
+      383.26,
+      384.14
+    ],
+    "start_time": 383.26,
+    "end_time": 384.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yeah.",
+        "start": 383.26,
+        "end": 384.14
+      }
+    ]
+  },
+  {
+    "text": "Not bad so far.",
+    "timestamp": [
+      384.14,
+      386.96
+    ],
+    "start_time": 384.14,
+    "end_time": 386.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Not",
+        "start": 384.14,
+        "end": 384.58
+      },
+      {
+        "word": "bad",
+        "start": 384.58,
+        "end": 384.82
+      },
+      {
+        "word": "so",
+        "start": 384.82,
+        "end": 385.1
+      },
+      {
+        "word": "far.",
+        "start": 385.1,
+        "end": 386.96
+      }
+    ]
+  },
+  {
+    "text": "So it's the third time, huh?",
+    "timestamp": [
+      387.16,
+      389.08
+    ],
+    "start_time": 387.16,
+    "end_time": 389.08,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "So",
+        "start": 387.16,
+        "end": 387.5
+      },
+      {
+        "word": "it's",
+        "start": 387.5,
+        "end": 387.66
+      },
+      {
+        "word": "the",
+        "start": 387.66,
+        "end": 387.74
+      },
+      {
+        "word": "third",
+        "start": 387.74,
+        "end": 387.98
+      },
+      {
+        "word": "time,",
+        "start": 387.98,
+        "end": 388.38
+      },
+      {
+        "word": "huh?",
+        "start": 388.38,
+        "end": 389.08
+      }
+    ]
+  },
+  {
+    "text": "Why are you repeating student teaching so many times?",
+    "timestamp": [
+      389.08,
+      391.64
+    ],
+    "start_time": 389.08,
+    "end_time": 391.64,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Why",
+        "start": 389.08,
+        "end": 389.28
+      },
+      {
+        "word": "are",
+        "start": 389.28,
+        "end": 389.46
+      },
+      {
+        "word": "you",
+        "start": 389.46,
+        "end": 389.56
+      },
+      {
+        "word": "repeating",
+        "start": 389.56,
+        "end": 389.96
+      },
+      {
+        "word": "student",
+        "start": 389.96,
+        "end": 390.28
+      },
+      {
+        "word": "teaching",
+        "start": 390.28,
+        "end": 390.66
+      },
+      {
+        "word": "so",
+        "start": 390.66,
+        "end": 390.9
+      },
+      {
+        "word": "many",
+        "start": 390.9,
+        "end": 391.04
+      },
+      {
+        "word": "times?",
+        "start": 391.04,
+        "end": 391.64
+      }
+    ]
+  },
+  {
+    "text": "Well, there are various reasons.",
+    "timestamp": [
+      391.64,
+      394.32
+    ],
+    "start_time": 391.64,
+    "end_time": 394.32,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 391.64,
+        "end": 391.92
+      },
+      {
+        "word": "there",
+        "start": 391.92,
+        "end": 392.16
+      },
+      {
+        "word": "are",
+        "start": 392.16,
+        "end": 392.36
+      },
+      {
+        "word": "various",
+        "start": 392.36,
+        "end": 392.84
+      },
+      {
+        "word": "reasons.",
+        "start": 392.84,
+        "end": 394.32
+      }
+    ]
+  },
+  {
+    "text": "Various?",
+    "timestamp": [
+      394.32,
+      395.34
+    ],
+    "start_time": 394.32,
+    "end_time": 395.34,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Various?",
+        "start": 394.32,
+        "end": 395.34
+      }
+    ]
+  },
+  {
+    "text": "Girls, girls.",
+    "timestamp": [
+      395.42,
+      397.16
+    ],
+    "start_time": 395.42,
+    "end_time": 397.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Girls,",
+        "start": 395.42,
+        "end": 396.2
+      },
+      {
+        "word": "girls.",
+        "start": 396.2,
+        "end": 397.16
+      }
+    ]
+  },
+  {
+    "text": "I had 13 girls the year before last.",
+    "timestamp": [
+      397.28,
+      400.38
+    ],
+    "start_time": 397.28,
+    "end_time": 400.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 397.28,
+        "end": 397.62
+      },
+      {
+        "word": "had",
+        "start": 397.62,
+        "end": 397.76
+      },
+      {
+        "word": "13",
+        "start": 397.76,
+        "end": 398.24
+      },
+      {
+        "word": "girls",
+        "start": 398.24,
+        "end": 398.68
+      },
+      {
+        "word": "the",
+        "start": 398.68,
+        "end": 398.9
+      },
+      {
+        "word": "year",
+        "start": 398.9,
+        "end": 399.08
+      },
+      {
+        "word": "before",
+        "start": 399.08,
+        "end": 399.34
+      },
+      {
+        "word": "last.",
+        "start": 399.34,
+        "end": 400.38
+      }
+    ]
+  },
+  {
+    "text": "20 last year.",
+    "timestamp": [
+      400.38,
+      401.82
+    ],
+    "start_time": 400.38,
+    "end_time": 401.82,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "20",
+        "start": 400.38,
+        "end": 400.76
+      },
+      {
+        "word": "last",
+        "start": 400.76,
+        "end": 401.12
+      },
+      {
+        "word": "year.",
+        "start": 401.12,
+        "end": 401.82
+      }
+    ]
+  },
+  {
+    "text": "You had?",
+    "timestamp": [
+      401.82,
+      402.94
+    ],
+    "start_time": 401.82,
+    "end_time": 402.94,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 401.82,
+        "end": 402.04
+      },
+      {
+        "word": "had?",
+        "start": 402.04,
+        "end": 402.94
+      }
+    ]
+  },
+  {
+    "text": "As in biblically you have them?",
+    "timestamp": [
+      402.96,
+      405.58
+    ],
+    "start_time": 402.96,
+    "end_time": 405.58,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "As",
+        "start": 402.96,
+        "end": 403.48
+      },
+      {
+        "word": "in",
+        "start": 403.48,
+        "end": 403.76
+      },
+      {
+        "word": "biblically",
+        "start": 403.76,
+        "end": 404.42
+      },
+      {
+        "word": "you",
+        "start": 404.42,
+        "end": 404.72
+      },
+      {
+        "word": "have",
+        "start": 404.72,
+        "end": 404.96
+      },
+      {
+        "word": "them?",
+        "start": 404.96,
+        "end": 405.58
+      }
+    ]
+  },
+  {
+    "text": "Well,",
+    "timestamp": [
+      405.58,
+      406.78
+    ],
+    "start_time": 405.58,
+    "end_time": 406.78,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 405.58,
+        "end": 406.78
+      }
+    ]
+  },
+  {
+    "text": "it was really more like the heavy petting definition.",
+    "timestamp": [
+      406.78,
+      409.94
+    ],
+    "start_time": 406.78,
+    "end_time": 409.94,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "it",
+        "start": 406.78,
+        "end": 406.9
+      },
+      {
+        "word": "was",
+        "start": 406.9,
+        "end": 407.06
+      },
+      {
+        "word": "really",
+        "start": 407.06,
+        "end": 407.3
+      },
+      {
+        "word": "more",
+        "start": 407.3,
+        "end": 407.54
+      },
+      {
+        "word": "like",
+        "start": 407.54,
+        "end": 407.82
+      },
+      {
+        "word": "the",
+        "start": 407.82,
+        "end": 407.96
+      },
+      {
+        "word": "heavy",
+        "start": 407.96,
+        "end": 408.26
+      },
+      {
+        "word": "petting",
+        "start": 408.26,
+        "end": 408.8
+      },
+      {
+        "word": "definition.",
+        "start": 408.8,
+        "end": 409.94
+      }
+    ]
+  },
+  {
+    "text": "Teach me!",
+    "timestamp": [
+      410.24,
+      411.66
+    ],
+    "start_time": 410.24,
+    "end_time": 411.66,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Teach",
+        "start": 410.24,
+        "end": 411.16
+      },
+      {
+        "word": "me!",
+        "start": 411.16,
+        "end": 411.66
+      }
+    ]
+  },
+  {
+    "text": "You gotta show me how you do it!",
+    "timestamp": [
+      411.66,
+      413.4
+    ],
+    "start_time": 411.66,
+    "end_time": 413.4,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 411.66,
+        "end": 411.8
+      },
+      {
+        "word": "gotta",
+        "start": 411.8,
+        "end": 412.0
+      },
+      {
+        "word": "show",
+        "start": 412.0,
+        "end": 412.26
+      },
+      {
+        "word": "me",
+        "start": 412.26,
+        "end": 412.42
+      },
+      {
+        "word": "how",
+        "start": 412.42,
+        "end": 412.56
+      },
+      {
+        "word": "you",
+        "start": 412.56,
+        "end": 412.68
+      },
+      {
+        "word": "do",
+        "start": 412.68,
+        "end": 412.92
+      },
+      {
+        "word": "it!",
+        "start": 412.92,
+        "end": 413.4
+      }
+    ]
+  },
+  {
+    "text": "Well, they're all kinds of...",
+    "timestamp": [
+      413.7,
+      415.86
+    ],
+    "start_time": 413.7,
+    "end_time": 415.86,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 413.7,
+        "end": 414.46
+      },
+      {
+        "word": "they're",
+        "start": 414.46,
+        "end": 414.7
+      },
+      {
+        "word": "all",
+        "start": 414.7,
+        "end": 414.86
+      },
+      {
+        "word": "kinds",
+        "start": 414.86,
+        "end": 415.2
+      },
+      {
+        "word": "of...",
+        "start": 415.2,
+        "end": 415.86
+      }
+    ]
+  },
+  {
+    "text": "Oops, we're gonna be late.",
+    "timestamp": [
+      416.62,
+      419.34
+    ],
+    "start_time": 416.62,
+    "end_time": 419.34,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oops,",
+        "start": 416.62,
+        "end": 417.68
+      },
+      {
+        "word": "we're",
+        "start": 417.68,
+        "end": 417.94
+      },
+      {
+        "word": "gonna",
+        "start": 417.94,
+        "end": 418.1
+      },
+      {
+        "word": "be",
+        "start": 418.1,
+        "end": 418.28
+      },
+      {
+        "word": "late.",
+        "start": 418.28,
+        "end": 419.34
+      }
+    ]
+  },
+  {
+    "text": "Well, let's get a move on.",
+    "timestamp": [
+      419.74,
+      422.36
+    ],
+    "start_time": 419.74,
+    "end_time": 422.36,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 419.74,
+        "end": 420.24
+      },
+      {
+        "word": "let's",
+        "start": 420.24,
+        "end": 420.48
+      },
+      {
+        "word": "get",
+        "start": 420.48,
+        "end": 420.62
+      },
+      {
+        "word": "a",
+        "start": 420.62,
+        "end": 420.72
+      },
+      {
+        "word": "move",
+        "start": 420.72,
+        "end": 420.9
+      },
+      {
+        "word": "on.",
+        "start": 420.9,
+        "end": 422.36
+      }
+    ]
+  },
+  {
+    "text": "Yeah, in a career like this, it's possible to be hooking up with 16 year old girls when you're in your 40s.",
+    "timestamp": [
+      422.74,
+      429.68
+    ],
+    "start_time": 422.74,
+    "end_time": 429.68,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yeah,",
+        "start": 422.74,
+        "end": 423.96
+      },
+      {
+        "word": "in",
+        "start": 423.96,
+        "end": 424.08
+      },
+      {
+        "word": "a",
+        "start": 424.08,
+        "end": 424.18
+      },
+      {
+        "word": "career",
+        "start": 424.18,
+        "end": 424.38
+      },
+      {
+        "word": "like",
+        "start": 424.38,
+        "end": 424.68
+      },
+      {
+        "word": "this,",
+        "start": 424.68,
+        "end": 425.44
+      },
+      {
+        "word": "it's",
+        "start": 425.48,
+        "end": 425.74
+      },
+      {
+        "word": "possible",
+        "start": 425.74,
+        "end": 426.2
+      },
+      {
+        "word": "to",
+        "start": 426.2,
+        "end": 426.38
+      },
+      {
+        "word": "be",
+        "start": 426.38,
+        "end": 426.48
+      },
+      {
+        "word": "hooking",
+        "start": 426.48,
+        "end": 426.76
+      },
+      {
+        "word": "up",
+        "start": 426.76,
+        "end": 426.96
+      },
+      {
+        "word": "with",
+        "start": 426.96,
+        "end": 427.14
+      },
+      {
+        "word": "16",
+        "start": 427.14,
+        "end": 427.5
+      },
+      {
+        "word": "year",
+        "start": 427.5,
+        "end": 427.8
+      },
+      {
+        "word": "old",
+        "start": 427.8,
+        "end": 427.94
+      },
+      {
+        "word": "girls",
+        "start": 427.94,
+        "end": 428.28
+      },
+      {
+        "word": "when",
+        "start": 428.28,
+        "end": 428.5
+      },
+      {
+        "word": "you're",
+        "start": 428.5,
+        "end": 428.68
+      },
+      {
+        "word": "in",
+        "start": 428.68,
+        "end": 428.78
+      },
+      {
+        "word": "your",
+        "start": 428.78,
+        "end": 428.88
+      },
+      {
+        "word": "40s.",
+        "start": 428.88,
+        "end": 429.68
+      }
+    ]
+  },
+  {
+    "text": "I never even in my wildest dreams know.",
+    "timestamp": [
+      429.36,
+      434.68
+    ],
+    "start_time": 429.36,
+    "end_time": 434.68,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 429.36,
+        "end": 430.0
+      },
+      {
+        "word": "never",
+        "start": 430.0,
+        "end": 431.02
+      },
+      {
+        "word": "even",
+        "start": 431.02,
+        "end": 431.38
+      },
+      {
+        "word": "in",
+        "start": 431.38,
+        "end": 431.58
+      },
+      {
+        "word": "my",
+        "start": 431.58,
+        "end": 431.78
+      },
+      {
+        "word": "wildest",
+        "start": 431.78,
+        "end": 432.62
+      },
+      {
+        "word": "dreams",
+        "start": 432.62,
+        "end": 433.0
+      },
+      {
+        "word": "know.",
+        "start": 433.0,
+        "end": 434.68
+      }
+    ]
+  },
+  {
+    "text": "Don't worry, I'll teach you the finer techniques later.",
+    "timestamp": [
+      434.86,
+      438.64
+    ],
+    "start_time": 434.86,
+    "end_time": 438.64,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Don't",
+        "start": 434.86,
+        "end": 435.8
+      },
+      {
+        "word": "worry,",
+        "start": 435.8,
+        "end": 436.36
+      },
+      {
+        "word": "I'll",
+        "start": 436.36,
+        "end": 436.64
+      },
+      {
+        "word": "teach",
+        "start": 436.64,
+        "end": 436.84
+      },
+      {
+        "word": "you",
+        "start": 436.84,
+        "end": 436.98
+      },
+      {
+        "word": "the",
+        "start": 436.98,
+        "end": 437.08
+      },
+      {
+        "word": "finer",
+        "start": 437.08,
+        "end": 437.34
+      },
+      {
+        "word": "techniques",
+        "start": 437.34,
+        "end": 437.78
+      },
+      {
+        "word": "later.",
+        "start": 437.78,
+        "end": 438.64
+      }
+    ]
+  },
+  {
+    "text": "Yes, master.",
+    "timestamp": [
+      438.68,
+      440.14
+    ],
+    "start_time": 438.68,
+    "end_time": 440.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yes,",
+        "start": 438.68,
+        "end": 439.18
+      },
+      {
+        "word": "master.",
+        "start": 439.18,
+        "end": 440.14
+      }
+    ]
+  },
+  {
+    "text": "As you know, student teaching is part of the college curriculum.",
+    "timestamp": [
+      444.66,
+      449.16
+    ],
+    "start_time": 444.66,
+    "end_time": 449.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "As",
+        "start": 444.66,
+        "end": 446.06
+      },
+      {
+        "word": "you",
+        "start": 446.06,
+        "end": 446.2
+      },
+      {
+        "word": "know,",
+        "start": 446.2,
+        "end": 446.48
+      },
+      {
+        "word": "student",
+        "start": 446.48,
+        "end": 446.74
+      },
+      {
+        "word": "teaching",
+        "start": 446.74,
+        "end": 447.2
+      },
+      {
+        "word": "is",
+        "start": 447.2,
+        "end": 447.42
+      },
+      {
+        "word": "part",
+        "start": 447.42,
+        "end": 447.64
+      },
+      {
+        "word": "of",
+        "start": 447.64,
+        "end": 447.76
+      },
+      {
+        "word": "the",
+        "start": 447.76,
+        "end": 447.86
+      },
+      {
+        "word": "college",
+        "start": 447.86,
+        "end": 448.12
+      },
+      {
+        "word": "curriculum.",
+        "start": 448.12,
+        "end": 449.16
+      }
+    ]
+  },
+  {
+    "text": "However,",
+    "timestamp": [
+      449.24,
+      449.86
+    ],
+    "start_time": 449.24,
+    "end_time": 449.86,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "However,",
+        "start": 449.24,
+        "end": 449.86
+      }
+    ]
+  },
+  {
+    "text": "our students here would not view it that way, so please be extra cautious.",
+    "timestamp": [
+      449.86,
+      454.44
+    ],
+    "start_time": 449.86,
+    "end_time": 454.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "our",
+        "start": 449.86,
+        "end": 450.16
+      },
+      {
+        "word": "students",
+        "start": 450.16,
+        "end": 450.48
+      },
+      {
+        "word": "here",
+        "start": 450.48,
+        "end": 450.8
+      },
+      {
+        "word": "would",
+        "start": 450.8,
+        "end": 450.96
+      },
+      {
+        "word": "not",
+        "start": 450.96,
+        "end": 451.12
+      },
+      {
+        "word": "view",
+        "start": 451.12,
+        "end": 451.38
+      },
+      {
+        "word": "it",
+        "start": 451.38,
+        "end": 451.5
+      },
+      {
+        "word": "that",
+        "start": 451.5,
+        "end": 451.66
+      },
+      {
+        "word": "way,",
+        "start": 451.66,
+        "end": 452.04
+      },
+      {
+        "word": "so",
+        "start": 452.04,
+        "end": 452.24
+      },
+      {
+        "word": "please",
+        "start": 452.24,
+        "end": 452.62
+      },
+      {
+        "word": "be",
+        "start": 452.62,
+        "end": 453.08
+      },
+      {
+        "word": "extra",
+        "start": 453.08,
+        "end": 453.5
+      },
+      {
+        "word": "cautious.",
+        "start": 453.5,
+        "end": 454.44
+      }
+    ]
+  },
+  {
+    "text": "If you have any questions about details, please address them to your homeroom teacher.",
+    "timestamp": [
+      454.48,
+      458.3
+    ],
+    "start_time": 454.48,
+    "end_time": 458.3,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "If",
+        "start": 454.48,
+        "end": 454.6
+      },
+      {
+        "word": "you",
+        "start": 454.6,
+        "end": 454.72
+      },
+      {
+        "word": "have",
+        "start": 454.72,
+        "end": 454.84
+      },
+      {
+        "word": "any",
+        "start": 454.84,
+        "end": 454.98
+      },
+      {
+        "word": "questions",
+        "start": 454.98,
+        "end": 455.36
+      },
+      {
+        "word": "about",
+        "start": 455.36,
+        "end": 455.68
+      },
+      {
+        "word": "details,",
+        "start": 455.68,
+        "end": 456.3
+      },
+      {
+        "word": "please",
+        "start": 456.3,
+        "end": 456.48
+      },
+      {
+        "word": "address",
+        "start": 456.48,
+        "end": 456.82
+      },
+      {
+        "word": "them",
+        "start": 456.82,
+        "end": 457.06
+      },
+      {
+        "word": "to",
+        "start": 457.06,
+        "end": 457.2
+      },
+      {
+        "word": "your",
+        "start": 457.2,
+        "end": 457.38
+      },
+      {
+        "word": "homeroom",
+        "start": 457.38,
+        "end": 457.78
+      },
+      {
+        "word": "teacher.",
+        "start": 457.78,
+        "end": 458.3
+      }
+    ]
+  },
+  {
+    "text": "And please, make a point of not causing any trouble during the two weeks you're here.",
+    "timestamp": [
+      458.36,
+      463.28
+    ],
+    "start_time": 458.36,
+    "end_time": 463.28,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "And",
+        "start": 458.36,
+        "end": 458.76
+      },
+      {
+        "word": "please,",
+        "start": 458.76,
+        "end": 459.26
+      },
+      {
+        "word": "make",
+        "start": 459.26,
+        "end": 459.68
+      },
+      {
+        "word": "a",
+        "start": 459.68,
+        "end": 459.8
+      },
+      {
+        "word": "point",
+        "start": 459.8,
+        "end": 459.96
+      },
+      {
+        "word": "of",
+        "start": 459.96,
+        "end": 460.08
+      },
+      {
+        "word": "not",
+        "start": 460.08,
+        "end": 460.24
+      },
+      {
+        "word": "causing",
+        "start": 460.24,
+        "end": 460.54
+      },
+      {
+        "word": "any",
+        "start": 460.54,
+        "end": 460.88
+      },
+      {
+        "word": "trouble",
+        "start": 460.88,
+        "end": 461.24
+      },
+      {
+        "word": "during",
+        "start": 461.24,
+        "end": 461.5
+      },
+      {
+        "word": "the",
+        "start": 461.5,
+        "end": 461.66
+      },
+      {
+        "word": "two",
+        "start": 461.66,
+        "end": 461.9
+      },
+      {
+        "word": "weeks",
+        "start": 461.9,
+        "end": 462.12
+      },
+      {
+        "word": "you're",
+        "start": 462.12,
+        "end": 462.38
+      },
+      {
+        "word": "here.",
+        "start": 462.38,
+        "end": 463.28
+      }
+    ]
+  },
+  {
+    "text": "Though I do feel somewhat responsible as a homeroom teacher, this classy is, um, quite a piece of work.",
+    "timestamp": [
+      463.28,
+      471.54
+    ],
+    "start_time": 463.28,
+    "end_time": 471.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Though",
+        "start": 463.28,
+        "end": 463.72
+      },
+      {
+        "word": "I",
+        "start": 463.72,
+        "end": 464.02
+      },
+      {
+        "word": "do",
+        "start": 464.02,
+        "end": 464.24
+      },
+      {
+        "word": "feel",
+        "start": 464.24,
+        "end": 464.54
+      },
+      {
+        "word": "somewhat",
+        "start": 464.54,
+        "end": 464.92
+      },
+      {
+        "word": "responsible",
+        "start": 464.92,
+        "end": 465.56
+      },
+      {
+        "word": "as",
+        "start": 465.56,
+        "end": 465.82
+      },
+      {
+        "word": "a",
+        "start": 465.82,
+        "end": 466.0
+      },
+      {
+        "word": "homeroom",
+        "start": 466.0,
+        "end": 466.32
+      },
+      {
+        "word": "teacher,",
+        "start": 466.32,
+        "end": 467.44
+      },
+      {
+        "word": "this",
+        "start": 467.62,
+        "end": 467.92
+      },
+      {
+        "word": "classy",
+        "start": 467.92,
+        "end": 468.38
+      },
+      {
+        "word": "is,",
+        "start": 468.38,
+        "end": 468.84
+      },
+      {
+        "word": "um,",
+        "start": 468.84,
+        "end": 469.84
+      },
+      {
+        "word": "quite",
+        "start": 469.84,
+        "end": 470.14
+      },
+      {
+        "word": "a",
+        "start": 470.14,
+        "end": 470.32
+      },
+      {
+        "word": "piece",
+        "start": 470.32,
+        "end": 470.5
+      },
+      {
+        "word": "of",
+        "start": 470.5,
+        "end": 470.76
+      },
+      {
+        "word": "work.",
+        "start": 470.76,
+        "end": 471.54
+      }
+    ]
+  },
+  {
+    "text": "I'm in my forties and she's just sixteen, I'm in my forties.",
+    "timestamp": [
+      471.54,
+      477.26
+    ],
+    "start_time": 471.54,
+    "end_time": 477.26,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 471.54,
+        "end": 472.06
+      },
+      {
+        "word": "in",
+        "start": 472.06,
+        "end": 472.18
+      },
+      {
+        "word": "my",
+        "start": 472.18,
+        "end": 472.32
+      },
+      {
+        "word": "forties",
+        "start": 472.32,
+        "end": 472.96
+      },
+      {
+        "word": "and",
+        "start": 472.96,
+        "end": 473.38
+      },
+      {
+        "word": "she's",
+        "start": 473.38,
+        "end": 473.72
+      },
+      {
+        "word": "just",
+        "start": 473.72,
+        "end": 474.0
+      },
+      {
+        "word": "sixteen,",
+        "start": 474.0,
+        "end": 475.0
+      },
+      {
+        "word": "I'm",
+        "start": 475.0,
+        "end": 475.6
+      },
+      {
+        "word": "in",
+        "start": 475.6,
+        "end": 475.74
+      },
+      {
+        "word": "my",
+        "start": 475.74,
+        "end": 475.94
+      },
+      {
+        "word": "forties.",
+        "start": 475.94,
+        "end": 477.26
+      }
+    ]
+  },
+  {
+    "text": "Welcome home, dear sweet sensei.",
+    "timestamp": [
+      477.52,
+      480.02
+    ],
+    "start_time": 477.52,
+    "end_time": 480.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Welcome",
+        "start": 477.52,
+        "end": 477.88
+      },
+      {
+        "word": "home,",
+        "start": 477.88,
+        "end": 478.52
+      },
+      {
+        "word": "dear",
+        "start": 478.52,
+        "end": 478.68
+      },
+      {
+        "word": "sweet",
+        "start": 478.68,
+        "end": 479.1
+      },
+      {
+        "word": "sensei.",
+        "start": 479.1,
+        "end": 480.02
+      }
+    ]
+  },
+  {
+    "text": "Would you like a bath or some dinner?",
+    "timestamp": [
+      480.02,
+      482.58
+    ],
+    "start_time": 480.02,
+    "end_time": 482.58,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Would",
+        "start": 480.02,
+        "end": 480.28
+      },
+      {
+        "word": "you",
+        "start": 480.28,
+        "end": 480.4
+      },
+      {
+        "word": "like",
+        "start": 480.4,
+        "end": 480.54
+      },
+      {
+        "word": "a",
+        "start": 480.54,
+        "end": 480.74
+      },
+      {
+        "word": "bath",
+        "start": 480.74,
+        "end": 480.98
+      },
+      {
+        "word": "or",
+        "start": 480.98,
+        "end": 481.5
+      },
+      {
+        "word": "some",
+        "start": 481.5,
+        "end": 481.76
+      },
+      {
+        "word": "dinner?",
+        "start": 481.76,
+        "end": 482.58
+      }
+    ]
+  },
+  {
+    "text": "Oh, Eureka.",
+    "timestamp": [
+      484.86,
+      486.58
+    ],
+    "start_time": 484.86,
+    "end_time": 486.58,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh,",
+        "start": 484.86,
+        "end": 485.64
+      },
+      {
+        "word": "Eureka.",
+        "start": 485.64,
+        "end": 486.58
+      }
+    ]
+  },
+  {
+    "text": "Oh no, Dersuit said sing, not here, not...",
+    "timestamp": [
+      486.52,
+      489.38
+    ],
+    "start_time": 486.52,
+    "end_time": 489.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 486.52,
+        "end": 486.76
+      },
+      {
+        "word": "no,",
+        "start": 486.76,
+        "end": 487.12
+      },
+      {
+        "word": "Dersuit",
+        "start": 487.12,
+        "end": 487.48
+      },
+      {
+        "word": "said",
+        "start": 487.48,
+        "end": 487.76
+      },
+      {
+        "word": "sing,",
+        "start": 487.76,
+        "end": 488.12
+      },
+      {
+        "word": "not",
+        "start": 488.12,
+        "end": 488.44
+      },
+      {
+        "word": "here,",
+        "start": 488.44,
+        "end": 488.88
+      },
+      {
+        "word": "not...",
+        "start": 488.88,
+        "end": 489.38
+      }
+    ]
+  },
+  {
+    "text": "I can't believe it!",
+    "timestamp": [
+      491.9,
+      494.5
+    ],
+    "start_time": 491.9,
+    "end_time": 494.5,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 491.9,
+        "end": 493.26
+      },
+      {
+        "word": "can't",
+        "start": 493.26,
+        "end": 493.6
+      },
+      {
+        "word": "believe",
+        "start": 493.6,
+        "end": 493.88
+      },
+      {
+        "word": "it!",
+        "start": 493.88,
+        "end": 494.5
+      }
+    ]
+  },
+  {
+    "text": "I'm surrounded by beautiful high school girls, all hanging on my every word as I usher them into womenhood!",
+    "timestamp": [
+      494.5,
+      500.72
+    ],
+    "start_time": 494.5,
+    "end_time": 500.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 494.5,
+        "end": 494.7
+      },
+      {
+        "word": "surrounded",
+        "start": 494.7,
+        "end": 495.04
+      },
+      {
+        "word": "by",
+        "start": 495.04,
+        "end": 495.32
+      },
+      {
+        "word": "beautiful",
+        "start": 495.32,
+        "end": 495.72
+      },
+      {
+        "word": "high",
+        "start": 495.72,
+        "end": 496.08
+      },
+      {
+        "word": "school",
+        "start": 496.08,
+        "end": 496.26
+      },
+      {
+        "word": "girls,",
+        "start": 496.26,
+        "end": 496.98
+      },
+      {
+        "word": "all",
+        "start": 496.98,
+        "end": 497.14
+      },
+      {
+        "word": "hanging",
+        "start": 497.14,
+        "end": 497.48
+      },
+      {
+        "word": "on",
+        "start": 497.48,
+        "end": 497.74
+      },
+      {
+        "word": "my",
+        "start": 497.74,
+        "end": 497.88
+      },
+      {
+        "word": "every",
+        "start": 497.88,
+        "end": 498.12
+      },
+      {
+        "word": "word",
+        "start": 498.12,
+        "end": 498.48
+      },
+      {
+        "word": "as",
+        "start": 498.48,
+        "end": 499.08
+      },
+      {
+        "word": "I",
+        "start": 499.08,
+        "end": 499.24
+      },
+      {
+        "word": "usher",
+        "start": 499.24,
+        "end": 499.5
+      },
+      {
+        "word": "them",
+        "start": 499.5,
+        "end": 499.7
+      },
+      {
+        "word": "into",
+        "start": 499.7,
+        "end": 499.86
+      },
+      {
+        "word": "womenhood!",
+        "start": 499.86,
+        "end": 500.72
+      }
+    ]
+  },
+  {
+    "text": "Here we are.",
+    "timestamp": [
+      500.78,
+      502.16
+    ],
+    "start_time": 500.78,
+    "end_time": 502.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Here",
+        "start": 500.78,
+        "end": 501.12
+      },
+      {
+        "word": "we",
+        "start": 501.12,
+        "end": 501.26
+      },
+      {
+        "word": "are.",
+        "start": 501.26,
+        "end": 502.16
+      }
+    ]
+  },
+  {
+    "text": "Well, good morning everyone.",
+    "timestamp": [
+      503.4,
+      506.56
+    ],
+    "start_time": 503.4,
+    "end_time": 506.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start": 503.4,
+        "end": 504.66
+      },
+      {
+        "word": "good",
+        "start": 504.66,
+        "end": 504.78
+      },
+      {
+        "word": "morning",
+        "start": 504.78,
+        "end": 505.1
+      },
+      {
+        "word": "everyone.",
+        "start": 505.1,
+        "end": 506.56
+      }
+    ]
+  },
+  {
+    "text": "Huh?",
+    "timestamp": [
+      506.64,
+      508.8
+    ],
+    "start_time": 506.64,
+    "end_time": 508.8,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Huh?",
+        "start": 506.64,
+        "end": 508.8
+      }
+    ]
+  },
+  {
+    "text": "Do all this stuff be through in short...",
+    "timestamp": [
+      509.7,
+      511.78
+    ],
+    "start_time": 509.7,
+    "end_time": 511.78,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Do",
+        "start": 509.7,
+        "end": 510.2
+      },
+      {
+        "word": "all",
+        "start": 510.2,
+        "end": 510.32
+      },
+      {
+        "word": "this",
+        "start": 510.32,
+        "end": 510.46
+      },
+      {
+        "word": "stuff",
+        "start": 510.46,
+        "end": 510.62
+      },
+      {
+        "word": "be",
+        "start": 510.62,
+        "end": 510.78
+      },
+      {
+        "word": "through",
+        "start": 510.78,
+        "end": 510.92
+      },
+      {
+        "word": "in",
+        "start": 510.92,
+        "end": 511.04
+      },
+      {
+        "word": "short...",
+        "start": 511.04,
+        "end": 511.78
+      }
+    ]
+  },
+  {
+    "text": "What?!",
+    "timestamp": [
+      512.92,
+      513.72
+    ],
+    "start_time": 512.92,
+    "end_time": 513.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What?!",
+        "start": 512.92,
+        "end": 513.72
+      }
+    ]
+  },
+  {
+    "text": "What a bunch of...",
+    "timestamp": [
+      513.72,
+      514.88
+    ],
+    "start_time": 513.72,
+    "end_time": 514.88,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What",
+        "start": 513.72,
+        "end": 514.14
+      },
+      {
+        "word": "a",
+        "start": 514.14,
+        "end": 514.28
+      },
+      {
+        "word": "bunch",
+        "start": 514.28,
+        "end": 514.46
+      },
+      {
+        "word": "of...",
+        "start": 514.46,
+        "end": 514.88
+      }
+    ]
+  },
+  {
+    "text": "Where am I?",
+    "timestamp": [
+      514.52,
+      516.38
+    ],
+    "start_time": 514.52,
+    "end_time": 516.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Where",
+        "start": 514.52,
+        "end": 515.18
+      },
+      {
+        "word": "am",
+        "start": 515.18,
+        "end": 515.54
+      },
+      {
+        "word": "I?",
+        "start": 515.54,
+        "end": 516.38
+      }
+    ]
+  },
+  {
+    "text": "Those are the sexy high school girls",
+    "timestamp": [
+      516.7,
+      519.06
+    ],
+    "start_time": 516.7,
+    "end_time": 519.06,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Those",
+        "start": 516.7,
+        "end": 517.4
+      },
+      {
+        "word": "are",
+        "start": 517.4,
+        "end": 517.58
+      },
+      {
+        "word": "the",
+        "start": 517.58,
+        "end": 517.68
+      },
+      {
+        "word": "sexy",
+        "start": 517.68,
+        "end": 517.92
+      },
+      {
+        "word": "high",
+        "start": 517.92,
+        "end": 518.34
+      },
+      {
+        "word": "school",
+        "start": 518.34,
+        "end": 518.62
+      },
+      {
+        "word": "girls",
+        "start": 518.62,
+        "end": 519.06
+      }
+    ]
+  },
+  {
+    "text": "Couldn't there at least be one girl with a micro mini skirt",
+    "timestamp": [
+      520.94,
+      524.44
+    ],
+    "start_time": 520.94,
+    "end_time": 524.44,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Couldn't",
+        "start": 520.94,
+        "end": 521.88
+      },
+      {
+        "word": "there",
+        "start": 521.88,
+        "end": 522.0
+      },
+      {
+        "word": "at",
+        "start": 522.0,
+        "end": 522.16
+      },
+      {
+        "word": "least",
+        "start": 522.16,
+        "end": 522.3
+      },
+      {
+        "word": "be",
+        "start": 522.3,
+        "end": 522.52
+      },
+      {
+        "word": "one",
+        "start": 522.52,
+        "end": 522.9
+      },
+      {
+        "word": "girl",
+        "start": 522.9,
+        "end": 523.22
+      },
+      {
+        "word": "with",
+        "start": 523.22,
+        "end": 523.42
+      },
+      {
+        "word": "a",
+        "start": 523.42,
+        "end": 523.52
+      },
+      {
+        "word": "micro",
+        "start": 523.52,
+        "end": 523.82
+      },
+      {
+        "word": "mini",
+        "start": 523.82,
+        "end": 524.12
+      },
+      {
+        "word": "skirt",
+        "start": 524.12,
+        "end": 524.44
+      }
+    ]
+  },
+  {
+    "text": "Okay, mr.",
+    "timestamp": [
+      525.5,
+      527.02
+    ],
+    "start_time": 525.5,
+    "end_time": 527.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Okay,",
+        "start": 525.5,
+        "end": 526.7
+      },
+      {
+        "word": "mr.",
+        "start": 526.7,
+        "end": 527.02
+      }
+    ]
+  },
+  {
+    "text": "Onizuka, they're all yours.",
+    "timestamp": [
+      527.02,
+      528.54
+    ],
+    "start_time": 527.02,
+    "end_time": 528.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Onizuka,",
+        "start": 527.02,
+        "end": 527.46
+      },
+      {
+        "word": "they're",
+        "start": 527.46,
+        "end": 527.92
+      },
+      {
+        "word": "all",
+        "start": 527.92,
+        "end": 528.1
+      },
+      {
+        "word": "yours.",
+        "start": 528.1,
+        "end": 528.54
+      }
+    ]
+  },
+  {
+    "text": "Goodbye.",
+    "timestamp": [
+      528.54,
+      529.52
+    ],
+    "start_time": 528.54,
+    "end_time": 529.52,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Goodbye.",
+        "start": 528.54,
+        "end": 529.52
+      }
+    ]
+  },
+  {
+    "text": "What?",
+    "timestamp": [
+      529.52,
+      530.4
+    ],
+    "start_time": 529.52,
+    "end_time": 530.4,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What?",
+        "start": 529.52,
+        "end": 530.4
+      }
+    ]
+  },
+  {
+    "text": "Hello,",
+    "timestamp": [
+      532.7,
+      535.14
+    ],
+    "start_time": 532.7,
+    "end_time": 535.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hello,",
+        "start": 532.7,
+        "end": 535.14
+      }
+    ]
+  },
+  {
+    "text": "I am mr.",
+    "timestamp": [
+      535.14,
+      536.0
+    ],
+    "start_time": 535.14,
+    "end_time": 536.0,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 535.14,
+        "end": 535.48
+      },
+      {
+        "word": "am",
+        "start": 535.48,
+        "end": 535.72
+      },
+      {
+        "word": "mr.",
+        "start": 535.72,
+        "end": 536.0
+      }
+    ]
+  },
+  {
+    "text": "Onizuka.",
+    "timestamp": [
+      536.0,
+      536.82
+    ],
+    "start_time": 536.0,
+    "end_time": 536.82,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Onizuka.",
+        "start": 536.0,
+        "end": 536.82
+      }
+    ]
+  },
+  {
+    "text": "I would like to welcome you to my class",
+    "timestamp": [
+      536.82,
+      538.56
+    ],
+    "start_time": 536.82,
+    "end_time": 538.56,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 536.82,
+        "end": 537.06
+      },
+      {
+        "word": "would",
+        "start": 537.06,
+        "end": 537.2
+      },
+      {
+        "word": "like",
+        "start": 537.2,
+        "end": 537.34
+      },
+      {
+        "word": "to",
+        "start": 537.34,
+        "end": 537.46
+      },
+      {
+        "word": "welcome",
+        "start": 537.46,
+        "end": 537.68
+      },
+      {
+        "word": "you",
+        "start": 537.68,
+        "end": 537.9
+      },
+      {
+        "word": "to",
+        "start": 537.9,
+        "end": 538.04
+      },
+      {
+        "word": "my",
+        "start": 538.04,
+        "end": 538.22
+      },
+      {
+        "word": "class",
+        "start": 538.22,
+        "end": 538.56
+      }
+    ]
+  },
+  {
+    "text": "Hello anyone",
+    "timestamp": [
+      540.58,
+      542.54
+    ],
+    "start_time": 540.58,
+    "end_time": 542.54,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Hello",
+        "start": 540.58,
+        "end": 541.84
+      },
+      {
+        "word": "anyone",
+        "start": 541.84,
+        "end": 542.54
+      }
+    ]
+  },
+  {
+    "text": "I'm grateful little jerks.",
+    "timestamp": [
+      544.52,
+      546.38
+    ],
+    "start_time": 544.52,
+    "end_time": 546.38,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I'm",
+        "start": 544.52,
+        "end": 544.82
+      },
+      {
+        "word": "grateful",
+        "start": 544.82,
+        "end": 545.16
+      },
+      {
+        "word": "little",
+        "start": 545.16,
+        "end": 545.54
+      },
+      {
+        "word": "jerks.",
+        "start": 545.54,
+        "end": 546.38
+      }
+    ]
+  },
+  {
+    "text": "I've got half a mind to pull out a whole six pack of WHOOP -ATS right now!",
+    "timestamp": [
+      546.38,
+      550.72
+    ],
+    "start_time": 546.38,
+    "end_time": 550.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I've",
+        "start": 546.38,
+        "end": 546.7
+      },
+      {
+        "word": "got",
+        "start": 546.7,
+        "end": 546.9
+      },
+      {
+        "word": "half",
+        "start": 546.9,
+        "end": 547.3
+      },
+      {
+        "word": "a",
+        "start": 547.3,
+        "end": 547.44
+      },
+      {
+        "word": "mind",
+        "start": 547.44,
+        "end": 547.76
+      },
+      {
+        "word": "to",
+        "start": 547.76,
+        "end": 547.92
+      },
+      {
+        "word": "pull",
+        "start": 547.92,
+        "end": 548.18
+      },
+      {
+        "word": "out",
+        "start": 548.18,
+        "end": 548.32
+      },
+      {
+        "word": "a",
+        "start": 548.32,
+        "end": 548.44
+      },
+      {
+        "word": "whole",
+        "start": 548.44,
+        "end": 548.58
+      },
+      {
+        "word": "six",
+        "start": 548.58,
+        "end": 548.88
+      },
+      {
+        "word": "pack",
+        "start": 548.88,
+        "end": 549.12
+      },
+      {
+        "word": "of",
+        "start": 549.12,
+        "end": 549.3
+      },
+      {
+        "word": "WHOOP",
+        "start": 549.3,
+        "end": 549.58
+      },
+      {
+        "word": "-ATS",
+        "start": 549.58,
+        "end": 549.82
+      },
+      {
+        "word": "right",
+        "start": 549.82,
+        "end": 550.04
+      },
+      {
+        "word": "now!",
+        "start": 550.04,
+        "end": 550.72
+      }
+    ]
+  },
+  {
+    "text": "You realize that I could kill all of you if I didn't have a moral obligation to someone striving to be a teacher ever immediately?!",
+    "timestamp": [
+      551.82,
+      559.34
+    ],
+    "start_time": 551.82,
+    "end_time": 559.34,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 551.82,
+        "end": 552.6
+      },
+      {
+        "word": "realize",
+        "start": 552.6,
+        "end": 553.04
+      },
+      {
+        "word": "that",
+        "start": 553.04,
+        "end": 553.34
+      },
+      {
+        "word": "I",
+        "start": 553.34,
+        "end": 553.42
+      },
+      {
+        "word": "could",
+        "start": 553.42,
+        "end": 553.54
+      },
+      {
+        "word": "kill",
+        "start": 553.54,
+        "end": 553.78
+      },
+      {
+        "word": "all",
+        "start": 553.78,
+        "end": 554.06
+      },
+      {
+        "word": "of",
+        "start": 554.06,
+        "end": 554.24
+      },
+      {
+        "word": "you",
+        "start": 554.24,
+        "end": 554.44
+      },
+      {
+        "word": "if",
+        "start": 554.44,
+        "end": 554.86
+      },
+      {
+        "word": "I",
+        "start": 554.86,
+        "end": 555.0
+      },
+      {
+        "word": "didn't",
+        "start": 555.0,
+        "end": 555.12
+      },
+      {
+        "word": "have",
+        "start": 555.12,
+        "end": 555.22
+      },
+      {
+        "word": "a",
+        "start": 555.22,
+        "end": 555.28
+      },
+      {
+        "word": "moral",
+        "start": 555.28,
+        "end": 555.48
+      },
+      {
+        "word": "obligation",
+        "start": 555.48,
+        "end": 555.98
+      },
+      {
+        "word": "to",
+        "start": 555.98,
+        "end": 556.22
+      },
+      {
+        "word": "someone",
+        "start": 556.22,
+        "end": 556.5
+      },
+      {
+        "word": "striving",
+        "start": 556.5,
+        "end": 556.96
+      },
+      {
+        "word": "to",
+        "start": 556.96,
+        "end": 557.22
+      },
+      {
+        "word": "be",
+        "start": 557.22,
+        "end": 557.32
+      },
+      {
+        "word": "a",
+        "start": 557.32,
+        "end": 557.44
+      },
+      {
+        "word": "teacher",
+        "start": 557.44,
+        "end": 557.68
+      },
+      {
+        "word": "ever",
+        "start": 557.68,
+        "end": 558.16
+      },
+      {
+        "word": "immediately?!",
+        "start": 558.16,
+        "end": 559.34
+      }
+    ]
+  },
+  {
+    "text": "Yes, can I help you?",
+    "timestamp": [
+      561.64,
+      564.94
+    ],
+    "start_time": 561.64,
+    "end_time": 564.94,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Yes,",
+        "start": 561.64,
+        "end": 563.84
+      },
+      {
+        "word": "can",
+        "start": 563.84,
+        "end": 564.0
+      },
+      {
+        "word": "I",
+        "start": 564.0,
+        "end": 564.08
+      },
+      {
+        "word": "help",
+        "start": 564.08,
+        "end": 564.28
+      },
+      {
+        "word": "you?",
+        "start": 564.28,
+        "end": 564.94
+      }
+    ]
+  },
+  {
+    "text": "Do you need to go to the bathroom or something?",
+    "timestamp": [
+      564.96,
+      567.0
+    ],
+    "start_time": 564.96,
+    "end_time": 567.0,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Do",
+        "start": 564.96,
+        "end": 565.1
+      },
+      {
+        "word": "you",
+        "start": 565.1,
+        "end": 565.2
+      },
+      {
+        "word": "need",
+        "start": 565.2,
+        "end": 565.32
+      },
+      {
+        "word": "to",
+        "start": 565.32,
+        "end": 565.4
+      },
+      {
+        "word": "go",
+        "start": 565.4,
+        "end": 565.5
+      },
+      {
+        "word": "to",
+        "start": 565.5,
+        "end": 565.58
+      },
+      {
+        "word": "the",
+        "start": 565.58,
+        "end": 565.66
+      },
+      {
+        "word": "bathroom",
+        "start": 565.66,
+        "end": 566.04
+      },
+      {
+        "word": "or",
+        "start": 566.04,
+        "end": 566.22
+      },
+      {
+        "word": "something?",
+        "start": 566.22,
+        "end": 567.0
+      }
+    ]
+  },
+  {
+    "text": "Oh, well, it's very nice of you.",
+    "timestamp": [
+      568.1,
+      570.66
+    ],
+    "start_time": 568.1,
+    "end_time": 570.66,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh,",
+        "start": 568.1,
+        "end": 569.06
+      },
+      {
+        "word": "well,",
+        "start": 569.06,
+        "end": 569.22
+      },
+      {
+        "word": "it's",
+        "start": 569.22,
+        "end": 569.38
+      },
+      {
+        "word": "very",
+        "start": 569.38,
+        "end": 569.58
+      },
+      {
+        "word": "nice",
+        "start": 569.58,
+        "end": 569.84
+      },
+      {
+        "word": "of",
+        "start": 569.84,
+        "end": 570.04
+      },
+      {
+        "word": "you.",
+        "start": 570.04,
+        "end": 570.66
+      }
+    ]
+  },
+  {
+    "text": "My name is Onizuka, and what might be your name?",
+    "timestamp": [
+      570.74,
+      574.16
+    ],
+    "start_time": 570.74,
+    "end_time": 574.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "My",
+        "start": 570.74,
+        "end": 571.0
+      },
+      {
+        "word": "name",
+        "start": 571.0,
+        "end": 571.26
+      },
+      {
+        "word": "is",
+        "start": 571.26,
+        "end": 571.44
+      },
+      {
+        "word": "Onizuka,",
+        "start": 571.44,
+        "end": 572.18
+      },
+      {
+        "word": "and",
+        "start": 572.18,
+        "end": 572.46
+      },
+      {
+        "word": "what",
+        "start": 572.46,
+        "end": 572.66
+      },
+      {
+        "word": "might",
+        "start": 572.66,
+        "end": 572.84
+      },
+      {
+        "word": "be",
+        "start": 572.84,
+        "end": 573.02
+      },
+      {
+        "word": "your",
+        "start": 573.02,
+        "end": 573.26
+      },
+      {
+        "word": "name?",
+        "start": 573.26,
+        "end": 574.16
+      }
+    ]
+  },
+  {
+    "text": "Oh wait, don't tell me,",
+    "timestamp": [
+      573.82,
+      575.72
+    ],
+    "start_time": 573.82,
+    "end_time": 575.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Oh",
+        "start": 573.82,
+        "end": 574.7
+      },
+      {
+        "word": "wait,",
+        "start": 574.7,
+        "end": 575.04
+      },
+      {
+        "word": "don't",
+        "start": 575.04,
+        "end": 575.24
+      },
+      {
+        "word": "tell",
+        "start": 575.24,
+        "end": 575.44
+      },
+      {
+        "word": "me,",
+        "start": 575.44,
+        "end": 575.72
+      }
+    ]
+  },
+  {
+    "text": "I bet it's...",
+    "timestamp": [
+      575.72,
+      576.64
+    ],
+    "start_time": 575.72,
+    "end_time": 576.64,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start": 575.72,
+        "end": 575.84
+      },
+      {
+        "word": "bet",
+        "start": 575.84,
+        "end": 576.08
+      },
+      {
+        "word": "it's...",
+        "start": 576.08,
+        "end": 576.64
+      }
+    ]
+  },
+  {
+    "text": "You only got three guesses, Juan!",
+    "timestamp": [
+      576.7,
+      578.84
+    ],
+    "start_time": 576.7,
+    "end_time": 578.84,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 576.7,
+        "end": 576.86
+      },
+      {
+        "word": "only",
+        "start": 576.86,
+        "end": 577.1
+      },
+      {
+        "word": "got",
+        "start": 577.1,
+        "end": 577.28
+      },
+      {
+        "word": "three",
+        "start": 577.28,
+        "end": 577.68
+      },
+      {
+        "word": "guesses,",
+        "start": 577.68,
+        "end": 578.6
+      },
+      {
+        "word": "Juan!",
+        "start": 578.6,
+        "end": 578.84
+      }
+    ]
+  },
+  {
+    "text": "That's a great one!",
+    "timestamp": [
+      578.98,
+      580.14
+    ],
+    "start_time": 578.98,
+    "end_time": 580.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "That's",
+        "start": 578.98,
+        "end": 579.14
+      },
+      {
+        "word": "a",
+        "start": 579.14,
+        "end": 579.24
+      },
+      {
+        "word": "great",
+        "start": 579.24,
+        "end": 579.48
+      },
+      {
+        "word": "one!",
+        "start": 579.48,
+        "end": 580.14
+      }
+    ]
+  },
+  {
+    "text": "It's kind of silly to watch this, thanks for playing!",
+    "timestamp": [
+      580.6,
+      583.46
+    ],
+    "start_time": 580.6,
+    "end_time": 583.46,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "It's",
+        "start": 580.6,
+        "end": 580.82
+      },
+      {
+        "word": "kind",
+        "start": 580.82,
+        "end": 581.04
+      },
+      {
+        "word": "of",
+        "start": 581.04,
+        "end": 581.22
+      },
+      {
+        "word": "silly",
+        "start": 581.22,
+        "end": 581.6
+      },
+      {
+        "word": "to",
+        "start": 581.6,
+        "end": 581.92
+      },
+      {
+        "word": "watch",
+        "start": 581.92,
+        "end": 582.24
+      },
+      {
+        "word": "this,",
+        "start": 582.24,
+        "end": 582.62
+      },
+      {
+        "word": "thanks",
+        "start": 582.62,
+        "end": 582.84
+      },
+      {
+        "word": "for",
+        "start": 582.84,
+        "end": 583.08
+      },
+      {
+        "word": "playing!",
+        "start": 583.08,
+        "end": 583.46
+      }
+    ]
+  },
+  {
+    "text": "What is it, teach?",
+    "timestamp": [
+      583.46,
+      584.72
+    ],
+    "start_time": 583.46,
+    "end_time": 584.72,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "What",
+        "start": 583.46,
+        "end": 583.8
+      },
+      {
+        "word": "is",
+        "start": 583.8,
+        "end": 584.04
+      },
+      {
+        "word": "it,",
+        "start": 584.04,
+        "end": 584.32
+      },
+      {
+        "word": "teach?",
+        "start": 584.32,
+        "end": 584.72
+      }
+    ]
+  },
+  {
+    "text": "You want him to come back and finish you off or what?",
+    "timestamp": [
+      584.86,
+      587.62
+    ],
+    "start_time": 584.86,
+    "end_time": 587.62,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 584.86,
+        "end": 584.86
+      },
+      {
+        "word": "want",
+        "start": 584.86,
+        "end": 584.94
+      },
+      {
+        "word": "him",
+        "start": 584.94,
+        "end": 585.04
+      },
+      {
+        "word": "to",
+        "start": 585.04,
+        "end": 585.18
+      },
+      {
+        "word": "come",
+        "start": 585.18,
+        "end": 585.4
+      },
+      {
+        "word": "back",
+        "start": 585.4,
+        "end": 585.72
+      },
+      {
+        "word": "and",
+        "start": 585.72,
+        "end": 585.94
+      },
+      {
+        "word": "finish",
+        "start": 585.94,
+        "end": 586.24
+      },
+      {
+        "word": "you",
+        "start": 586.24,
+        "end": 586.54
+      },
+      {
+        "word": "off",
+        "start": 586.54,
+        "end": 586.78
+      },
+      {
+        "word": "or",
+        "start": 586.78,
+        "end": 586.9
+      },
+      {
+        "word": "what?",
+        "start": 586.9,
+        "end": 587.62
+      }
+    ]
+  },
+  {
+    "text": "You gonna punch somebody?",
+    "timestamp": [
+      587.72,
+      589.2
+    ],
+    "start_time": 587.72,
+    "end_time": 589.2,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "You",
+        "start": 587.72,
+        "end": 587.88
+      },
+      {
+        "word": "gonna",
+        "start": 587.88,
+        "end": 588.0
+      },
+      {
+        "word": "punch",
+        "start": 588.0,
+        "end": 588.3
+      },
+      {
+        "word": "somebody?",
+        "start": 588.3,
+        "end": 589.2
+      }
+    ]
+  },
+  {
+    "text": "Look, come on,",
+    "timestamp": [
+      591.22,
+      592.96
+    ],
+    "start_time": 591.22,
+    "end_time": 592.96,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Look,",
+        "start": 591.22,
+        "end": 592.54
+      },
+      {
+        "word": "come",
+        "start": 592.54,
+        "end": 592.7
+      },
+      {
+        "word": "on,",
+        "start": 592.7,
+        "end": 592.96
+      }
+    ]
+  },
+  {
+    "text": "you know you want to!",
+    "timestamp": [
+      592.96,
+      594.16
+    ],
+    "start_time": 592.96,
+    "end_time": 594.16,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "you",
+        "start": 592.96,
+        "end": 593.04
+      },
+      {
+        "word": "know",
+        "start": 593.04,
+        "end": 593.24
+      },
+      {
+        "word": "you",
+        "start": 593.24,
+        "end": 593.4
+      },
+      {
+        "word": "want",
+        "start": 593.4,
+        "end": 593.66
+      },
+      {
+        "word": "to!",
+        "start": 593.66,
+        "end": 594.16
+      }
+    ]
+  },
+  {
+    "text": "Make it a good one, right here in the face, nice and hard!",
+    "timestamp": [
+      594.16,
+      597.3
+    ],
+    "start_time": 594.16,
+    "end_time": 597.3,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Make",
+        "start": 594.16,
+        "end": 594.54
+      },
+      {
+        "word": "it",
+        "start": 594.54,
+        "end": 594.66
+      },
+      {
+        "word": "a",
+        "start": 594.66,
+        "end": 594.8
+      },
+      {
+        "word": "good",
+        "start": 594.8,
+        "end": 594.98
+      },
+      {
+        "word": "one,",
+        "start": 594.98,
+        "end": 595.2
+      },
+      {
+        "word": "right",
+        "start": 595.2,
+        "end": 595.44
+      },
+      {
+        "word": "here",
+        "start": 595.44,
+        "end": 595.74
+      },
+      {
+        "word": "in",
+        "start": 595.74,
+        "end": 595.86
+      },
+      {
+        "word": "the",
+        "start": 595.86,
+        "end": 595.96
+      },
+      {
+        "word": "face,",
+        "start": 595.96,
+        "end": 596.4
+      },
+      {
+        "word": "nice",
+        "start": 596.4,
+        "end": 596.58
+      },
+      {
+        "word": "and",
+        "start": 596.58,
+        "end": 596.8
+      },
+      {
+        "word": "hard!",
+        "start": 596.8,
+        "end": 597.3
+      }
+    ]
+  },
+  {
+    "text": "Come on,",
+    "timestamp": [
+      597.3,
+      598.02
+    ],
+    "start_time": 597.3,
+    "end_time": 598.02,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Come",
+        "start": 597.3,
+        "end": 597.76
+      },
+      {
+        "word": "on,",
+        "start": 597.76,
+        "end": 598.02
+      }
+    ]
+  },
+  {
+    "text": "you pussy!",
+    "timestamp": [
+      598.02,
+      598.86
+    ],
+    "start_time": 598.02,
+    "end_time": 598.86,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "you",
+        "start": 598.02,
+        "end": 598.08
+      },
+      {
+        "word": "pussy!",
+        "start": 598.08,
+        "end": 598.86
+      }
+    ]
+  },
+  {
+    "text": "Come on, do it!",
+    "timestamp": [
+      598.88,
+      600.14
+    ],
+    "start_time": 598.88,
+    "end_time": 600.14,
+    "confidence": 1.0,
+    "word_timestamps": [
+      {
+        "word": "Come",
+        "start": 598.88,
+        "end": 599.06
+      },
+      {
+        "word": "on,",
+        "start": 599.06,
+        "end": 599.4
+      },
+      {
+        "word": "do",
+        "start": 599.4,
+        "end": 599.64
+      },
+      {
+        "word": "it!",
+        "start": 599.64,
+        "end": 600.14
+      }
+    ]
   }
 ]

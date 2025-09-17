@@ -50,3 +50,78 @@ class Translator(Transformers):
             return result['translation_text']
         else:
             return str(result)
+    
+    async def execute_batch(
+        self, 
+        texts: list[str],
+        target_language: str,
+        progress_callback: Optional[Callable[[int, int], None]] = None,
+        headers: Optional[Dict[str, str]] = None
+    ) -> list[str]:
+        """
+        Traduz múltiplos textos em uma única chamada ao modelo para melhor performance.
+        Usa enumeração para separar os textos na resposta.
+        """
+        if not texts:
+            return []
+        
+        # Mapeia códigos de idioma para o formato do M2M100
+        lang_map = {
+            'PT': 'pt',
+            'EN': 'en',
+            'ES': 'es',
+            'FR': 'fr',
+            'DE': 'de'
+        }
+        
+        src_lang = 'en'  # Sempre inglês como origem
+        tgt_lang = lang_map.get(target_language.upper(), 'pt')
+        
+        # Cria texto enumerado para tradução em lote
+        # Formato: "1. Texto 1\n2. Texto 2\n3. Texto 3..."
+        enumerated_text = "\n".join([f"{i+1}. {text}" for i, text in enumerate(texts)])
+        
+        # Traduz o texto enumerado
+        result = self.client(enumerated_text, src_lang=src_lang, tgt_lang=tgt_lang)
+        
+        # Extrai o texto traduzido
+        if isinstance(result, list) and len(result) > 0:
+            translated_text = result[0]['translation_text']
+        elif isinstance(result, dict) and 'translation_text' in result:
+            translated_text = result['translation_text']
+        else:
+            translated_text = str(result)
+        
+        # Parseia a resposta para extrair cada tradução individual
+        return self._parse_batch_translation(translated_text, len(texts))
+    
+    def _parse_batch_translation(self, translated_text: str, expected_count: int) -> list[str]:
+        """
+        Parseia o texto traduzido enumerado para extrair as traduções individuais.
+        """
+        lines = translated_text.strip().split('\n')
+        translations = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # Procura por padrão "número. tradução" no início da linha
+            # Exemplo: "1. Minha mãe disse que eu poderia pegar dois."
+            for i in range(1, expected_count + 1):
+                if line.startswith(f"{i}."):
+                    # Remove o número e ponto do início
+                    translation = line[2:].strip()
+                    translations.append(translation)
+                    break
+            else:
+                # Se não encontrou o padrão esperado, adiciona a linha como está
+                # (fallback para casos onde a numeração pode ter mudado)
+                translations.append(line)
+        
+        # Garante que temos o número correto de traduções
+        while len(translations) < expected_count:
+            translations.append("")
+        
+        return translations[:expected_count]

@@ -90,19 +90,22 @@ class TestTranscriber:
         assert result is not None, "Resultado da transcrição não pode ser None"
         assert len(result) > 0, "Resultado da transcrição não pode estar vazio"
         
-        # Verifica estrutura do resultado (chunks)
+        # Verifica estrutura do resultado (frases)
         if isinstance(result, list):
-            print(f"✅ Transcrição gerou {len(result)} chunks de áudio")
+            print(f"✅ Transcrição gerou {len(result)} frases completas")
             
-            # Mostra alguns chunks como exemplo
-            for i, chunk in enumerate(result[:3]):  # Mostra apenas os 3 primeiros
-                if 'text' in chunk:
-                    text = chunk['text'].strip()
+            # Validação específica de timestamps precisos
+            self._validate_timestamps(result)
+            
+            # Mostra algumas frases como exemplo
+            for i, sentence in enumerate(result[:3]):  # Mostra apenas as 3 primeiras
+                if 'text' in sentence:
+                    text = sentence['text'].strip()
                     if text:
-                        print(f"   📝 Chunk {i+1}: {text[:100]}{'...' if len(text) > 100 else ''}")
+                        print(f"   📝 Frase {i+1}: {text[:100]}{'...' if len(text) > 100 else ''}")
                 
-                if 'timestamp' in chunk:
-                    timestamp = chunk['timestamp']
+                if 'timestamp' in sentence:
+                    timestamp = sentence['timestamp']
                     print(f"   ⏱️  Timestamp: {timestamp}")
         
         # Verifica se o arquivo de saída foi criado (se aplicável)
@@ -121,6 +124,59 @@ class TestTranscriber:
             print("ℹ️ Arquivo de saída não foi criado (resultado retornado diretamente)")
         
         print("✅ Validação concluída com sucesso!")
+    
+    def _validate_timestamps(self, sentences):
+        """Valida a precisão dos timestamps"""
+        print("\n🎯 Validando precisão dos timestamps...")
+        
+        timestamp_precision_improved = False
+        word_timestamps_available = False
+        
+        for i, sentence in enumerate(sentences[:5]):  # Verifica as primeiras 5 frases
+            if 'timestamp' in sentence:
+                timestamp = sentence['timestamp']
+                if isinstance(timestamp, list) and len(timestamp) == 2:
+                    start_time, end_time = timestamp
+                    
+                    # Verifica se os timestamps têm precisão decimal (não são inteiros)
+                    if isinstance(start_time, float) and isinstance(end_time, float):
+                        # Verifica se há casas decimais significativas (mais precisão que segundos inteiros)
+                        start_decimal = start_time - int(start_time)
+                        end_decimal = end_time - int(end_time)
+                        
+                        if start_decimal > 0.01 or end_decimal > 0.01:  # Pelo menos centésimos de segundo
+                            timestamp_precision_improved = True
+                            print(f"   ✅ Frase {i+1}: Timestamp preciso {start_time:.3f}s - {end_time:.3f}s")
+                        else:
+                            print(f"   ⚠️ Frase {i+1}: Timestamp ainda em segundos inteiros {start_time:.1f}s - {end_time:.1f}s")
+                    
+                    # Verifica se há word_timestamps disponível
+                    if 'word_timestamps' in sentence and sentence['word_timestamps']:
+                        word_timestamps_available = True
+                        word_count = len(sentence['word_timestamps'])
+                        print(f"   🎯 Frase {i+1}: {word_count} palavras com timestamps individuais")
+        
+        # Relatório final de precisão
+        print(f"\n📊 Relatório de Precisão dos Timestamps:")
+        if timestamp_precision_improved:
+            print("   ✅ Timestamps com precisão melhorada (sub-segundo)")
+        else:
+            print("   ⚠️ Timestamps ainda em precisão de segundos inteiros")
+        
+        if word_timestamps_available:
+            print("   ✅ Timestamps de palavras individuais disponíveis")
+        else:
+            print("   ⚠️ Timestamps de palavras individuais não disponíveis")
+        
+        # Verifica se os novos campos estão presentes
+        sample_sentence = sentences[0] if sentences else {}
+        new_fields = ['start_time', 'end_time', 'confidence', 'word_timestamps']
+        available_fields = [field for field in new_fields if field in sample_sentence]
+        
+        if available_fields:
+            print(f"   ✅ Novos campos disponíveis: {', '.join(available_fields)}")
+        else:
+            print("   ⚠️ Novos campos não encontrados")
     
 
 async def main():

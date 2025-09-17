@@ -1,0 +1,45 @@
+# Regras para o Agente Cursor - Dublar Worker
+
+## REGRA CRÍTICA: Ativação do Ambiente Virtual
+**SEMPRE** ativar o ambiente virtual (.venv) antes de executar qualquer comando no projeto dublar-worker.
+
+### Comportamento Obrigatório:
+1. **ANTES** de qualquer comando Python, pip, pytest, ou execução de scripts
+2. **SEMPRE** verificar se o .venv está ativado
+3. **SEMPRE** ativar o .venv se não estiver ativo
+4. **NUNCA** executar comandos sem o .venv ativado
+
+### Comandos de Verificação e Ativação:
+```bash
+# Verificar se .venv existe
+ls -la .venv/
+
+# Ativar .venv (se existir)
+source .venv/bin/activate
+
+# Ou criar e ativar se não existir
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Lembrete Constante:
+- O usuário **SEMPRE** esquece de ativar o .venv
+- É **RESPONSABILIDADE** do agente lembrar e ativar
+- **NUNCA** assumir que o .venv está ativo
+- **SEMPRE** verificar antes de executar qualquer comando
+
+### Exemplos de Comandos que DEVEM ativar .venv primeiro:
+- `python -m pytest`
+- `python __main__.py`
+- `pip install`
+- `python -c "import deps"`
+- Qualquer execução de script Python
+
+### Status do Projeto:
+- Projeto: dublar-worker
+- Localização: /home/zan-notebook/github/dublar-worker
+- Ambiente virtual: .venv/
+- Dependências: requirements.txt
+
+**LEMBRE-SE: ATIVAR O .VENV É OBRIGATÓRIO ANTES DE QUALQUER COMANDO!**

@@ -11,7 +11,7 @@ from pathlib import Path
 from unittest.mock import Mock
 
 # Importa as dependências
-from deps.diarizer import Diarizer, DiarizerModels
+from deps.diarizer import Diarizer
 
 
 class TestDiarizer:
@@ -99,8 +99,8 @@ class TestDiarizer:
             raise ValueError("Nenhum speech encontrado na transcrição")
         
         # Inicializa o Diarizer
-        diarizer = Diarizer(engine=self.mock_worker, model=DiarizerModels.MULTILINGUAL_MINI.name)
-        print(f"\n🔄 Carregando modelo de diarização (paraphrase-multilingual-MiniLM-L12-v2)...")
+        diarizer = Diarizer(engine=self.mock_worker)
+        print(f"\n🔄 Carregando modelo de diarização...")
         diarizer.load()
         print("✅ Modelo carregado com sucesso!")
         
@@ -191,47 +191,6 @@ class TestDiarizer:
         
         print("✅ Validação concluída com sucesso!")
     
-    async def test_different_models(self):
-        """Testa diferentes modelos de diarização"""
-        print("\n🧪 Testando diferentes modelos de diarização...")
-        print("=" * 60)
-        
-        # Carrega dados
-        transcription_data = self._load_transcription_data()
-        speechs = self._prepare_speechs_data(transcription_data)
-        
-        # Pega apenas os primeiros 20 speeches para teste rápido
-        test_speechs = speechs[:20]
-        print(f"📝 Testando com {len(test_speechs)} speeches")
-        
-        models_to_test = [
-            (DiarizerModels.MULTILINGUAL_MINI, "Multilingual Mini (mais rápido)"),
-            (DiarizerModels.ALL_MINI, "All Mini (inglês)")
-        ]
-        
-        for model_enum, description in models_to_test:
-            print(f"\n🔄 Testando {description}...")
-            
-            try:
-                diarizer = Diarizer(engine=self.mock_worker, model=model_enum.name)
-                diarizer.load()
-                
-                diarizer_data = {
-                    "audio_url": self.audio_file,
-                    "speechs": test_speechs
-                }
-                
-                start_time = time.time()
-                result = await diarizer.execute(diarizer_data)
-                duration = time.time() - start_time
-                
-                speakers_count = len(result.get('speakers', []))
-                segments_count = len(result.get('segments', []))
-                print(f"✅ {description} - {speakers_count} falantes, {segments_count} segmentos em {duration:.2f}s")
-                
-            except Exception as e:
-                print(f"❌ {description} - Erro: {e}")
-
 
 async def main():
     """Função principal para executar o teste"""

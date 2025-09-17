@@ -9,7 +9,7 @@ import time
 import signal
 import asyncio
 import routes
-from deps import Media, Demucs, Spleeter, Transcriber, Diarizer, Coqui
+from deps import Media, Demucs, Spleeter, Transcriber, Diarizer, Coqui, AudioNormalizer
 from engines.worker import Worker
 from errors.badrequest_error import BadRequestError
 from errors.internal_error import InternalError
@@ -42,6 +42,7 @@ def main():
         'diarizer': Diarizer(worker),
         'spleeter': Spleeter(worker),
         'transcriber': Transcriber(worker),
+        'audio_normalizer': AudioNormalizer(worker),
     }
 
     for dep in worker.deps:

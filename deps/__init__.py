@@ -4,3 +4,4 @@ from .demucs import Demucs
 from .diarizer import Diarizer
 from .spleeter import Spleeter
 from .transcriber import Transcriber
+from .audio_normalizer import AudioNormalizer
